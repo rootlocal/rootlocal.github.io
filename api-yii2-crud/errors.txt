@@ -1,0 +1,27 @@
+Array
+(
+    [0] => Array
+        (
+            [file] => /Volumes/hdd/www/yii2-gp38.git/rootlocal/yii2-crud/src/actions/CreateAction.php
+            [message] => broken link to \rootlocal\crud\actions\Url::to() in rootlocal\crud\actions\CreateAction
+        )
+
+    [1] => Array
+        (
+            [file] => /Volumes/hdd/www/yii2-gp38.git/rootlocal/yii2-crud/src/actions/DeleteAction.php
+            [message] => broken link to \rootlocal\crud\actions\Url::to() in rootlocal\crud\actions\DeleteAction
+        )
+
+    [2] => Array
+        (
+            [file] => /Volumes/hdd/www/yii2-gp38.git/rootlocal/yii2-crud/src/actions/UpdateAction.php
+            [message] => broken link to \rootlocal\crud\actions\Url::to() in rootlocal\crud\actions\UpdateAction
+        )
+
+    [3] => Array
+        (
+            [file] => /Volumes/hdd/www/yii2-gp38.git/rootlocal/yii2-crud/src/actions/UpdateAction.php
+            [message] => broken link to \rootlocal\crud\actions\SCENARIO_DEFAULT in rootlocal\crud\actions\UpdateAction
+        )
+
+)
