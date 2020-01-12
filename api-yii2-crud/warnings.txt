@@ -1,0 +1,10 @@
+Array
+(
+    [0] => Array
+        (
+            [line] => 18
+            [file] => /Volumes/hdd/www/yii2-gp38.git/rootlocal/yii2-crud/src/Bootstrap.php
+            [message] => No docblock for element 'bootstrap'
+        )
+
+)
