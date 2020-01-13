@@ -10,7 +10,7 @@
 <link href="./assets/2b1a4eb6/style.css" rel="stylesheet">
 <script src="./assets/42ae3b76/jquery.js"></script>
 <script src="./assets/51ee6838/js/bootstrap.js"></script>
-<script src="./assets/557104ff/jssearch.js"></script>    <title>IndexAction, rootlocal\crud\actions\IndexAction - Yii Framework 2.0 API Documentation</title>
+<script src="./assets/557104ff/jssearch.js"></script>    <title>IndexAction, rootlocal\crud\actions\IndexAction - yii2-crud</title>
 </head>
 <body>
 
@@ -18,7 +18,7 @@
     <nav id="w13" class="navbar-inverse navbar-fixed-top navbar"><div class="navbar-header"><button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#w13-collapse"><span class="sr-only">Toggle navigation</span>
 <span class="icon-bar"></span>
 <span class="icon-bar"></span>
-<span class="icon-bar"></span></button><a class="navbar-brand" href="./index.html">Yii Framework 2.0 API Documentation</a></div><div id="w13-collapse" class="collapse navbar-collapse"><ul id="w14" class="navbar-nav nav"><li><a href="./index.html">Class reference</a></li></ul><div class="navbar-form navbar-left" role="search">
+<span class="icon-bar"></span></button><a class="navbar-brand" href="./index.html">yii2-crud</a></div><div id="w13-collapse" class="collapse navbar-collapse"><ul id="w14" class="navbar-nav nav"><li><a href="./index.html">Class reference</a></li></ul><div class="navbar-form navbar-left" role="search">
   <div class="form-group">
     <input id="searchbox" type="text" class="form-control" placeholder="Search">
   </div>
@@ -63,7 +63,41 @@ yii\base\Action</td></tr>
 
 <div class="class-description">
     <p><strong>Class IndexAction</strong></p>
-    
+    <p>examples:</p>
+<pre><code class="hljs php language-php"><span class="hljs-comment">// lambda function:</span>
+<span class="hljs-keyword">public</span> <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">actions</span><span class="hljs-params">()</span>
+</span>{
+     <span class="hljs-string">'index'</span> =&gt; [
+         <span class="hljs-string">'class'</span> =&gt; IndexAction::class,
+         <span class="hljs-string">'searchModel'</span> =&gt; <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-params">()</span> </span>{
+             <span class="hljs-keyword">return</span> <span class="hljs-keyword">new</span> BookSearch();
+         },
+         <span class="hljs-string">'dataProvider'</span> =&gt; <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-params">($model, $queryParams)</span> </span>{
+             $model-&gt;query = $model::find()-&gt;active();
+             <span class="hljs-keyword">return</span> $model-&gt;search($queryParams);
+         }
+     ]
+}
+
+<span class="hljs-comment">// string:</span>
+<span class="hljs-keyword">public</span> <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">actions</span><span class="hljs-params">()</span>
+</span>{
+     <span class="hljs-string">'index'</span> =&gt; [
+         <span class="hljs-string">'class'</span> =&gt; IndexAction::class,
+         <span class="hljs-string">'searchModel'</span> =&gt; BookSearch::class
+     ]
+}
+
+<span class="hljs-comment">// ActiveRecord:</span>
+<span class="hljs-keyword">public</span> <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">actions</span><span class="hljs-params">()</span>
+</span>{
+     <span class="hljs-string">'index'</span> =&gt; [
+         <span class="hljs-string">'class'</span> =&gt; IndexAction::class,
+         <span class="hljs-string">'model'</span> =&gt; <span class="hljs-keyword">new</span> BookSearch()
+     ]
+}
+</code></pre>
+
     </div>
 
 <a id="properties"></a>
@@ -83,7 +117,19 @@ yii\base\Action</td></tr>
 <tr>
   <th>Property</th><th>Type</th><th>Description</th><th>Defined By</th>
 </tr>
-        <tr id="$view">
+        <tr class="inherited" id="$controller">
+        <td><a href="rootlocal-crud-components-action.html#$controller-detail">$controller</a></td>
+        <td>\yii\base\Controller|\yii\web\Controller|\yii\console\Controller</td>
+        <td>The controller that owns this action</td>
+        <td><a href="rootlocal-crud-components-action.html">rootlocal\crud\components\Action</a></td>
+    </tr>
+            <tr class="inherited" id="$id">
+        <td><a href="rootlocal-crud-components-action.html#$id-detail">$id</a></td>
+        <td><a href="http://www.php.net/language.types.string">string</a></td>
+        <td>ID of the action</td>
+        <td><a href="rootlocal-crud-components-action.html">rootlocal\crud\components\Action</a></td>
+    </tr>
+            <tr id="$view">
         <td><a href="rootlocal-crud-actions-indexaction.html#$view-detail">$view</a></td>
         <td><a href="http://www.php.net/language.types.string">string</a></td>
         <td>The view name.</td>
@@ -108,42 +154,79 @@ yii\base\Action</td></tr>
 <tr>
   <th>Method</th><th>Description</th><th>Defined By</th>
 </tr>
-        <tr id="getDataProvider()">
+                <tr id="getDataProvider()">
         <td><a href="rootlocal-crud-actions-indexaction.html#getDataProvider()-detail">getDataProvider()</a></td>
-        <td></td>
+        <td>Get DataProvider object</td>
         <td><a href="rootlocal-crud-actions-indexaction.html">rootlocal\crud\actions\IndexAction</a></td>
     </tr>
             <tr id="getModel()">
         <td><a href="rootlocal-crud-actions-indexaction.html#getModel()-detail">getModel()</a></td>
-        <td></td>
+        <td>Get ActiveRecord searchModel</td>
         <td><a href="rootlocal-crud-actions-indexaction.html">rootlocal\crud\actions\IndexAction</a></td>
     </tr>
             <tr id="getQueryParams()">
         <td><a href="rootlocal-crud-actions-indexaction.html#getQueryParams()-detail">getQueryParams()</a></td>
-        <td></td>
+        <td>Get The request GET parameter values.</td>
         <td><a href="rootlocal-crud-actions-indexaction.html">rootlocal\crud\actions\IndexAction</a></td>
     </tr>
             <tr id="getSearchModel()">
         <td><a href="rootlocal-crud-actions-indexaction.html#getSearchModel()-detail">getSearchModel()</a></td>
-        <td></td>
+        <td>Get ActiveRecord searchModel</td>
         <td><a href="rootlocal-crud-actions-indexaction.html">rootlocal\crud\actions\IndexAction</a></td>
+    </tr>
+            <tr class="inherited" id="getUniqueId()">
+        <td><a href="rootlocal-crud-components-action.html#getUniqueId()-detail">getUniqueId()</a></td>
+        <td>Returns the unique ID of this action among the whole application.</td>
+        <td><a href="rootlocal-crud-components-action.html">rootlocal\crud\components\Action</a></td>
     </tr>
             <tr id="run()">
         <td><a href="rootlocal-crud-actions-indexaction.html#run()-detail">run()</a></td>
-        <td></td>
+        <td>Runs the action.</td>
         <td><a href="rootlocal-crud-actions-indexaction.html">rootlocal\crud\actions\IndexAction</a></td>
+    </tr>
+            <tr class="inherited" id="runWithParams()">
+        <td><a href="rootlocal-crud-components-action.html#runWithParams()-detail">runWithParams()</a></td>
+        <td>Runs this action with the specified parameters.</td>
+        <td><a href="rootlocal-crud-components-action.html">rootlocal\crud\components\Action</a></td>
     </tr>
             <tr id="setDataProvider()">
         <td><a href="rootlocal-crud-actions-indexaction.html#setDataProvider()-detail">setDataProvider()</a></td>
-        <td></td>
+        <td>Get DataProvider</td>
         <td><a href="rootlocal-crud-actions-indexaction.html">rootlocal\crud\actions\IndexAction</a></td>
     </tr>
             <tr id="setSearchModel()">
         <td><a href="rootlocal-crud-actions-indexaction.html#setSearchModel()-detail">setSearchModel()</a></td>
-        <td></td>
+        <td>Set ActiveRecord searchModel</td>
         <td><a href="rootlocal-crud-actions-indexaction.html">rootlocal\crud\actions\IndexAction</a></td>
     </tr>
     </table>
+</div>
+
+<div class="summary doc-method">
+<h2>Protected Methods</h2>
+
+<p><a href="#" class="toggle">Hide inherited methods</a></p>
+
+<table class="summary-table table table-striped table-bordered table-hover">
+<colgroup>
+    <col class="col-method" />
+    <col class="col-description" />
+    <col class="col-defined" />
+</colgroup>
+<tr>
+  <th>Method</th><th>Description</th><th>Defined By</th>
+</tr>
+        <tr class="inherited" id="afterRun()">
+        <td><a href="rootlocal-crud-components-action.html#afterRun()-detail">afterRun()</a></td>
+        <td>This method is called right after <code>run()</code> is executed.</td>
+        <td><a href="rootlocal-crud-components-action.html">rootlocal\crud\components\Action</a></td>
+    </tr>
+            <tr class="inherited" id="beforeRun()">
+        <td><a href="rootlocal-crud-components-action.html#beforeRun()-detail">beforeRun()</a></td>
+        <td>This method is called right before <code>run()</code> is executed.</td>
+        <td><a href="rootlocal-crud-components-action.html">rootlocal\crud\components\Action</a></td>
+    </tr>
+                                        </table>
 </div>
 
 <a id="events"></a>
@@ -188,17 +271,24 @@ yii\base\Action</td></tr>
 
     
     <div class="doc-description">
-        <p><strong></strong></p>
+        <p><strong>Get DataProvider object</strong></p>
 
         
             </div>
 
     <table class="detail-table table table-striped table-bordered table-hover">
         <tr><td colspan="3" class="signature"><span class="signature-defs">public</span> <span class="signature-type">\yii\data\ActiveDataProvider</span> <strong><a href="rootlocal-crud-actions-indexaction.html#getDataProvider()-detail">getDataProvider</a></strong> ( )</td></tr>
-                                                            <tr>
+                                                <tr>
+                  <th class="param-name-col">return</th>
+                  <td class="param-type-col">\yii\data\ActiveDataProvider</td>
+                  <td class="param-desc-col"><p>ActiveDataProvider object</p>
+</td>
+                </tr>
+                                        <tr>
                   <th class="param-name-col">throws</th>
                   <td class="param-type-col">\yii\base\InvalidConfigException</td>
-                  <td class="param-desc-col"></td>
+                  <td class="param-desc-col"><p>if dataProvider not instanceof <span class="broken-link">\yii\data\ActiveDataProvider</span></p>
+</td>
                 </tr>
                         </table>
 
@@ -216,22 +306,30 @@ yii\base\Action</td></tr>
 
     
     <div class="doc-description">
-        <p><strong></strong></p>
+        <p><strong>Get ActiveRecord searchModel</strong></p>
 
         
             </div>
 
     <table class="detail-table table table-striped table-bordered table-hover">
         <tr><td colspan="3" class="signature"><span class="signature-defs">public</span> <span class="signature-type"><a href="rootlocal-crud-components-searchmodelinterface.html">rootlocal\crud\components\SearchModelInterface</a></span> <strong><a href="rootlocal-crud-actions-indexaction.html#getModel()-detail">getModel</a></strong> ( )</td></tr>
-                                                            <tr>
+                                                <tr>
+                  <th class="param-name-col">return</th>
+                  <td class="param-type-col"><a href="rootlocal-crud-components-searchmodelinterface.html">rootlocal\crud\components\SearchModelInterface</a></td>
+                  <td class="param-desc-col"><p>ActiveRecord searchModel object instanceof <a href="rootlocal-crud-components-searchmodelinterface.html">rootlocal\crud\components\SearchModelInterface</a></p>
+</td>
+                </tr>
+                                        <tr>
                   <th class="param-name-col">throws</th>
                   <td class="param-type-col">\yii\base\ErrorException</td>
-                  <td class="param-desc-col"></td>
+                  <td class="param-desc-col"><p>if searchModel not instanceof <a href="rootlocal-crud-components-searchmodelinterface.html">rootlocal\crud\components\SearchModelInterface</a></p>
+</td>
                 </tr>
                             <tr>
                   <th class="param-name-col">throws</th>
                   <td class="param-type-col">\yii\base\InvalidConfigException</td>
-                  <td class="param-desc-col"></td>
+                  <td class="param-desc-col"><p>if the configuration is invalid</p>
+</td>
                 </tr>
                         </table>
 
@@ -249,14 +347,20 @@ yii\base\Action</td></tr>
 
     
     <div class="doc-description">
-        <p><strong></strong></p>
+        <p><strong>Get The request GET parameter values.</strong></p>
 
         
             </div>
 
     <table class="detail-table table table-striped table-bordered table-hover">
         <tr><td colspan="3" class="signature"><span class="signature-defs">public</span> <span class="signature-type"><a href="http://www.php.net/language.types.array">array</a></span> <strong><a href="rootlocal-crud-actions-indexaction.html#getQueryParams()-detail">getQueryParams</a></strong> ( )</td></tr>
-            </table>
+                                                <tr>
+                  <th class="param-name-col">return</th>
+                  <td class="param-type-col"><a href="http://www.php.net/language.types.array">array</a></td>
+                  <td class="param-desc-col"><p>The request GET parameter values.</p>
+</td>
+                </tr>
+                                    </table>
 
 <!--	-->
 
@@ -272,17 +376,24 @@ yii\base\Action</td></tr>
 
     
     <div class="doc-description">
-        <p><strong></strong></p>
+        <p><strong>Get ActiveRecord searchModel</strong></p>
 
         
             </div>
 
     <table class="detail-table table table-striped table-bordered table-hover">
         <tr><td colspan="3" class="signature"><span class="signature-defs">public</span> <span class="signature-type"><a href="http://www.php.net/class.closure">Closure</a>|<a href="http://www.php.net/language.types.string">string</a>|<a href="rootlocal-crud-components-searchmodelinterface.html">rootlocal\crud\components\SearchModelInterface</a></span> <strong><a href="rootlocal-crud-actions-indexaction.html#getSearchModel()-detail">getSearchModel</a></strong> ( )</td></tr>
-                                                            <tr>
+                                                <tr>
+                  <th class="param-name-col">return</th>
+                  <td class="param-type-col"><a href="http://www.php.net/class.closure">Closure</a>|<a href="http://www.php.net/language.types.string">string</a>|<a href="rootlocal-crud-components-searchmodelinterface.html">rootlocal\crud\components\SearchModelInterface</a></td>
+                  <td class="param-desc-col"><p>ActiveRecord searchModel</p>
+</td>
+                </tr>
+                                        <tr>
                   <th class="param-name-col">throws</th>
                   <td class="param-type-col">\yii\base\ErrorException</td>
-                  <td class="param-desc-col"></td>
+                  <td class="param-desc-col"><p>if Model not specified (not set)</p>
+</td>
                 </tr>
                         </table>
 
@@ -300,7 +411,7 @@ yii\base\Action</td></tr>
 
     
     <div class="doc-description">
-        <p><strong></strong></p>
+        <p><strong>Runs the action.</strong></p>
 
         
             </div>
@@ -323,7 +434,7 @@ yii\base\Action</td></tr>
 
     
     <div class="doc-description">
-        <p><strong></strong></p>
+        <p><strong>Get DataProvider</strong></p>
 
         
             </div>
@@ -332,8 +443,8 @@ yii\base\Action</td></tr>
         <tr><td colspan="3" class="signature"><span class="signature-defs">public</span> <span class="signature-type">void</span> <strong><a href="rootlocal-crud-actions-indexaction.html#setDataProvider()-detail">setDataProvider</a></strong> ( <span style="color: #0000BB">$dataProvider</span> )</td></tr>
                                     <tr>
                   <td class="param-name-col"><span style="color: #0000BB">$dataProvider</span></td>
-                  <td class="param-type-col"></td>
-                  <td class="param-desc-col"><p>Closure</p>
+                  <td class="param-type-col"><a href="http://www.php.net/class.closure">Closure</a></td>
+                  <td class="param-desc-col"><p>Anonymous function for <span class="broken-link">\yii\data\ActiveDataProvider</span></p>
 </td>
                 </tr>
                                                 </table>
@@ -352,7 +463,7 @@ yii\base\Action</td></tr>
 
     
     <div class="doc-description">
-        <p><strong></strong></p>
+        <p><strong>Set ActiveRecord searchModel</strong></p>
 
         
             </div>
@@ -361,8 +472,8 @@ yii\base\Action</td></tr>
         <tr><td colspan="3" class="signature"><span class="signature-defs">public</span> <span class="signature-type">void</span> <strong><a href="rootlocal-crud-actions-indexaction.html#setSearchModel()-detail">setSearchModel</a></strong> ( <span style="color: #0000BB">$searchModel</span> )</td></tr>
                                     <tr>
                   <td class="param-name-col"><span style="color: #0000BB">$searchModel</span></td>
-                  <td class="param-type-col"></td>
-                  <td class="param-desc-col"><p>Closure|string|SearchModelInterface</p>
+                  <td class="param-type-col"><a href="http://www.php.net/class.closure">Closure</a>|<a href="http://www.php.net/language.types.string">string</a>|<a href="rootlocal-crud-components-searchmodelinterface.html">rootlocal\crud\components\SearchModelInterface</a></td>
+                  <td class="param-desc-col"><p>ActiveRecord searchModel</p>
 </td>
                 </tr>
                                                 </table>
@@ -407,7 +518,7 @@ yii\base\Action</td></tr>
 </div>
 
 <footer class="footer">
-        <p class="pull-right"><small>Page generated on Sun, 12 Jan 2020 21:53:39 +0000</small></p>
+        <p class="pull-right"><small>Page generated on Mon, 13 Jan 2020 12:39:37 +0000</small></p>
     Powered by <a href="http://www.yiiframework.com/" rel="external">Yii Framework</a></footer>
 
 <script>jQuery(function ($) {

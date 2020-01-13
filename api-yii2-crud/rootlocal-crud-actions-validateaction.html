@@ -10,7 +10,7 @@
 <link href="./assets/2b1a4eb6/style.css" rel="stylesheet">
 <script src="./assets/42ae3b76/jquery.js"></script>
 <script src="./assets/51ee6838/js/bootstrap.js"></script>
-<script src="./assets/557104ff/jssearch.js"></script>    <title>ValidateAction, rootlocal\crud\actions\ValidateAction - Yii Framework 2.0 API Documentation</title>
+<script src="./assets/557104ff/jssearch.js"></script>    <title>ValidateAction, rootlocal\crud\actions\ValidateAction - yii2-crud</title>
 </head>
 <body>
 
@@ -18,7 +18,7 @@
     <nav id="w23" class="navbar-inverse navbar-fixed-top navbar"><div class="navbar-header"><button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#w23-collapse"><span class="sr-only">Toggle navigation</span>
 <span class="icon-bar"></span>
 <span class="icon-bar"></span>
-<span class="icon-bar"></span></button><a class="navbar-brand" href="./index.html">Yii Framework 2.0 API Documentation</a></div><div id="w23-collapse" class="collapse navbar-collapse"><ul id="w24" class="navbar-nav nav"><li><a href="./index.html">Class reference</a></li></ul><div class="navbar-form navbar-left" role="search">
+<span class="icon-bar"></span></button><a class="navbar-brand" href="./index.html">yii2-crud</a></div><div id="w23-collapse" class="collapse navbar-collapse"><ul id="w24" class="navbar-nav nav"><li><a href="./index.html">Class reference</a></li></ul><div class="navbar-form navbar-left" role="search">
   <div class="form-group">
     <input id="searchbox" type="text" class="form-control" placeholder="Search">
   </div>
@@ -46,6 +46,7 @@
         <h1>Class rootlocal\crud\actions\ValidateAction</h1>
 <div class="top-nav">
     <a href="index.html">All Classes</a>
+            | <a href="#properties">Properties</a>
                 | <a href="#methods">Methods</a>
             </div>
 
@@ -67,6 +68,36 @@ yii\base\Action</td></tr>
 
 <a id="properties"></a>
 
+<div class="summary doc-property">
+<h2>Public Properties</h2>
+
+<p><a href="#" class="toggle">Hide inherited properties</a></p>
+
+<table class="summary-table table table-striped table-bordered table-hover">
+<colgroup>
+    <col class="col-property" />
+    <col class="col-type" />
+    <col class="col-description" />
+    <col class="col-defined" />
+</colgroup>
+<tr>
+  <th>Property</th><th>Type</th><th>Description</th><th>Defined By</th>
+</tr>
+        <tr class="inherited" id="$controller">
+        <td><a href="rootlocal-crud-components-action.html#$controller-detail">$controller</a></td>
+        <td>\yii\base\Controller|\yii\web\Controller|\yii\console\Controller</td>
+        <td>The controller that owns this action</td>
+        <td><a href="rootlocal-crud-components-action.html">rootlocal\crud\components\Action</a></td>
+    </tr>
+            <tr class="inherited" id="$id">
+        <td><a href="rootlocal-crud-components-action.html#$id-detail">$id</a></td>
+        <td><a href="http://www.php.net/language.types.string">string</a></td>
+        <td>ID of the action</td>
+        <td><a href="rootlocal-crud-components-action.html">rootlocal\crud\components\Action</a></td>
+    </tr>
+    </table>
+</div>
+
 <a id="methods"></a>
 
 <div class="summary doc-method">
@@ -83,7 +114,7 @@ yii\base\Action</td></tr>
 <tr>
   <th>Method</th><th>Description</th><th>Defined By</th>
 </tr>
-            <tr id="getModel()">
+                    <tr id="getModel()">
         <td><a href="rootlocal-crud-actions-validateaction.html#getModel()-detail">getModel()</a></td>
         <td></td>
         <td><a href="rootlocal-crud-actions-validateaction.html">rootlocal\crud\actions\ValidateAction</a></td>
@@ -93,10 +124,20 @@ yii\base\Action</td></tr>
         <td></td>
         <td><a href="rootlocal-crud-actions-validateaction.html">rootlocal\crud\actions\ValidateAction</a></td>
     </tr>
+            <tr class="inherited" id="getUniqueId()">
+        <td><a href="rootlocal-crud-components-action.html#getUniqueId()-detail">getUniqueId()</a></td>
+        <td>Returns the unique ID of this action among the whole application.</td>
+        <td><a href="rootlocal-crud-components-action.html">rootlocal\crud\components\Action</a></td>
+    </tr>
             <tr id="run()">
         <td><a href="rootlocal-crud-actions-validateaction.html#run()-detail">run()</a></td>
-        <td></td>
+        <td>Runs the action.</td>
         <td><a href="rootlocal-crud-actions-validateaction.html">rootlocal\crud\actions\ValidateAction</a></td>
+    </tr>
+            <tr class="inherited" id="runWithParams()">
+        <td><a href="rootlocal-crud-components-action.html#runWithParams()-detail">runWithParams()</a></td>
+        <td>Runs this action with the specified parameters.</td>
+        <td><a href="rootlocal-crud-components-action.html">rootlocal\crud\components\Action</a></td>
     </tr>
             <tr id="setModel()">
         <td><a href="rootlocal-crud-actions-validateaction.html#setModel()-detail">setModel()</a></td>
@@ -125,12 +166,22 @@ yii\base\Action</td></tr>
 <tr>
   <th>Method</th><th>Description</th><th>Defined By</th>
 </tr>
-        <tr id="findModel()">
+        <tr class="inherited" id="afterRun()">
+        <td><a href="rootlocal-crud-components-action.html#afterRun()-detail">afterRun()</a></td>
+        <td>This method is called right after <code>run()</code> is executed.</td>
+        <td><a href="rootlocal-crud-components-action.html">rootlocal\crud\components\Action</a></td>
+    </tr>
+            <tr class="inherited" id="beforeRun()">
+        <td><a href="rootlocal-crud-components-action.html#beforeRun()-detail">beforeRun()</a></td>
+        <td>This method is called right before <code>run()</code> is executed.</td>
+        <td><a href="rootlocal-crud-components-action.html">rootlocal\crud\components\Action</a></td>
+    </tr>
+            <tr id="findModel()">
         <td><a href="rootlocal-crud-actions-validateaction.html#findModel()-detail">findModel()</a></td>
         <td>Finds the Alias model based on its primary key value.</td>
         <td><a href="rootlocal-crud-actions-validateaction.html">rootlocal\crud\actions\ValidateAction</a></td>
     </tr>
-                        </table>
+                                </table>
 </div>
 
 <a id="events"></a>
@@ -180,7 +231,7 @@ yii\base\Action</td></tr>
                 </tr>
                             <tr>
                   <th class="param-name-col">throws</th>
-                  <td class="param-type-col">\yii\base\ErrorException</td>
+                  <td class="param-type-col">\yii\base\InvalidConfigException</td>
                   <td class="param-desc-col"></td>
                 </tr>
                         </table>
@@ -250,7 +301,7 @@ yii\base\Action</td></tr>
 
     
     <div class="doc-description">
-        <p><strong></strong></p>
+        <p><strong>Runs the action.</strong></p>
 
         
             </div>
@@ -378,7 +429,7 @@ yii\base\Action</td></tr>
 </div>
 
 <footer class="footer">
-        <p class="pull-right"><small>Page generated on Sun, 12 Jan 2020 21:53:39 +0000</small></p>
+        <p class="pull-right"><small>Page generated on Mon, 13 Jan 2020 12:39:37 +0000</small></p>
     Powered by <a href="http://www.yiiframework.com/" rel="external">Yii Framework</a></footer>
 
 <script>jQuery(function ($) {
