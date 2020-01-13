@@ -9,13 +9,13 @@ Array
     [1] => Array
         (
             [file] => /Volumes/hdd/www/yii2-gp38.git/rootlocal/yii2-crud/src/actions/CreateAction.php
-            [message] => broken link to \yii\helpers\Url::to() in rootlocal\crud\actions\CreateAction
+            [message] => broken link to \yii\db\ActiveRecord in rootlocal\crud\actions\CreateAction
         )
 
     [2] => Array
         (
             [file] => /Volumes/hdd/www/yii2-gp38.git/rootlocal/yii2-crud/src/actions/CreateAction.php
-            [message] => broken link to \yii\db\ActiveRecord::SCENARIO_DEFAULT in rootlocal\crud\actions\CreateAction
+            [message] => broken link to \rootlocal\crud\actions\Url::to() in rootlocal\crud\actions\CreateAction
         )
 
     [3] => Array
@@ -26,52 +26,196 @@ Array
 
     [4] => Array
         (
-            [line] => 72
+            [file] => /Volumes/hdd/www/yii2-gp38.git/rootlocal/yii2-crud/src/actions/CreateAction.php
+            [message] => broken link to \yii\db\ActiveRecord::SCENARIO_DEFAULT in rootlocal\crud\actions\CreateAction
+        )
+
+    [5] => Array
+        (
+            [file] => /Volumes/hdd/www/yii2-gp38.git/rootlocal/yii2-crud/src/actions/CreateAction.php
+            [message] => broken link to \yii\db\ActiveRecord in rootlocal\crud\actions\CreateAction
+        )
+
+    [6] => Array
+        (
+            [file] => /Volumes/hdd/www/yii2-gp38.git/rootlocal/yii2-crud/src/actions/CreateAction.php
+            [message] => broken link to \yii\db\ActiveRecord in rootlocal\crud\actions\CreateAction
+        )
+
+    [7] => Array
+        (
+            [line] => 77
             [file] => /Volumes/hdd/www/yii2-gp38.git/rootlocal/yii2-crud/src/actions/DeleteAction.php
             [message] => Method init has no parent to inherit from in rootlocal\crud\actions\DeleteAction.
         )
 
-    [5] => Array
+    [8] => Array
+        (
+            [file] => /Volumes/hdd/www/yii2-gp38.git/rootlocal/yii2-crud/src/actions/DeleteAction.php
+            [message] => broken link to \yii\db\ActiveRecord in rootlocal\crud\actions\DeleteAction
+        )
+
+    [9] => Array
         (
             [file] => /Volumes/hdd/www/yii2-gp38.git/rootlocal/yii2-crud/src/actions/DeleteAction.php
             [message] => broken link to \rootlocal\crud\actions\Url::to() in rootlocal\crud\actions\DeleteAction
         )
 
-    [6] => Array
+    [10] => Array
+        (
+            [file] => /Volumes/hdd/www/yii2-gp38.git/rootlocal/yii2-crud/src/actions/DeleteAction.php
+            [message] => broken link to \yii\db\ActiveRecord in rootlocal\crud\actions\DeleteAction
+        )
+
+    [11] => Array
+        (
+            [file] => /Volumes/hdd/www/yii2-gp38.git/rootlocal/yii2-crud/src/actions/DeleteAction.php
+            [message] => broken link to \yii\db\ActiveRecord in rootlocal\crud\actions\DeleteAction
+        )
+
+    [12] => Array
+        (
+            [file] => /Volumes/hdd/www/yii2-gp38.git/rootlocal/yii2-crud/src/actions/IndexAction.php
+            [message] => broken link to \rootlocal\crud\actions\ActiveRecord in rootlocal\crud\actions\IndexAction
+        )
+
+    [13] => Array
         (
             [file] => /Volumes/hdd/www/yii2-gp38.git/rootlocal/yii2-crud/src/actions/IndexAction.php
             [message] => broken link to \yii\data\ActiveDataProvider in rootlocal\crud\actions\IndexAction
         )
 
-    [7] => Array
+    [14] => Array
         (
             [file] => /Volumes/hdd/www/yii2-gp38.git/rootlocal/yii2-crud/src/actions/IndexAction.php
             [message] => broken link to \yii\data\ActiveDataProvider in rootlocal\crud\actions\IndexAction
         )
 
-    [8] => Array
+    [15] => Array
         (
-            [line] => 62
+            [file] => /Volumes/hdd/www/yii2-gp38.git/rootlocal/yii2-crud/src/actions/IndexAction.php
+            [message] => broken link to \rootlocal\crud\actions\ActiveRecord in rootlocal\crud\actions\IndexAction
+        )
+
+    [16] => Array
+        (
+            [file] => /Volumes/hdd/www/yii2-gp38.git/rootlocal/yii2-crud/src/actions/IndexAction.php
+            [message] => broken link to \rootlocal\crud\actions\ActiveRecord in rootlocal\crud\actions\IndexAction
+        )
+
+    [17] => Array
+        (
+            [line] => 92
             [file] => /Volumes/hdd/www/yii2-gp38.git/rootlocal/yii2-crud/src/actions/UpdateAction.php
             [message] => Method init has no parent to inherit from in rootlocal\crud\actions\UpdateAction.
         )
 
-    [9] => Array
+    [18] => Array
+        (
+            [file] => /Volumes/hdd/www/yii2-gp38.git/rootlocal/yii2-crud/src/actions/UpdateAction.php
+            [message] => broken link to \yii\db\ActiveRecord in rootlocal\crud\actions\UpdateAction
+        )
+
+    [19] => Array
         (
             [file] => /Volumes/hdd/www/yii2-gp38.git/rootlocal/yii2-crud/src/actions/UpdateAction.php
             [message] => broken link to \rootlocal\crud\actions\Url::to() in rootlocal\crud\actions\UpdateAction
         )
 
-    [10] => Array
+    [20] => Array
         (
             [file] => /Volumes/hdd/www/yii2-gp38.git/rootlocal/yii2-crud/src/actions/UpdateAction.php
-            [message] => broken link to \rootlocal\crud\actions\SCENARIO_DEFAULT in rootlocal\crud\actions\UpdateAction
+            [message] => broken link to \yii\db\ActiveRecord::SCENARIO_DEFAULT in rootlocal\crud\actions\UpdateAction
         )
 
-    [11] => Array
+    [21] => Array
+        (
+            [file] => /Volumes/hdd/www/yii2-gp38.git/rootlocal/yii2-crud/src/actions/UpdateAction.php
+            [message] => broken link to \yii\db\ActiveRecord::SCENARIO_DEFAULT in rootlocal\crud\actions\UpdateAction
+        )
+
+    [22] => Array
+        (
+            [file] => /Volumes/hdd/www/yii2-gp38.git/rootlocal/yii2-crud/src/actions/UpdateAction.php
+            [message] => broken link to \yii\db\ActiveRecord in rootlocal\crud\actions\UpdateAction
+        )
+
+    [23] => Array
+        (
+            [file] => /Volumes/hdd/www/yii2-gp38.git/rootlocal/yii2-crud/src/actions/UpdateAction.php
+            [message] => broken link to \yii\db\ActiveRecord in rootlocal\crud\actions\UpdateAction
+        )
+
+    [24] => Array
+        (
+            [file] => /Volumes/hdd/www/yii2-gp38.git/rootlocal/yii2-crud/src/actions/ValidateAction.php
+            [message] => broken link to \yii\db\ActiveRecord in rootlocal\crud\actions\ValidateAction
+        )
+
+    [25] => Array
+        (
+            [file] => /Volumes/hdd/www/yii2-gp38.git/rootlocal/yii2-crud/src/actions/ValidateAction.php
+            [message] => broken link to \yii\db\ActiveRecord::SCENARIO_DEFAULT in rootlocal\crud\actions\ValidateAction
+        )
+
+    [26] => Array
+        (
+            [file] => /Volumes/hdd/www/yii2-gp38.git/rootlocal/yii2-crud/src/actions/ValidateAction.php
+            [message] => broken link to \yii\db\ActiveRecord::SCENARIO_DEFAULT in rootlocal\crud\actions\ValidateAction
+        )
+
+    [27] => Array
+        (
+            [file] => /Volumes/hdd/www/yii2-gp38.git/rootlocal/yii2-crud/src/actions/ValidateAction.php
+            [message] => broken link to \yii\db\ActiveRecord::SCENARIO_DEFAULT in rootlocal\crud\actions\ValidateAction
+        )
+
+    [28] => Array
+        (
+            [file] => /Volumes/hdd/www/yii2-gp38.git/rootlocal/yii2-crud/src/actions/ValidateAction.php
+            [message] => broken link to \yii\db\ActiveRecord in rootlocal\crud\actions\ValidateAction
+        )
+
+    [29] => Array
+        (
+            [file] => /Volumes/hdd/www/yii2-gp38.git/rootlocal/yii2-crud/src/actions/ValidateAction.php
+            [message] => broken link to \yii\db\ActiveRecord in rootlocal\crud\actions\ValidateAction
+        )
+
+    [30] => Array
+        (
+            [file] => /Volumes/hdd/www/yii2-gp38.git/rootlocal/yii2-crud/src/actions/ViewAction.php
+            [message] => broken link to \yii\db\ActiveRecord in rootlocal\crud\actions\ViewAction
+        )
+
+    [31] => Array
+        (
+            [file] => /Volumes/hdd/www/yii2-gp38.git/rootlocal/yii2-crud/src/actions/ViewAction.php
+            [message] => broken link to \yii\db\ActiveRecord in rootlocal\crud\actions\ViewAction
+        )
+
+    [32] => Array
+        (
+            [file] => /Volumes/hdd/www/yii2-gp38.git/rootlocal/yii2-crud/src/actions/ViewAction.php
+            [message] => broken link to \yii\db\ActiveRecord in rootlocal\crud\actions\ViewAction
+        )
+
+    [33] => Array
         (
             [file] => /Volumes/hdd/www/yii2-gp38.git/rootlocal/yii2-crud/src/components/Action.php
             [message] => broken link to \yii\base\Action in rootlocal\crud\components\Action
+        )
+
+    [34] => Array
+        (
+            [file] => /Volumes/hdd/www/yii2-gp38.git/rootlocal/yii2-crud/src/components/SearchModelInterface.php
+            [message] => broken link to \yii\db\Query in rootlocal\crud\components\SearchModelInterface
+        )
+
+    [35] => Array
+        (
+            [file] => /Volumes/hdd/www/yii2-gp38.git/rootlocal/yii2-crud/src/components/SearchModelInterface.php
+            [message] => broken link to \yii\db\ActiveQuery in rootlocal\crud\components\SearchModelInterface
         )
 
 )

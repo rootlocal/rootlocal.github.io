@@ -62,8 +62,36 @@ yii\base\Action</td></tr>
                                     </table>
 
 <div class="class-description">
-    <p><strong>Class UpdateAction</strong></p>
-    
+    <p><strong>Class UpdateAction
+Updates an existing <span class="broken-link">\yii\db\ActiveRecord</span> model.</strong></p>
+    <p>If update is successful, the browser will be <a href="rootlocal-crud-actions-updateaction.html#$redirect-detail">$redirect</a> to the 'view' page.</p>
+<p>examples:</p>
+<pre><code class="hljs php language-php"><span class="hljs-comment">// lambda function:</span>
+<span class="hljs-keyword">public</span> <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">actions</span><span class="hljs-params">()</span>
+</span>{
+     <span class="hljs-string">'update'</span> =&gt; [
+         <span class="hljs-string">'class'</span> =&gt; UpdateAction::class,
+         <span class="hljs-string">'scenario'</span> =&gt; Book::SCENARIO_UPDATE,
+         <span class="hljs-string">'model'</span> =&gt; <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-params">($id, $scenario)</span> </span>{
+             $model = Book::find()-&gt;where([<span class="hljs-string">'id'</span> =&gt; $id])-&gt;active()-&gt;one();
+             <span class="hljs-keyword">if</span>($model !== <span class="hljs-keyword">null</span>)
+                 $model-&gt;scenario = $scenario;
+             <span class="hljs-keyword">return</span> $model;
+         }
+     ]
+}
+
+<span class="hljs-comment">// string:</span>
+<span class="hljs-keyword">public</span> <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">actions</span><span class="hljs-params">()</span>
+</span>{
+     <span class="hljs-string">'update'</span> =&gt; [
+         <span class="hljs-string">'class'</span> =&gt; UpdateAction::class,
+         <span class="hljs-string">'scenario'</span> =&gt; Book::SCENARIO_UPDATE,
+         <span class="hljs-string">'model'</span> =&gt; Book::class
+     ]
+}
+</code></pre>
+
     </div>
 
 <a id="properties"></a>
@@ -101,12 +129,6 @@ yii\base\Action</td></tr>
         <td>The URL to be redirected to.</td>
         <td><a href="rootlocal-crud-actions-updateaction.html">rootlocal\crud\actions\UpdateAction</a></td>
     </tr>
-            <tr id="$scenario">
-        <td><a href="rootlocal-crud-actions-updateaction.html#$scenario-detail">$scenario</a></td>
-        <td><a href="http://www.php.net/language.types.string">string</a></td>
-        <td>The scenario that this model is in.</td>
-        <td><a href="rootlocal-crud-actions-updateaction.html">rootlocal\crud\actions\UpdateAction</a></td>
-    </tr>
             <tr id="$view">
         <td><a href="rootlocal-crud-actions-updateaction.html#$view-detail">$view</a></td>
         <td><a href="http://www.php.net/language.types.string">string</a></td>
@@ -134,7 +156,12 @@ yii\base\Action</td></tr>
 </tr>
                     <tr id="getModel()">
         <td><a href="rootlocal-crud-actions-updateaction.html#getModel()-detail">getModel()</a></td>
-        <td></td>
+        <td>Get model</td>
+        <td><a href="rootlocal-crud-actions-updateaction.html">rootlocal\crud\actions\UpdateAction</a></td>
+    </tr>
+            <tr id="getScenario()">
+        <td><a href="rootlocal-crud-actions-updateaction.html#getScenario()-detail">getScenario()</a></td>
+        <td>Get scenario</td>
         <td><a href="rootlocal-crud-actions-updateaction.html">rootlocal\crud\actions\UpdateAction</a></td>
     </tr>
             <tr class="inherited" id="getUniqueId()">
@@ -159,7 +186,12 @@ yii\base\Action</td></tr>
     </tr>
             <tr id="setModel()">
         <td><a href="rootlocal-crud-actions-updateaction.html#setModel()-detail">setModel()</a></td>
-        <td></td>
+        <td>Set model</td>
+        <td><a href="rootlocal-crud-actions-updateaction.html">rootlocal\crud\actions\UpdateAction</a></td>
+    </tr>
+            <tr id="setScenario()">
+        <td><a href="rootlocal-crud-actions-updateaction.html#setScenario()-detail">setScenario()</a></td>
+        <td>Set scenario</td>
         <td><a href="rootlocal-crud-actions-updateaction.html">rootlocal\crud\actions\UpdateAction</a></td>
     </tr>
     </table>
@@ -194,7 +226,7 @@ yii\base\Action</td></tr>
         <td>Finds the Alias model based on its primary key value.</td>
         <td><a href="rootlocal-crud-actions-updateaction.html">rootlocal\crud\actions\UpdateAction</a></td>
     </tr>
-                            </table>
+                                    </table>
 </div>
 
 <a id="events"></a>
@@ -225,31 +257,14 @@ yii\base\Action</td></tr>
 </ul>
 <p>Any relative URL that starts with a single forward slash "/" will be converted
 into an absolute one by prepending it with the host info of the current request.</p>
-<p>&lt;?= Html::a('Update', ['update', 'id' => $model->id, 'redirect' => 'index'], [
-'class' => 'btn btn-primary btn-sm'
-]) ?&gt;</p>
+<pre><code class="hljs php language-php"><span class="hljs-meta">&lt;?</span>= Html::a(<span class="hljs-string">'Update'</span>, [<span class="hljs-string">'update'</span>, <span class="hljs-string">'id'</span> =&gt; $model-&gt;id, <span class="hljs-string">'redirect'</span> =&gt; <span class="hljs-string">'index'</span>], [
+<span class="hljs-string">'class'</span> =&gt; <span class="hljs-string">'btn btn-primary btn-sm'</span>
+]) <span class="hljs-meta">?&gt;</span>
+</code></pre>
 
             </div>
 
     <div class="signature"><span class="signature-defs">public</span> <span class="signature-type"><a href="http://www.php.net/language.types.string">string</a>|<a href="http://www.php.net/language.types.array">array</a></span> <a href="rootlocal-crud-actions-updateaction.html#$redirect-detail">$redirect</a> <span style="color: #0000BB"></span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">null</span></div>
-
-
-    <div class="detail-header h3" id="$scenario-detail">
-        <a href="#" class="tool-link" title="go to top"><span class="glyphicon glyphicon-arrow-up"></span></a>
-        <a class="tool-link hash" href="rootlocal-crud-actions-updateaction.html#$scenario-detail" title="direct link to this method"><span class="glyphicon icon-hash"></span></a>
-        
-        $scenario        <span class="detail-header-tag small">
-            public                                                property
-                    </span>
-    </div>
-
-    
-    <div class="doc-description">
-        <p>The scenario that this model is in. Defaults to <span class="broken-link">\rootlocal\crud\actions\SCENARIO_DEFAULT</span></p>
-
-            </div>
-
-    <div class="signature"><span class="signature-defs">public</span> <span class="signature-type"><a href="http://www.php.net/language.types.string">string</a></span> <a href="rootlocal-crud-actions-updateaction.html#$scenario-detail">$scenario</a> <span style="color: #0000BB"></span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">null</span></div>
 
 
     <div class="detail-header h3" id="$view-detail">
@@ -297,7 +312,8 @@ into an absolute one by prepending it with the host info of the current request.
                                     <tr>
                   <td class="param-name-col"><span style="color: #0000BB">$id</span></td>
                   <td class="param-type-col"><a href="http://www.php.net/language.types.integer">integer</a></td>
-                  <td class="param-desc-col"></td>
+                  <td class="param-desc-col"><p>Primary key</p>
+</td>
                 </tr>
                                         <tr>
                   <th class="param-name-col">return</th>
@@ -310,11 +326,6 @@ into an absolute one by prepending it with the host info of the current request.
                   <td class="param-type-col">\yii\web\NotFoundHttpException</td>
                   <td class="param-desc-col"><p>if the model cannot be found</p>
 </td>
-                </tr>
-                            <tr>
-                  <th class="param-name-col">throws</th>
-                  <td class="param-type-col">\yii\base\ErrorException</td>
-                  <td class="param-desc-col"></td>
                 </tr>
                         </table>
 
@@ -332,19 +343,55 @@ into an absolute one by prepending it with the host info of the current request.
 
     
     <div class="doc-description">
-        <p><strong></strong></p>
+        <p><strong>Get model</strong></p>
 
         
             </div>
 
     <table class="detail-table table table-striped table-bordered table-hover">
-        <tr><td colspan="3" class="signature"><span class="signature-defs">public</span> <span class="signature-type"><a href="http://www.php.net/language.types.string">string</a>|<a href="http://www.php.net/class.closure">Closure</a></span> <strong><a href="rootlocal-crud-actions-updateaction.html#getModel()-detail">getModel</a></strong> ( )</td></tr>
-                                                            <tr>
+        <tr><td colspan="3" class="signature"><span class="signature-defs">public</span> <span class="signature-type"><a href="http://www.php.net/language.types.string">string</a>|<a href="http://www.php.net/class.closure">Closure</a>|\yii\db\ActiveRecord</span> <strong><a href="rootlocal-crud-actions-updateaction.html#getModel()-detail">getModel</a></strong> ( )</td></tr>
+                                                <tr>
+                  <th class="param-name-col">return</th>
+                  <td class="param-type-col"><a href="http://www.php.net/language.types.string">string</a>|<a href="http://www.php.net/class.closure">Closure</a>|\yii\db\ActiveRecord</td>
+                  <td class="param-desc-col"><p>ActiveRecord Model</p>
+</td>
+                </tr>
+                                        <tr>
                   <th class="param-name-col">throws</th>
                   <td class="param-type-col">\yii\base\ErrorException</td>
-                  <td class="param-desc-col"></td>
+                  <td class="param-desc-col"><p>if Model not specified (not set)</p>
+</td>
                 </tr>
                         </table>
+
+<!--	-->
+
+    <div class="detail-header h3" id="getScenario()-detail">
+        <a href="#" class="tool-link" title="go to top"><span class="glyphicon glyphicon-arrow-up"></span></a>
+        <a class="tool-link hash" href="rootlocal-crud-actions-updateaction.html#getScenario()-detail" title="direct link to this method"><span class="glyphicon icon-hash"></span></a>
+        
+        getScenario()
+        <span class="detail-header-tag small">
+            public                                    method
+                    </span>
+    </div>
+
+    
+    <div class="doc-description">
+        <p><strong>Get scenario</strong></p>
+
+        
+            </div>
+
+    <table class="detail-table table table-striped table-bordered table-hover">
+        <tr><td colspan="3" class="signature"><span class="signature-defs">public</span> <span class="signature-type"><a href="http://www.php.net/language.types.string">string</a></span> <strong><a href="rootlocal-crud-actions-updateaction.html#getScenario()-detail">getScenario</a></strong> ( )</td></tr>
+                                                <tr>
+                  <th class="param-name-col">return</th>
+                  <td class="param-type-col"><a href="http://www.php.net/language.types.string">string</a></td>
+                  <td class="param-desc-col"><p>Scenario for model. Defaults to <span class="broken-link">\yii\db\ActiveRecord::SCENARIO_DEFAULT</span></p>
+</td>
+                </tr>
+                                    </table>
 
 <!--	-->
 
@@ -392,11 +439,17 @@ into an absolute one by prepending it with the host info of the current request.
         <tr><td colspan="3" class="signature"><span class="signature-defs">public</span> <span class="signature-type"><a href="http://www.php.net/language.types.array">array</a>|<a href="http://www.php.net/language.types.string">string</a></span> <strong><a href="rootlocal-crud-actions-updateaction.html#run()-detail">run</a></strong> ( <span style="color: #0000BB">$id</span> )</td></tr>
                                     <tr>
                   <td class="param-name-col"><span style="color: #0000BB">$id</span></td>
-                  <td class="param-type-col"></td>
-                  <td class="param-desc-col"><p>Int</p>
+                  <td class="param-type-col"><a href="http://www.php.net/language.types.integer">integer</a></td>
+                  <td class="param-desc-col"><p>Primary key</p>
 </td>
                 </tr>
-                                                </table>
+                                        <tr>
+                  <th class="param-name-col">return</th>
+                  <td class="param-type-col"><a href="http://www.php.net/language.types.array">array</a>|<a href="http://www.php.net/language.types.string">string</a></td>
+                  <td class="param-desc-col"><p>Response</p>
+</td>
+                </tr>
+                                    </table>
 
 <!--	-->
 
@@ -412,7 +465,7 @@ into an absolute one by prepending it with the host info of the current request.
 
     
     <div class="doc-description">
-        <p><strong></strong></p>
+        <p><strong>Set model</strong></p>
 
         
             </div>
@@ -421,8 +474,38 @@ into an absolute one by prepending it with the host info of the current request.
         <tr><td colspan="3" class="signature"><span class="signature-defs">public</span> <span class="signature-type">void</span> <strong><a href="rootlocal-crud-actions-updateaction.html#setModel()-detail">setModel</a></strong> ( <span style="color: #0000BB">$model</span> )</td></tr>
                                     <tr>
                   <td class="param-name-col"><span style="color: #0000BB">$model</span></td>
-                  <td class="param-type-col"></td>
-                  <td class="param-desc-col"></td>
+                  <td class="param-type-col"><a href="http://www.php.net/language.types.string">string</a>|<a href="http://www.php.net/class.closure">Closure</a></td>
+                  <td class="param-desc-col"><p>ActiveRecord Model</p>
+</td>
+                </tr>
+                                                </table>
+
+<!--	-->
+
+    <div class="detail-header h3" id="setScenario()-detail">
+        <a href="#" class="tool-link" title="go to top"><span class="glyphicon glyphicon-arrow-up"></span></a>
+        <a class="tool-link hash" href="rootlocal-crud-actions-updateaction.html#setScenario()-detail" title="direct link to this method"><span class="glyphicon icon-hash"></span></a>
+        
+        setScenario()
+        <span class="detail-header-tag small">
+            public                                    method
+                    </span>
+    </div>
+
+    
+    <div class="doc-description">
+        <p><strong>Set scenario</strong></p>
+
+        
+            </div>
+
+    <table class="detail-table table table-striped table-bordered table-hover">
+        <tr><td colspan="3" class="signature"><span class="signature-defs">public</span> <span class="signature-type">void</span> <strong><a href="rootlocal-crud-actions-updateaction.html#setScenario()-detail">setScenario</a></strong> ( <span style="color: #0000BB">$scenario</span> )</td></tr>
+                                    <tr>
+                  <td class="param-name-col"><span style="color: #0000BB">$scenario</span></td>
+                  <td class="param-type-col"><a href="http://www.php.net/language.types.string">string</a>|<a href="http://www.php.net/language.types.null">null</a></td>
+                  <td class="param-desc-col"><p>Scenario for model. Defaults to <span class="broken-link">\yii\db\ActiveRecord::SCENARIO_DEFAULT</span></p>
+</td>
                 </tr>
                                                 </table>
 
@@ -466,7 +549,7 @@ into an absolute one by prepending it with the host info of the current request.
 </div>
 
 <footer class="footer">
-        <p class="pull-right"><small>Page generated on Mon, 13 Jan 2020 12:39:37 +0000</small></p>
+        <p class="pull-right"><small>Page generated on Mon, 13 Jan 2020 20:05:40 +0000</small></p>
     Powered by <a href="http://www.yiiframework.com/" rel="external">Yii Framework</a></footer>
 
 <script>jQuery(function ($) {

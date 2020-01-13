@@ -62,8 +62,10 @@ yii\base\Action</td></tr>
                                     </table>
 
 <div class="class-description">
-    <p><strong>Class CreateAction</strong></p>
-    <p>examples:</p>
+    <p><strong>Class CreateAction
+Creates a new <span class="broken-link">\yii\db\ActiveRecord</span> model.</strong></p>
+    <p>If creation is successful, the browser will be <a href="rootlocal-crud-actions-createaction.html#$redirect-detail">$redirect</a> to the 'view' page.</p>
+<p>examples:</p>
 <pre><code class="hljs php language-php"><span class="hljs-comment">// lambda function:</span>
 <span class="hljs-keyword">public</span> <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">actions</span><span class="hljs-params">()</span>
 </span>{
@@ -247,8 +249,14 @@ yii\base\Action</td></tr>
 <li>a string representing a URL (e.g. "<a href="http://example.com">http://example.com</a>")</li>
 <li>a string representing a URL alias (e.g. "@example.com")</li>
 <li>an array in the format of <code>[$route, ...name-value pairs...]</code> (e.g. <code>['site/index', 'ref' =&gt; 1]</code>)
-<span class="broken-link">\yii\helpers\Url::to()</span> will be used to convert the array into a URL.</li>
+<span class="broken-link">\rootlocal\crud\actions\Url::to()</span> will be used to convert the array into a URL.</li>
 </ul>
+<p>Any relative URL that starts with a single forward slash "/" will be converted
+into an absolute one by prepending it with the host info of the current request.</p>
+<pre><code class="hljs php language-php"><span class="hljs-meta">&lt;?</span>= Html::a(<span class="hljs-string">'Create'</span>, [<span class="hljs-string">'create'</span>, <span class="hljs-string">'redirect'</span> =&gt; <span class="hljs-string">'index'</span>], [
+<span class="hljs-string">'class'</span> =&gt; <span class="hljs-string">'btn btn-primary btn-sm'</span>
+]) <span class="hljs-meta">?&gt;</span>
+</code></pre>
 
             </div>
 
@@ -330,10 +338,10 @@ yii\base\Action</td></tr>
             </div>
 
     <table class="detail-table table table-striped table-bordered table-hover">
-        <tr><td colspan="3" class="signature"><span class="signature-defs">public</span> <span class="signature-type"><a href="http://www.php.net/language.types.string">string</a>|<a href="http://www.php.net/language.types.null">null</a></span> <strong><a href="rootlocal-crud-actions-createaction.html#getScenario()-detail">getScenario</a></strong> ( )</td></tr>
+        <tr><td colspan="3" class="signature"><span class="signature-defs">public</span> <span class="signature-type"><a href="http://www.php.net/language.types.string">string</a></span> <strong><a href="rootlocal-crud-actions-createaction.html#getScenario()-detail">getScenario</a></strong> ( )</td></tr>
                                                 <tr>
                   <th class="param-name-col">return</th>
-                  <td class="param-type-col"><a href="http://www.php.net/language.types.string">string</a>|<a href="http://www.php.net/language.types.null">null</a></td>
+                  <td class="param-type-col"><a href="http://www.php.net/language.types.string">string</a></td>
                   <td class="param-desc-col"><p>Scenario for model. Defaults to <span class="broken-link">\yii\db\ActiveRecord::SCENARIO_DEFAULT</span></p>
 </td>
                 </tr>
@@ -478,7 +486,7 @@ yii\base\Action</td></tr>
 </div>
 
 <footer class="footer">
-        <p class="pull-right"><small>Page generated on Mon, 13 Jan 2020 12:39:37 +0000</small></p>
+        <p class="pull-right"><small>Page generated on Mon, 13 Jan 2020 20:05:40 +0000</small></p>
     Powered by <a href="http://www.yiiframework.com/" rel="external">Yii Framework</a></footer>
 
 <script>jQuery(function ($) {
