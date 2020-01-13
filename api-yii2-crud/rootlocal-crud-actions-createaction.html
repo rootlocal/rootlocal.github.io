@@ -10,7 +10,7 @@
 <link href="./assets/2b1a4eb6/style.css" rel="stylesheet">
 <script src="./assets/42ae3b76/jquery.js"></script>
 <script src="./assets/51ee6838/js/bootstrap.js"></script>
-<script src="./assets/557104ff/jssearch.js"></script>    <title>CreateAction, rootlocal\crud\actions\CreateAction - Yii Framework 2.0 API Documentation</title>
+<script src="./assets/557104ff/jssearch.js"></script>    <title>CreateAction, rootlocal\crud\actions\CreateAction - yii2-crud</title>
 </head>
 <body>
 
@@ -18,7 +18,7 @@
     <nav id="w3" class="navbar-inverse navbar-fixed-top navbar"><div class="navbar-header"><button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#w3-collapse"><span class="sr-only">Toggle navigation</span>
 <span class="icon-bar"></span>
 <span class="icon-bar"></span>
-<span class="icon-bar"></span></button><a class="navbar-brand" href="./index.html">Yii Framework 2.0 API Documentation</a></div><div id="w3-collapse" class="collapse navbar-collapse"><ul id="w4" class="navbar-nav nav"><li><a href="./index.html">Class reference</a></li></ul><div class="navbar-form navbar-left" role="search">
+<span class="icon-bar"></span></button><a class="navbar-brand" href="./index.html">yii2-crud</a></div><div id="w3-collapse" class="collapse navbar-collapse"><ul id="w4" class="navbar-nav nav"><li><a href="./index.html">Class reference</a></li></ul><div class="navbar-form navbar-left" role="search">
   <div class="form-group">
     <input id="searchbox" type="text" class="form-control" placeholder="Search">
   </div>
@@ -63,7 +63,39 @@ yii\base\Action</td></tr>
 
 <div class="class-description">
     <p><strong>Class CreateAction</strong></p>
-    
+    <p>examples:</p>
+<pre><code class="hljs php language-php"><span class="hljs-comment">// lambda function:</span>
+<span class="hljs-keyword">public</span> <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">actions</span><span class="hljs-params">()</span>
+</span>{
+     <span class="hljs-string">'create'</span> =&gt; [
+         <span class="hljs-string">'class'</span> =&gt; CreateAction::class,
+         <span class="hljs-string">'scenario'</span> =&gt; Book::SCENARIO_CREATE,
+         <span class="hljs-string">'model'</span> =&gt; <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-params">($scenario)</span> </span>{
+             <span class="hljs-keyword">return</span> <span class="hljs-keyword">new</span> Book([<span class="hljs-string">'scenario'</span> =&gt; $scenario]);
+         }
+     ]
+}
+
+<span class="hljs-comment">// string:</span>
+<span class="hljs-keyword">public</span> <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">actions</span><span class="hljs-params">()</span>
+</span>{
+     <span class="hljs-string">'create'</span> =&gt; [
+         <span class="hljs-string">'class'</span> =&gt; CreateAction::class,
+         <span class="hljs-string">'scenario'</span> =&gt; Book::SCENARIO_CREATE,
+         <span class="hljs-string">'model'</span> =&gt; Book::class
+     ]
+}
+
+<span class="hljs-comment">// ActiveRecord:</span>
+<span class="hljs-keyword">public</span> <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">actions</span><span class="hljs-params">()</span>
+</span>{
+     <span class="hljs-string">'create'</span> =&gt; [
+         <span class="hljs-string">'class'</span> =&gt; CreateAction::class,
+         <span class="hljs-string">'model'</span> =&gt; <span class="hljs-keyword">new</span> Book([<span class="hljs-string">'scenario'</span> =&gt; $scenario])
+     ]
+}
+</code></pre>
+
     </div>
 
 <a id="properties"></a>
@@ -83,7 +115,19 @@ yii\base\Action</td></tr>
 <tr>
   <th>Property</th><th>Type</th><th>Description</th><th>Defined By</th>
 </tr>
-        <tr id="$redirect">
+        <tr class="inherited" id="$controller">
+        <td><a href="rootlocal-crud-components-action.html#$controller-detail">$controller</a></td>
+        <td>\yii\base\Controller|\yii\web\Controller|\yii\console\Controller</td>
+        <td>The controller that owns this action</td>
+        <td><a href="rootlocal-crud-components-action.html">rootlocal\crud\components\Action</a></td>
+    </tr>
+            <tr class="inherited" id="$id">
+        <td><a href="rootlocal-crud-components-action.html#$id-detail">$id</a></td>
+        <td><a href="http://www.php.net/language.types.string">string</a></td>
+        <td>ID of the action</td>
+        <td><a href="rootlocal-crud-components-action.html">rootlocal\crud\components\Action</a></td>
+    </tr>
+            <tr id="$redirect">
         <td><a href="rootlocal-crud-actions-createaction.html#$redirect-detail">$redirect</a></td>
         <td><a href="http://www.php.net/language.types.string">string</a>|<a href="http://www.php.net/language.types.array">array</a></td>
         <td>The URL to be redirected to.</td>
@@ -114,33 +158,69 @@ yii\base\Action</td></tr>
 <tr>
   <th>Method</th><th>Description</th><th>Defined By</th>
 </tr>
-        <tr id="getModel()">
+                <tr id="getModel()">
         <td><a href="rootlocal-crud-actions-createaction.html#getModel()-detail">getModel()</a></td>
-        <td></td>
+        <td>Get ActiveRecord model</td>
         <td><a href="rootlocal-crud-actions-createaction.html">rootlocal\crud\actions\CreateAction</a></td>
     </tr>
             <tr id="getScenario()">
         <td><a href="rootlocal-crud-actions-createaction.html#getScenario()-detail">getScenario()</a></td>
-        <td></td>
+        <td>Get scenario</td>
         <td><a href="rootlocal-crud-actions-createaction.html">rootlocal\crud\actions\CreateAction</a></td>
+    </tr>
+            <tr class="inherited" id="getUniqueId()">
+        <td><a href="rootlocal-crud-components-action.html#getUniqueId()-detail">getUniqueId()</a></td>
+        <td>Returns the unique ID of this action among the whole application.</td>
+        <td><a href="rootlocal-crud-components-action.html">rootlocal\crud\components\Action</a></td>
     </tr>
             <tr id="run()">
         <td><a href="rootlocal-crud-actions-createaction.html#run()-detail">run()</a></td>
-        <td><code>php
-&lt;?= Html::a('Create', ['create', 'redirect' =&gt; 'index']) ?&gt;</code></td>
+        <td>Runs the action.</td>
         <td><a href="rootlocal-crud-actions-createaction.html">rootlocal\crud\actions\CreateAction</a></td>
+    </tr>
+            <tr class="inherited" id="runWithParams()">
+        <td><a href="rootlocal-crud-components-action.html#runWithParams()-detail">runWithParams()</a></td>
+        <td>Runs this action with the specified parameters.</td>
+        <td><a href="rootlocal-crud-components-action.html">rootlocal\crud\components\Action</a></td>
     </tr>
             <tr id="setModel()">
         <td><a href="rootlocal-crud-actions-createaction.html#setModel()-detail">setModel()</a></td>
-        <td></td>
+        <td>Set ActiveRecord model</td>
         <td><a href="rootlocal-crud-actions-createaction.html">rootlocal\crud\actions\CreateAction</a></td>
     </tr>
             <tr id="setScenario()">
         <td><a href="rootlocal-crud-actions-createaction.html#setScenario()-detail">setScenario()</a></td>
-        <td></td>
+        <td>Set scenario</td>
         <td><a href="rootlocal-crud-actions-createaction.html">rootlocal\crud\actions\CreateAction</a></td>
     </tr>
     </table>
+</div>
+
+<div class="summary doc-method">
+<h2>Protected Methods</h2>
+
+<p><a href="#" class="toggle">Hide inherited methods</a></p>
+
+<table class="summary-table table table-striped table-bordered table-hover">
+<colgroup>
+    <col class="col-method" />
+    <col class="col-description" />
+    <col class="col-defined" />
+</colgroup>
+<tr>
+  <th>Method</th><th>Description</th><th>Defined By</th>
+</tr>
+        <tr class="inherited" id="afterRun()">
+        <td><a href="rootlocal-crud-components-action.html#afterRun()-detail">afterRun()</a></td>
+        <td>This method is called right after <code>run()</code> is executed.</td>
+        <td><a href="rootlocal-crud-components-action.html">rootlocal\crud\components\Action</a></td>
+    </tr>
+            <tr class="inherited" id="beforeRun()">
+        <td><a href="rootlocal-crud-components-action.html#beforeRun()-detail">beforeRun()</a></td>
+        <td>This method is called right before <code>run()</code> is executed.</td>
+        <td><a href="rootlocal-crud-components-action.html">rootlocal\crud\components\Action</a></td>
+    </tr>
+                                </table>
 </div>
 
 <a id="events"></a>
@@ -167,7 +247,7 @@ yii\base\Action</td></tr>
 <li>a string representing a URL (e.g. "<a href="http://example.com">http://example.com</a>")</li>
 <li>a string representing a URL alias (e.g. "@example.com")</li>
 <li>an array in the format of <code>[$route, ...name-value pairs...]</code> (e.g. <code>['site/index', 'ref' =&gt; 1]</code>)
-<span class="broken-link">\rootlocal\crud\actions\Url::to()</span> will be used to convert the array into a URL.</li>
+<span class="broken-link">\yii\helpers\Url::to()</span> will be used to convert the array into a URL.</li>
 </ul>
 
             </div>
@@ -209,17 +289,24 @@ yii\base\Action</td></tr>
 
     
     <div class="doc-description">
-        <p><strong></strong></p>
+        <p><strong>Get ActiveRecord model</strong></p>
 
         
             </div>
 
     <table class="detail-table table table-striped table-bordered table-hover">
         <tr><td colspan="3" class="signature"><span class="signature-defs">public</span> <span class="signature-type">\yii\db\ActiveRecord</span> <strong><a href="rootlocal-crud-actions-createaction.html#getModel()-detail">getModel</a></strong> ( )</td></tr>
-                                                            <tr>
+                                                <tr>
+                  <th class="param-name-col">return</th>
+                  <td class="param-type-col">\yii\db\ActiveRecord</td>
+                  <td class="param-desc-col"><p>ActiveRecord object model</p>
+</td>
+                </tr>
+                                        <tr>
                   <th class="param-name-col">throws</th>
                   <td class="param-type-col">\yii\base\ErrorException</td>
-                  <td class="param-desc-col"></td>
+                  <td class="param-desc-col"><p>if Model not specified (not set)</p>
+</td>
                 </tr>
                         </table>
 
@@ -237,14 +324,20 @@ yii\base\Action</td></tr>
 
     
     <div class="doc-description">
-        <p><strong></strong></p>
+        <p><strong>Get scenario</strong></p>
 
         
             </div>
 
     <table class="detail-table table table-striped table-bordered table-hover">
         <tr><td colspan="3" class="signature"><span class="signature-defs">public</span> <span class="signature-type"><a href="http://www.php.net/language.types.string">string</a>|<a href="http://www.php.net/language.types.null">null</a></span> <strong><a href="rootlocal-crud-actions-createaction.html#getScenario()-detail">getScenario</a></strong> ( )</td></tr>
-            </table>
+                                                <tr>
+                  <th class="param-name-col">return</th>
+                  <td class="param-type-col"><a href="http://www.php.net/language.types.string">string</a>|<a href="http://www.php.net/language.types.null">null</a></td>
+                  <td class="param-desc-col"><p>Scenario for model. Defaults to <span class="broken-link">\yii\db\ActiveRecord::SCENARIO_DEFAULT</span></p>
+</td>
+                </tr>
+                                    </table>
 
 <!--	-->
 
@@ -260,26 +353,26 @@ yii\base\Action</td></tr>
 
     
     <div class="doc-description">
-        <p><strong><code>php
-&lt;?= Html::a('Create', ['create', 'redirect' =&gt; 'index']) ?&gt;</code></strong></p>
+        <p><strong>Runs the action.</strong></p>
 
         
             </div>
 
     <table class="detail-table table table-striped table-bordered table-hover">
-        <tr><td colspan="3" class="signature"><span class="signature-defs">public</span> <span class="signature-type"><a href="http://www.php.net/language.types.array">array</a>|<a href="http://www.php.net/language.types.string">string</a>|\yii\web\Response</span> <strong><a href="rootlocal-crud-actions-createaction.html#run()-detail">run</a></strong> ( <span class="signature-type">\rootlocal\crud\actions\string</span> <span style="color: #0000BB">$redirect&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">null</span> )</td></tr>
+        <tr><td colspan="3" class="signature"><span class="signature-defs">public</span> <span class="signature-type"><a href="http://www.php.net/language.types.array">array</a>|<a href="http://www.php.net/language.types.string">string</a>|\yii\web\Response</span> <strong><a href="rootlocal-crud-actions-createaction.html#run()-detail">run</a></strong> ( <span style="color: #0000BB">$redirect&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">null</span> )</td></tr>
                                     <tr>
                   <td class="param-name-col"><span style="color: #0000BB">$redirect</span></td>
-                  <td class="param-type-col"></td>
-                  <td class="param-desc-col"><p>String|null</p>
+                  <td class="param-type-col"><a href="http://www.php.net/language.types.string">string</a>|<a href="http://www.php.net/language.types.null">null</a></td>
+                  <td class="param-desc-col"><p>The URL to be redirected to</p>
 </td>
                 </tr>
-                                                    <tr>
-                  <th class="param-name-col">throws</th>
-                  <td class="param-type-col">\yii\base\ErrorException</td>
-                  <td class="param-desc-col"></td>
+                                        <tr>
+                  <th class="param-name-col">return</th>
+                  <td class="param-type-col"><a href="http://www.php.net/language.types.array">array</a>|<a href="http://www.php.net/language.types.string">string</a>|\yii\web\Response</td>
+                  <td class="param-desc-col"><p>Response</p>
+</td>
                 </tr>
-                        </table>
+                                    </table>
 
 <!--	-->
 
@@ -295,7 +388,7 @@ yii\base\Action</td></tr>
 
     
     <div class="doc-description">
-        <p><strong></strong></p>
+        <p><strong>Set ActiveRecord model</strong></p>
 
         
             </div>
@@ -304,14 +397,15 @@ yii\base\Action</td></tr>
         <tr><td colspan="3" class="signature"><span class="signature-defs">public</span> <span class="signature-type">void</span> <strong><a href="rootlocal-crud-actions-createaction.html#setModel()-detail">setModel</a></strong> ( <span style="color: #0000BB">$model</span> )</td></tr>
                                     <tr>
                   <td class="param-name-col"><span style="color: #0000BB">$model</span></td>
-                  <td class="param-type-col"></td>
-                  <td class="param-desc-col"><p>String|ActiveRecord|Closure</p>
+                  <td class="param-type-col"><a href="http://www.php.net/language.types.string">string</a>|\yii\db\ActiveRecord|<a href="http://www.php.net/class.closure">Closure</a></td>
+                  <td class="param-desc-col"><p>ActiveRecord model</p>
 </td>
                 </tr>
                                                     <tr>
                   <th class="param-name-col">throws</th>
                   <td class="param-type-col">\yii\base\InvalidConfigException</td>
-                  <td class="param-desc-col"></td>
+                  <td class="param-desc-col"><p>if the configuration is invalid</p>
+</td>
                 </tr>
                         </table>
 
@@ -329,7 +423,7 @@ yii\base\Action</td></tr>
 
     
     <div class="doc-description">
-        <p><strong></strong></p>
+        <p><strong>Set scenario</strong></p>
 
         
             </div>
@@ -338,8 +432,8 @@ yii\base\Action</td></tr>
         <tr><td colspan="3" class="signature"><span class="signature-defs">public</span> <span class="signature-type">void</span> <strong><a href="rootlocal-crud-actions-createaction.html#setScenario()-detail">setScenario</a></strong> ( <span style="color: #0000BB">$scenario</span> )</td></tr>
                                     <tr>
                   <td class="param-name-col"><span style="color: #0000BB">$scenario</span></td>
-                  <td class="param-type-col"></td>
-                  <td class="param-desc-col"><p>String|null</p>
+                  <td class="param-type-col"><a href="http://www.php.net/language.types.string">string</a>|<a href="http://www.php.net/language.types.null">null</a></td>
+                  <td class="param-desc-col"><p>Scenario for model. Defaults to <span class="broken-link">\yii\db\ActiveRecord::SCENARIO_DEFAULT</span></p>
 </td>
                 </tr>
                                                 </table>
@@ -384,7 +478,7 @@ yii\base\Action</td></tr>
 </div>
 
 <footer class="footer">
-        <p class="pull-right"><small>Page generated on Sun, 12 Jan 2020 21:53:39 +0000</small></p>
+        <p class="pull-right"><small>Page generated on Mon, 13 Jan 2020 12:39:37 +0000</small></p>
     Powered by <a href="http://www.yiiframework.com/" rel="external">Yii Framework</a></footer>
 
 <script>jQuery(function ($) {

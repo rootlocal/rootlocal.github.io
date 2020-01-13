@@ -2,26 +2,76 @@ Array
 (
     [0] => Array
         (
-            [file] => /Volumes/hdd/www/yii2-gp38.git/rootlocal/yii2-crud/src/actions/CreateAction.php
-            [message] => broken link to \rootlocal\crud\actions\Url::to() in rootlocal\crud\actions\CreateAction
+            [file] => /Volumes/hdd/www/yii2-gp38.git/rootlocal/yii2-crud/src/Bootstrap.php
+            [message] => broken link to \yii\base\BootstrapInterface in rootlocal\crud\Bootstrap
         )
 
     [1] => Array
+        (
+            [file] => /Volumes/hdd/www/yii2-gp38.git/rootlocal/yii2-crud/src/actions/CreateAction.php
+            [message] => broken link to \yii\helpers\Url::to() in rootlocal\crud\actions\CreateAction
+        )
+
+    [2] => Array
+        (
+            [file] => /Volumes/hdd/www/yii2-gp38.git/rootlocal/yii2-crud/src/actions/CreateAction.php
+            [message] => broken link to \yii\db\ActiveRecord::SCENARIO_DEFAULT in rootlocal\crud\actions\CreateAction
+        )
+
+    [3] => Array
+        (
+            [file] => /Volumes/hdd/www/yii2-gp38.git/rootlocal/yii2-crud/src/actions/CreateAction.php
+            [message] => broken link to \yii\db\ActiveRecord::SCENARIO_DEFAULT in rootlocal\crud\actions\CreateAction
+        )
+
+    [4] => Array
+        (
+            [line] => 72
+            [file] => /Volumes/hdd/www/yii2-gp38.git/rootlocal/yii2-crud/src/actions/DeleteAction.php
+            [message] => Method init has no parent to inherit from in rootlocal\crud\actions\DeleteAction.
+        )
+
+    [5] => Array
         (
             [file] => /Volumes/hdd/www/yii2-gp38.git/rootlocal/yii2-crud/src/actions/DeleteAction.php
             [message] => broken link to \rootlocal\crud\actions\Url::to() in rootlocal\crud\actions\DeleteAction
         )
 
-    [2] => Array
+    [6] => Array
+        (
+            [file] => /Volumes/hdd/www/yii2-gp38.git/rootlocal/yii2-crud/src/actions/IndexAction.php
+            [message] => broken link to \yii\data\ActiveDataProvider in rootlocal\crud\actions\IndexAction
+        )
+
+    [7] => Array
+        (
+            [file] => /Volumes/hdd/www/yii2-gp38.git/rootlocal/yii2-crud/src/actions/IndexAction.php
+            [message] => broken link to \yii\data\ActiveDataProvider in rootlocal\crud\actions\IndexAction
+        )
+
+    [8] => Array
+        (
+            [line] => 62
+            [file] => /Volumes/hdd/www/yii2-gp38.git/rootlocal/yii2-crud/src/actions/UpdateAction.php
+            [message] => Method init has no parent to inherit from in rootlocal\crud\actions\UpdateAction.
+        )
+
+    [9] => Array
         (
             [file] => /Volumes/hdd/www/yii2-gp38.git/rootlocal/yii2-crud/src/actions/UpdateAction.php
             [message] => broken link to \rootlocal\crud\actions\Url::to() in rootlocal\crud\actions\UpdateAction
         )
 
-    [3] => Array
+    [10] => Array
         (
             [file] => /Volumes/hdd/www/yii2-gp38.git/rootlocal/yii2-crud/src/actions/UpdateAction.php
             [message] => broken link to \rootlocal\crud\actions\SCENARIO_DEFAULT in rootlocal\crud\actions\UpdateAction
+        )
+
+    [11] => Array
+        (
+            [file] => /Volumes/hdd/www/yii2-gp38.git/rootlocal/yii2-crud/src/components/Action.php
+            [message] => broken link to \yii\base\Action in rootlocal\crud\components\Action
         )
 
 )
