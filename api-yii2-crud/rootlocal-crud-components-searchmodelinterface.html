@@ -57,9 +57,25 @@
                                         </table>
 
 <div class="class-description">
-    <p><strong>Interface SearchModelInterface</strong></p>
-    
-    </div>
+    <p><strong>SearchModelInterface
+is an interface that should be implemented in classes of search models.</strong></p>
+    <p>examples:</p>
+<pre><code class="hljs php language-php"><span class="hljs-keyword">use</span> <span class="hljs-title">rootlocal</span>\<span class="hljs-title">crud</span>\<span class="hljs-title">components</span>\<span class="hljs-title">SearchModelInterface</span>;
+
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">BookSearch</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">Book</span> <span class="hljs-keyword">implements</span> <span class="hljs-title">SearchModelInterface</span>
+</span>{
+
+     <span class="hljs-comment">// ...</span>
+
+     <span class="hljs-keyword">public</span> <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">search</span><span class="hljs-params">($params = [])</span>
+     </span>{
+         <span class="hljs-comment">// ...</span>
+         <span class="hljs-keyword">return</span> $dataProvider;
+     }
+}
+</code></pre>
+
+    <p>See also <a href="rootlocal-crud-actions-indexaction.html">rootlocal\crud\actions\IndexAction</a>.</p></div>
 
 <a id="properties"></a>
 
@@ -81,7 +97,7 @@
 </tr>
         <tr id="search()">
         <td><a href="rootlocal-crud-components-searchmodelinterface.html#search()-detail">search()</a></td>
-        <td></td>
+        <td>Creates data provider instance with search query applied</td>
         <td><a href="rootlocal-crud-components-searchmodelinterface.html">rootlocal\crud\components\SearchModelInterface</a></td>
     </tr>
     </table>
@@ -107,7 +123,7 @@
 
     
     <div class="doc-description">
-        <p><strong></strong></p>
+        <p><strong>Creates data provider instance with search query applied</strong></p>
 
         
             </div>
@@ -117,9 +133,16 @@
                                     <tr>
                   <td class="param-name-col"><span style="color: #0000BB">$params</span></td>
                   <td class="param-type-col"><a href="http://www.php.net/language.types.array">array</a></td>
-                  <td class="param-desc-col"></td>
+                  <td class="param-desc-col"><p>The request GET parameter values.</p>
+</td>
                 </tr>
-                                                </table>
+                                        <tr>
+                  <th class="param-name-col">return</th>
+                  <td class="param-type-col">\yii\data\ActiveDataProvider</td>
+                  <td class="param-desc-col"><p>ActiveDataProvider implements a data provider based on <span class="broken-link">\yii\db\Query</span> and <span class="broken-link">\yii\db\ActiveQuery</span>.</p>
+</td>
+                </tr>
+                                    </table>
 
 <!--	-->
 </div>
@@ -161,7 +184,7 @@
 </div>
 
 <footer class="footer">
-        <p class="pull-right"><small>Page generated on Mon, 13 Jan 2020 12:39:37 +0000</small></p>
+        <p class="pull-right"><small>Page generated on Mon, 13 Jan 2020 20:05:41 +0000</small></p>
     Powered by <a href="http://www.yiiframework.com/" rel="external">Yii Framework</a></footer>
 
 <script>jQuery(function ($) {
