@@ -1,0 +1,1233 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="language" content="en" />
+        
+<link href="./assets/69608709/css/bootstrap.css" rel="stylesheet">
+<link href="./assets/b57d45b6/solarized_light.css" rel="stylesheet">
+<link href="./assets/2cb8559b/style.css" rel="stylesheet">
+<script src="./assets/17baad71/jquery.js"></script>
+<script src="./assets/69608709/js/bootstrap.js"></script>
+<script src="./assets/ef6629b9/jssearch.js"></script>    <title>Yii Framework 2.0 API Documentation</title>
+</head>
+<body>
+
+<div class="wrap">
+    <nav id="w4546" class="navbar-inverse navbar-fixed-top navbar"><div class="navbar-header"><button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#w4546-collapse"><span class="sr-only">Toggle navigation</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span></button><a class="navbar-brand" href="./index.html">Yii Framework 2.0 API Documentation</a></div><div id="w4546-collapse" class="collapse navbar-collapse"><ul id="w4547" class="navbar-nav nav"><li><a href="./index.html">Class reference</a></li>
+<li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Extensions <span class="caret"></span></a><ul id="w4548" class="dropdown-menu"><li><a href="./ext-bootstrap-index.html" tabindex="-1">bootstrap</a></li></ul></li></ul><div class="navbar-form navbar-left" role="search">
+  <div class="form-group">
+    <input id="searchbox" type="text" class="form-control" placeholder="Search">
+  </div>
+</div>
+</div></nav>
+    <div id="search-resultbox" style="display: none;" class="modal-content">
+        <ul id="search-results">
+        </ul>
+    </div>
+
+    
+<div class="row">
+    <div class="col-md-3">
+                <div id="navigation" class="list-group"><a class="list-group-item" href="#navigation-4528" data-toggle="collapse" data-parent="#navigation">yii\base <b class="caret"></b></a><div id="navigation-4528" class="submenu panel-collapse collapse"><a class="list-group-item" href="./yii-base-action.html">Action</a>
+<a class="list-group-item" href="./yii-base-actionevent.html">ActionEvent</a>
+<a class="list-group-item" href="./yii-base-actionfilter.html">ActionFilter</a>
+<a class="list-group-item" href="./yii-base-application.html">Application</a>
+<a class="list-group-item" href="./yii-base-arrayaccesstrait.html">ArrayAccessTrait</a>
+<a class="list-group-item" href="./yii-base-arrayable.html">Arrayable</a>
+<a class="list-group-item" href="./yii-base-arrayabletrait.html">ArrayableTrait</a>
+<a class="list-group-item" href="./yii-base-baseobject.html">BaseObject</a>
+<a class="list-group-item" href="./yii-base-behavior.html">Behavior</a>
+<a class="list-group-item" href="./yii-base-bootstrapinterface.html">BootstrapInterface</a>
+<a class="list-group-item" href="./yii-base-component.html">Component</a>
+<a class="list-group-item" href="./yii-base-configurable.html">Configurable</a>
+<a class="list-group-item" href="./yii-base-controller.html">Controller</a>
+<a class="list-group-item" href="./yii-base-dynamiccontentawareinterface.html">DynamicContentAwareInterface</a>
+<a class="list-group-item" href="./yii-base-dynamiccontentawaretrait.html">DynamicContentAwareTrait</a>
+<a class="list-group-item" href="./yii-base-dynamicmodel.html">DynamicModel</a>
+<a class="list-group-item" href="./yii-base-errorexception.html">ErrorException</a>
+<a class="list-group-item" href="./yii-base-errorhandler.html">ErrorHandler</a>
+<a class="list-group-item" href="./yii-base-event.html">Event</a>
+<a class="list-group-item" href="./yii-base-exception.html">Exception</a>
+<a class="list-group-item" href="./yii-base-exitexception.html">ExitException</a>
+<a class="list-group-item" href="./yii-base-inlineaction.html">InlineAction</a>
+<a class="list-group-item" href="./yii-base-invalidargumentexception.html">InvalidArgumentException</a>
+<a class="list-group-item" href="./yii-base-invalidcallexception.html">InvalidCallException</a>
+<a class="list-group-item" href="./yii-base-invalidconfigexception.html">InvalidConfigException</a>
+<a class="list-group-item" href="./yii-base-invalidparamexception.html">InvalidParamException</a>
+<a class="list-group-item" href="./yii-base-invalidrouteexception.html">InvalidRouteException</a>
+<a class="list-group-item" href="./yii-base-invalidvalueexception.html">InvalidValueException</a>
+<a class="list-group-item" href="./yii-base-model.html">Model</a>
+<a class="list-group-item" href="./yii-base-modelevent.html">ModelEvent</a>
+<a class="list-group-item" href="./yii-base-module.html">Module</a>
+<a class="list-group-item" href="./yii-base-notsupportedexception.html">NotSupportedException</a>
+<a class="list-group-item" href="./yii-base-request.html">Request</a>
+<a class="list-group-item" href="./yii-base-response.html">Response</a>
+<a class="list-group-item" href="./yii-base-security.html">Security</a>
+<a class="list-group-item" href="./yii-base-staticinstanceinterface.html">StaticInstanceInterface</a>
+<a class="list-group-item" href="./yii-base-staticinstancetrait.html">StaticInstanceTrait</a>
+<a class="list-group-item" href="./yii-base-theme.html">Theme</a>
+<a class="list-group-item" href="./yii-base-unknownclassexception.html">UnknownClassException</a>
+<a class="list-group-item" href="./yii-base-unknownmethodexception.html">UnknownMethodException</a>
+<a class="list-group-item" href="./yii-base-unknownpropertyexception.html">UnknownPropertyException</a>
+<a class="list-group-item" href="./yii-base-userexception.html">UserException</a>
+<a class="list-group-item" href="./yii-base-view.html">View</a>
+<a class="list-group-item" href="./yii-base-viewcontextinterface.html">ViewContextInterface</a>
+<a class="list-group-item" href="./yii-base-viewevent.html">ViewEvent</a>
+<a class="list-group-item" href="./yii-base-viewnotfoundexception.html">ViewNotFoundException</a>
+<a class="list-group-item" href="./yii-base-viewrenderer.html">ViewRenderer</a>
+<a class="list-group-item" href="./yii-base-widget.html">Widget</a>
+<a class="list-group-item" href="./yii-base-widgetevent.html">WidgetEvent</a></div>
+<a class="list-group-item" href="#navigation-4529" data-toggle="collapse" data-parent="#navigation">yii\console <b class="caret"></b></a><div id="navigation-4529" class="submenu panel-collapse collapse"><a class="list-group-item" href="./yii-console-application.html">Application</a>
+<a class="list-group-item" href="./yii-console-controller.html">Controller</a>
+<a class="list-group-item" href="./yii-console-errorhandler.html">ErrorHandler</a>
+<a class="list-group-item" href="./yii-console-exception.html">Exception</a>
+<a class="list-group-item" href="./yii-console-exitcode.html">ExitCode</a>
+<a class="list-group-item" href="./yii-console-markdown.html">Markdown</a>
+<a class="list-group-item" href="./yii-console-request.html">Request</a>
+<a class="list-group-item" href="./yii-console-response.html">Response</a>
+<a class="list-group-item" href="./yii-console-unknowncommandexception.html">UnknownCommandException</a></div>
+<a class="list-group-item" href="#navigation-4530" data-toggle="collapse" data-parent="#navigation">yii\console\controllers <b class="caret"></b></a><div id="navigation-4530" class="submenu panel-collapse collapse"><a class="list-group-item" href="./yii-console-controllers-assetcontroller.html">AssetController</a>
+<a class="list-group-item" href="./yii-console-controllers-basemigratecontroller.html">BaseMigrateController</a>
+<a class="list-group-item" href="./yii-console-controllers-cachecontroller.html">CacheController</a>
+<a class="list-group-item" href="./yii-console-controllers-fixturecontroller.html">FixtureController</a>
+<a class="list-group-item" href="./yii-console-controllers-helpcontroller.html">HelpController</a>
+<a class="list-group-item" href="./yii-console-controllers-messagecontroller.html">MessageController</a>
+<a class="list-group-item" href="./yii-console-controllers-migratecontroller.html">MigrateController</a>
+<a class="list-group-item" href="./yii-console-controllers-servecontroller.html">ServeController</a></div>
+<a class="list-group-item" href="#navigation-4531" data-toggle="collapse" data-parent="#navigation">yii\console\widgets <b class="caret"></b></a><div id="navigation-4531" class="submenu panel-collapse collapse"><a class="list-group-item" href="./yii-console-widgets-table.html">Table</a></div>
+<a class="list-group-item" href="#navigation-4532" data-toggle="collapse" data-parent="#navigation">yii\data <b class="caret"></b></a><div id="navigation-4532" class="submenu panel-collapse collapse"><a class="list-group-item" href="./yii-data-activedatafilter.html">ActiveDataFilter</a>
+<a class="list-group-item" href="./yii-data-activedataprovider.html">ActiveDataProvider</a>
+<a class="list-group-item" href="./yii-data-arraydataprovider.html">ArrayDataProvider</a>
+<a class="list-group-item" href="./yii-data-basedataprovider.html">BaseDataProvider</a>
+<a class="list-group-item" href="./yii-data-datafilter.html">DataFilter</a>
+<a class="list-group-item" href="./yii-data-dataproviderinterface.html">DataProviderInterface</a>
+<a class="list-group-item" href="./yii-data-pagination.html">Pagination</a>
+<a class="list-group-item" href="./yii-data-sort.html">Sort</a>
+<a class="list-group-item" href="./yii-data-sqldataprovider.html">SqlDataProvider</a></div>
+<a class="list-group-item" href="#navigation-4533" data-toggle="collapse" data-parent="#navigation">yii\db <b class="caret"></b></a><div id="navigation-4533" class="submenu panel-collapse collapse"><a class="list-group-item" href="./yii-db-activequery.html">ActiveQuery</a>
+<a class="list-group-item" href="./yii-db-activequeryinterface.html">ActiveQueryInterface</a>
+<a class="list-group-item" href="./yii-db-activequerytrait.html">ActiveQueryTrait</a>
+<a class="list-group-item" href="./yii-db-activerecord.html">ActiveRecord</a>
+<a class="list-group-item" href="./yii-db-activerecordinterface.html">ActiveRecordInterface</a>
+<a class="list-group-item" href="./yii-db-activerelationtrait.html">ActiveRelationTrait</a>
+<a class="list-group-item" href="./yii-db-aftersaveevent.html">AfterSaveEvent</a>
+<a class="list-group-item" href="./yii-db-arrayexpression.html">ArrayExpression</a>
+<a class="list-group-item" href="./yii-db-baseactiverecord.html">BaseActiveRecord</a>
+<a class="list-group-item" href="./yii-db-batchqueryresult.html">BatchQueryResult</a>
+<a class="list-group-item" href="./yii-db-checkconstraint.html">CheckConstraint</a>
+<a class="list-group-item" href="./yii-db-columnschema.html">ColumnSchema</a>
+<a class="list-group-item" href="./yii-db-columnschemabuilder.html">ColumnSchemaBuilder</a>
+<a class="list-group-item" href="./yii-db-command.html">Command</a>
+<a class="list-group-item" href="./yii-db-connection.html">Connection</a>
+<a class="list-group-item" href="./yii-db-constraint.html">Constraint</a>
+<a class="list-group-item" href="./yii-db-constraintfinderinterface.html">ConstraintFinderInterface</a>
+<a class="list-group-item" href="./yii-db-constraintfindertrait.html">ConstraintFinderTrait</a>
+<a class="list-group-item" href="./yii-db-datareader.html">DataReader</a>
+<a class="list-group-item" href="./yii-db-defaultvalueconstraint.html">DefaultValueConstraint</a>
+<a class="list-group-item" href="./yii-db-exception.html">Exception</a>
+<a class="list-group-item" href="./yii-db-expression.html">Expression</a>
+<a class="list-group-item" href="./yii-db-expressionbuilder.html">ExpressionBuilder</a>
+<a class="list-group-item" href="./yii-db-expressionbuilderinterface.html">ExpressionBuilderInterface</a>
+<a class="list-group-item" href="./yii-db-expressionbuildertrait.html">ExpressionBuilderTrait</a>
+<a class="list-group-item" href="./yii-db-expressioninterface.html">ExpressionInterface</a>
+<a class="list-group-item" href="./yii-db-foreignkeyconstraint.html">ForeignKeyConstraint</a>
+<a class="list-group-item" href="./yii-db-indexconstraint.html">IndexConstraint</a>
+<a class="list-group-item" href="./yii-db-integrityexception.html">IntegrityException</a>
+<a class="list-group-item" href="./yii-db-jsonexpression.html">JsonExpression</a>
+<a class="list-group-item" href="./yii-db-migration.html">Migration</a>
+<a class="list-group-item" href="./yii-db-migrationinterface.html">MigrationInterface</a>
+<a class="list-group-item" href="./yii-db-pdovalue.html">PdoValue</a>
+<a class="list-group-item" href="./yii-db-pdovaluebuilder.html">PdoValueBuilder</a>
+<a class="list-group-item" href="./yii-db-query.html">Query</a>
+<a class="list-group-item" href="./yii-db-querybuilder.html">QueryBuilder</a>
+<a class="list-group-item" href="./yii-db-queryexpressionbuilder.html">QueryExpressionBuilder</a>
+<a class="list-group-item" href="./yii-db-queryinterface.html">QueryInterface</a>
+<a class="list-group-item" href="./yii-db-querytrait.html">QueryTrait</a>
+<a class="list-group-item" href="./yii-db-schema.html">Schema</a>
+<a class="list-group-item" href="./yii-db-schemabuildertrait.html">SchemaBuilderTrait</a>
+<a class="list-group-item" href="./yii-db-sqltoken.html">SqlToken</a>
+<a class="list-group-item" href="./yii-db-sqltokenizer.html">SqlTokenizer</a>
+<a class="list-group-item" href="./yii-db-staleobjectexception.html">StaleObjectException</a>
+<a class="list-group-item" href="./yii-db-tableschema.html">TableSchema</a>
+<a class="list-group-item" href="./yii-db-transaction.html">Transaction</a>
+<a class="list-group-item" href="./yii-db-viewfindertrait.html">ViewFinderTrait</a></div>
+<a class="list-group-item" href="#navigation-4534" data-toggle="collapse" data-parent="#navigation">yii\db\conditions <b class="caret"></b></a><div id="navigation-4534" class="submenu panel-collapse collapse"><a class="list-group-item" href="./yii-db-conditions-andcondition.html">AndCondition</a>
+<a class="list-group-item" href="./yii-db-conditions-betweencolumnscondition.html">BetweenColumnsCondition</a>
+<a class="list-group-item" href="./yii-db-conditions-betweencolumnsconditionbuilder.html">BetweenColumnsConditionBuilder</a>
+<a class="list-group-item" href="./yii-db-conditions-betweencondition.html">BetweenCondition</a>
+<a class="list-group-item" href="./yii-db-conditions-betweenconditionbuilder.html">BetweenConditionBuilder</a>
+<a class="list-group-item" href="./yii-db-conditions-conditioninterface.html">ConditionInterface</a>
+<a class="list-group-item" href="./yii-db-conditions-conjunctioncondition.html">ConjunctionCondition</a>
+<a class="list-group-item" href="./yii-db-conditions-conjunctionconditionbuilder.html">ConjunctionConditionBuilder</a>
+<a class="list-group-item" href="./yii-db-conditions-existscondition.html">ExistsCondition</a>
+<a class="list-group-item" href="./yii-db-conditions-existsconditionbuilder.html">ExistsConditionBuilder</a>
+<a class="list-group-item" href="./yii-db-conditions-hashcondition.html">HashCondition</a>
+<a class="list-group-item" href="./yii-db-conditions-hashconditionbuilder.html">HashConditionBuilder</a>
+<a class="list-group-item" href="./yii-db-conditions-incondition.html">InCondition</a>
+<a class="list-group-item" href="./yii-db-conditions-inconditionbuilder.html">InConditionBuilder</a>
+<a class="list-group-item" href="./yii-db-conditions-likecondition.html">LikeCondition</a>
+<a class="list-group-item" href="./yii-db-conditions-likeconditionbuilder.html">LikeConditionBuilder</a>
+<a class="list-group-item" href="./yii-db-conditions-notcondition.html">NotCondition</a>
+<a class="list-group-item" href="./yii-db-conditions-notconditionbuilder.html">NotConditionBuilder</a>
+<a class="list-group-item" href="./yii-db-conditions-orcondition.html">OrCondition</a>
+<a class="list-group-item" href="./yii-db-conditions-simplecondition.html">SimpleCondition</a>
+<a class="list-group-item" href="./yii-db-conditions-simpleconditionbuilder.html">SimpleConditionBuilder</a></div>
+<a class="list-group-item" href="#navigation-4535" data-toggle="collapse" data-parent="#navigation">yii\db\cubrid <b class="caret"></b></a><div id="navigation-4535" class="submenu panel-collapse collapse"><a class="list-group-item" href="./yii-db-cubrid-columnschemabuilder.html">ColumnSchemaBuilder</a>
+<a class="list-group-item" href="./yii-db-cubrid-querybuilder.html">QueryBuilder</a>
+<a class="list-group-item" href="./yii-db-cubrid-schema.html">Schema</a></div>
+<a class="list-group-item" href="#navigation-4536" data-toggle="collapse" data-parent="#navigation">yii\db\cubrid\conditions <b class="caret"></b></a><div id="navigation-4536" class="submenu panel-collapse collapse"><a class="list-group-item" href="./yii-db-cubrid-conditions-likeconditionbuilder.html">LikeConditionBuilder</a></div>
+<a class="list-group-item" href="#navigation-4537" data-toggle="collapse" data-parent="#navigation">yii\db\mssql <b class="caret"></b></a><div id="navigation-4537" class="submenu panel-collapse collapse"><a class="list-group-item" href="./yii-db-mssql-columnschema.html">ColumnSchema</a>
+<a class="list-group-item" href="./yii-db-mssql-pdo.html">PDO</a>
+<a class="list-group-item" href="./yii-db-mssql-querybuilder.html">QueryBuilder</a>
+<a class="list-group-item" href="./yii-db-mssql-schema.html">Schema</a>
+<a class="list-group-item" href="./yii-db-mssql-sqlsrvpdo.html">SqlsrvPDO</a>
+<a class="list-group-item" href="./yii-db-mssql-tableschema.html">TableSchema</a></div>
+<a class="list-group-item" href="#navigation-4538" data-toggle="collapse" data-parent="#navigation">yii\db\mssql\conditions <b class="caret"></b></a><div id="navigation-4538" class="submenu panel-collapse collapse"><a class="list-group-item" href="./yii-db-mssql-conditions-inconditionbuilder.html">InConditionBuilder</a>
+<a class="list-group-item" href="./yii-db-mssql-conditions-likeconditionbuilder.html">LikeConditionBuilder</a></div>
+<a class="list-group-item" href="#navigation-4539" data-toggle="collapse" data-parent="#navigation">yii\db\mysql <b class="caret"></b></a><div id="navigation-4539" class="submenu panel-collapse collapse"><a class="list-group-item" href="./yii-db-mysql-columnschema.html">ColumnSchema</a>
+<a class="list-group-item" href="./yii-db-mysql-columnschemabuilder.html">ColumnSchemaBuilder</a>
+<a class="list-group-item" href="./yii-db-mysql-jsonexpressionbuilder.html">JsonExpressionBuilder</a>
+<a class="list-group-item" href="./yii-db-mysql-querybuilder.html">QueryBuilder</a>
+<a class="list-group-item" href="./yii-db-mysql-schema.html">Schema</a></div>
+<a class="list-group-item" href="#navigation-4540" data-toggle="collapse" data-parent="#navigation">yii\db\oci <b class="caret"></b></a><div id="navigation-4540" class="submenu panel-collapse collapse"><a class="list-group-item" href="./yii-db-oci-columnschemabuilder.html">ColumnSchemaBuilder</a>
+<a class="list-group-item" href="./yii-db-oci-querybuilder.html">QueryBuilder</a>
+<a class="list-group-item" href="./yii-db-oci-schema.html">Schema</a></div>
+<a class="list-group-item" href="#navigation-4541" data-toggle="collapse" data-parent="#navigation">yii\db\oci\conditions <b class="caret"></b></a><div id="navigation-4541" class="submenu panel-collapse collapse"><a class="list-group-item" href="./yii-db-oci-conditions-inconditionbuilder.html">InConditionBuilder</a>
+<a class="list-group-item" href="./yii-db-oci-conditions-likeconditionbuilder.html">LikeConditionBuilder</a></div>
+<a class="list-group-item" href="#navigation-4542" data-toggle="collapse" data-parent="#navigation">yii\db\pgsql <b class="caret"></b></a><div id="navigation-4542" class="submenu panel-collapse collapse"><a class="list-group-item" href="./yii-db-pgsql-arrayexpressionbuilder.html">ArrayExpressionBuilder</a>
+<a class="list-group-item" href="./yii-db-pgsql-arrayparser.html">ArrayParser</a>
+<a class="list-group-item" href="./yii-db-pgsql-columnschema.html">ColumnSchema</a>
+<a class="list-group-item" href="./yii-db-pgsql-jsonexpressionbuilder.html">JsonExpressionBuilder</a>
+<a class="list-group-item" href="./yii-db-pgsql-querybuilder.html">QueryBuilder</a>
+<a class="list-group-item" href="./yii-db-pgsql-schema.html">Schema</a></div>
+<a class="list-group-item" href="#navigation-4543" data-toggle="collapse" data-parent="#navigation">yii\db\sqlite <b class="caret"></b></a><div id="navigation-4543" class="submenu panel-collapse collapse"><a class="list-group-item" href="./yii-db-sqlite-columnschemabuilder.html">ColumnSchemaBuilder</a>
+<a class="list-group-item" href="./yii-db-sqlite-command.html">Command</a>
+<a class="list-group-item" href="./yii-db-sqlite-querybuilder.html">QueryBuilder</a>
+<a class="list-group-item" href="./yii-db-sqlite-schema.html">Schema</a>
+<a class="list-group-item" href="./yii-db-sqlite-sqltokenizer.html">SqlTokenizer</a></div>
+<a class="list-group-item" href="#navigation-4544" data-toggle="collapse" data-parent="#navigation">yii\db\sqlite\conditions <b class="caret"></b></a><div id="navigation-4544" class="submenu panel-collapse collapse"><a class="list-group-item" href="./yii-db-sqlite-conditions-inconditionbuilder.html">InConditionBuilder</a>
+<a class="list-group-item" href="./yii-db-sqlite-conditions-likeconditionbuilder.html">LikeConditionBuilder</a></div>
+<a class="list-group-item" href="#navigation-4545" data-toggle="collapse" data-parent="#navigation">yii\helpers <b class="caret"></b></a><div id="navigation-4545" class="submenu panel-collapse collapse"><a class="list-group-item" href="./yii-helpers-arrayhelper.html">ArrayHelper</a>
+<a class="list-group-item" href="./yii-helpers-basearrayhelper.html">BaseArrayHelper</a>
+<a class="list-group-item" href="./yii-helpers-baseconsole.html">BaseConsole</a>
+<a class="list-group-item" href="./yii-helpers-basefilehelper.html">BaseFileHelper</a>
+<a class="list-group-item" href="./yii-helpers-baseformatconverter.html">BaseFormatConverter</a>
+<a class="list-group-item" href="./yii-helpers-basehtml.html">BaseHtml</a>
+<a class="list-group-item" href="./yii-helpers-basehtmlpurifier.html">BaseHtmlPurifier</a>
+<a class="list-group-item" href="./yii-helpers-baseinflector.html">BaseInflector</a>
+<a class="list-group-item" href="./yii-helpers-baseiphelper.html">BaseIpHelper</a>
+<a class="list-group-item" href="./yii-helpers-basejson.html">BaseJson</a>
+<a class="list-group-item" href="./yii-helpers-basemarkdown.html">BaseMarkdown</a>
+<a class="list-group-item" href="./yii-helpers-basestringhelper.html">BaseStringHelper</a>
+<a class="list-group-item" href="./yii-helpers-baseurl.html">BaseUrl</a>
+<a class="list-group-item" href="./yii-helpers-basevardumper.html">BaseVarDumper</a>
+<a class="list-group-item" href="./yii-helpers-console.html">Console</a>
+<a class="list-group-item" href="./yii-helpers-filehelper.html">FileHelper</a>
+<a class="list-group-item" href="./yii-helpers-formatconverter.html">FormatConverter</a>
+<a class="list-group-item" href="./yii-helpers-html.html">Html</a>
+<a class="list-group-item" href="./yii-helpers-htmlpurifier.html">HtmlPurifier</a>
+<a class="list-group-item" href="./yii-helpers-inflector.html">Inflector</a>
+<a class="list-group-item" href="./yii-helpers-iphelper.html">IpHelper</a>
+<a class="list-group-item" href="./yii-helpers-json.html">Json</a>
+<a class="list-group-item" href="./yii-helpers-markdown.html">Markdown</a>
+<a class="list-group-item" href="./yii-helpers-replacearrayvalue.html">ReplaceArrayValue</a>
+<a class="list-group-item" href="./yii-helpers-stringhelper.html">StringHelper</a>
+<a class="list-group-item" href="./yii-helpers-unsetarrayvalue.html">UnsetArrayValue</a>
+<a class="list-group-item" href="./yii-helpers-url.html">Url</a>
+<a class="list-group-item" href="./yii-helpers-vardumper.html">VarDumper</a></div></div>    </div>
+    <div class="col-md-9 api-content" role="main">
+        <h1>Yii PHP Framework Version 2 <span id="yii-php-framework-version-2"></span><a href="#yii-php-framework-version-2" class="hashlink">&para;</a></h1><p>This is the core framework code of <a href="https://github.com/yiisoft/yii2#readme">Yii 2</a>.</p>
+<p>This repository is a read-only git subsplit of <a href="https://github.com/yiisoft/yii2">https://github.com/yiisoft/yii2</a>.
+Please submit issue reports and pull requests to the main repository.
+For license information check the <a href="LICENSE.md">LICENSE</a>-file.</p>
+<h2>Installation <span id="installation"></span><a href="#installation" class="hashlink">&para;</a></h2><p>The preferred way to install the Yii framework is through <a href="http://getcomposer.org/download/">composer</a>.</p>
+<p>Refer to <a href="https://www.yiiframework.com/doc/guide/2.0/en/structure-assets#bower-npm-assets">Bower and NPM Assets installation</a> to select an asset installation method.</p>
+<p>Either run</p>
+<pre><code class="hljs nginx"><span class="hljs-attribute">composer</span> require yiisoft/yii2
+</code></pre>
+<p>or add</p>
+<pre><code class="hljs json language-json"><span class="hljs-string">"yiisoft/yii2"</span>: <span class="hljs-string">"~2.0.0"</span>,
+</code></pre>
+<p>to the require section of your composer.json.</p>
+<h1>Class Reference</h1>
+
+<table class="summaryTable docIndex table table-bordered table-striped table-hover">
+    <colgroup>
+        <col class="col-package" />
+        <col class="col-class" />
+        <col class="col-description" />
+    </colgroup>
+    <tr>
+        <th>Class</th>
+        <th>Description</th>
+    </tr>
+    <tr>
+        <td><a href="yii-base-action.html">yii\base\Action</a></td>
+        <td>Action is the base class for all controller action classes.</td>
+    </tr>
+    <tr>
+        <td><a href="yii-base-actionevent.html">yii\base\ActionEvent</a></td>
+        <td>ActionEvent represents the event parameter used for an action event.</td>
+    </tr>
+    <tr>
+        <td><a href="yii-base-actionfilter.html">yii\base\ActionFilter</a></td>
+        <td>ActionFilter is the base class for action filters.</td>
+    </tr>
+    <tr>
+        <td><a href="yii-base-application.html">yii\base\Application</a></td>
+        <td>Application is the base class for all application classes.</td>
+    </tr>
+    <tr>
+        <td><a href="yii-base-arrayaccesstrait.html">yii\base\ArrayAccessTrait</a></td>
+        <td>ArrayAccessTrait provides the implementation for <a href="http://www.php.net/class.iteratoraggregate">IteratorAggregate</a>, <a href="http://www.php.net/class.arrayaccess">ArrayAccess</a> and <a href="http://www.php.net/class.countable">Countable</a>.</td>
+    </tr>
+    <tr>
+        <td><a href="yii-base-arrayable.html">yii\base\Arrayable</a></td>
+        <td>Arrayable is the interface that should be implemented by classes who want to support customizable representation of their instances.</td>
+    </tr>
+    <tr>
+        <td><a href="yii-base-arrayabletrait.html">yii\base\ArrayableTrait</a></td>
+        <td>ArrayableTrait provides a common implementation of the <a href="yii-base-arrayable.html">yii\base\Arrayable</a> interface.</td>
+    </tr>
+    <tr>
+        <td><a href="yii-base-baseobject.html">yii\base\BaseObject</a></td>
+        <td>BaseObject is the base class that implements the <em>property</em> feature.</td>
+    </tr>
+    <tr>
+        <td><a href="yii-base-behavior.html">yii\base\Behavior</a></td>
+        <td>Behavior is the base class for all behavior classes.</td>
+    </tr>
+    <tr>
+        <td><a href="yii-base-bootstrapinterface.html">yii\base\BootstrapInterface</a></td>
+        <td>BootstrapInterface is the interface that should be implemented by classes who want to participate in the application bootstrap process.</td>
+    </tr>
+    <tr>
+        <td><a href="yii-base-component.html">yii\base\Component</a></td>
+        <td>Component is the base class that implements the <em>property</em>, <em>event</em> and <em>behavior</em> features.</td>
+    </tr>
+    <tr>
+        <td><a href="yii-base-configurable.html">yii\base\Configurable</a></td>
+        <td>Configurable is the interface that should be implemented by classes who support configuring
+its properties through the last parameter to its constructor.</td>
+    </tr>
+    <tr>
+        <td><a href="yii-base-controller.html">yii\base\Controller</a></td>
+        <td>Controller is the base class for classes containing controller logic.</td>
+    </tr>
+    <tr>
+        <td><a href="yii-base-dynamiccontentawareinterface.html">yii\base\DynamicContentAwareInterface</a></td>
+        <td>DynamicContentAwareInterface is the interface that should be implemented by classes
+which support a <a href="yii-base-view.html">yii\base\View</a> dynamic content feature.</td>
+    </tr>
+    <tr>
+        <td><a href="yii-base-dynamiccontentawaretrait.html">yii\base\DynamicContentAwareTrait</a></td>
+        <td>DynamicContentAwareTrait implements common methods for classes
+which support a <a href="yii-base-view.html">yii\base\View</a> dynamic content feature.</td>
+    </tr>
+    <tr>
+        <td><a href="yii-base-dynamicmodel.html">yii\base\DynamicModel</a></td>
+        <td>DynamicModel is a model class primarily used to support ad hoc data validation.</td>
+    </tr>
+    <tr>
+        <td><a href="yii-base-errorexception.html">yii\base\ErrorException</a></td>
+        <td>ErrorException represents a PHP error.</td>
+    </tr>
+    <tr>
+        <td><a href="yii-base-errorhandler.html">yii\base\ErrorHandler</a></td>
+        <td>ErrorHandler handles uncaught PHP errors and exceptions.</td>
+    </tr>
+    <tr>
+        <td><a href="yii-base-event.html">yii\base\Event</a></td>
+        <td>Event is the base class for all event classes.</td>
+    </tr>
+    <tr>
+        <td><a href="yii-base-exception.html">yii\base\Exception</a></td>
+        <td>Exception represents a generic exception for all purposes.</td>
+    </tr>
+    <tr>
+        <td><a href="yii-base-exitexception.html">yii\base\ExitException</a></td>
+        <td>ExitException represents a normal termination of an application.</td>
+    </tr>
+    <tr>
+        <td><a href="yii-base-inlineaction.html">yii\base\InlineAction</a></td>
+        <td>InlineAction represents an action that is defined as a controller method.</td>
+    </tr>
+    <tr>
+        <td><a href="yii-base-invalidargumentexception.html">yii\base\InvalidArgumentException</a></td>
+        <td>InvalidArgumentException represents an exception caused by invalid arguments passed to a method.</td>
+    </tr>
+    <tr>
+        <td><a href="yii-base-invalidcallexception.html">yii\base\InvalidCallException</a></td>
+        <td>InvalidCallException represents an exception caused by calling a method in a wrong way.</td>
+    </tr>
+    <tr>
+        <td><a href="yii-base-invalidconfigexception.html">yii\base\InvalidConfigException</a></td>
+        <td>InvalidConfigException represents an exception caused by incorrect object configuration.</td>
+    </tr>
+    <tr>
+        <td><a href="yii-base-invalidparamexception.html">yii\base\InvalidParamException</a></td>
+        <td>InvalidParamException represents an exception caused by invalid parameters passed to a method.</td>
+    </tr>
+    <tr>
+        <td><a href="yii-base-invalidrouteexception.html">yii\base\InvalidRouteException</a></td>
+        <td>InvalidRouteException represents an exception caused by an invalid route.</td>
+    </tr>
+    <tr>
+        <td><a href="yii-base-invalidvalueexception.html">yii\base\InvalidValueException</a></td>
+        <td>InvalidValueException represents an exception caused by a function returning a value of unexpected type.</td>
+    </tr>
+    <tr>
+        <td><a href="yii-base-model.html">yii\base\Model</a></td>
+        <td>Model is the base class for data models.</td>
+    </tr>
+    <tr>
+        <td><a href="yii-base-modelevent.html">yii\base\ModelEvent</a></td>
+        <td>ModelEvent represents the parameter needed by <a href="yii-base-model.html">yii\base\Model</a> events.</td>
+    </tr>
+    <tr>
+        <td><a href="yii-base-module.html">yii\base\Module</a></td>
+        <td>Module is the base class for module and application classes.</td>
+    </tr>
+    <tr>
+        <td><a href="yii-base-notsupportedexception.html">yii\base\NotSupportedException</a></td>
+        <td>NotSupportedException represents an exception caused by accessing features that are not supported.</td>
+    </tr>
+    <tr>
+        <td><a href="yii-base-request.html">yii\base\Request</a></td>
+        <td>Request represents a request that is handled by an <a href="yii-base-application.html">yii\base\Application</a>.</td>
+    </tr>
+    <tr>
+        <td><a href="yii-base-response.html">yii\base\Response</a></td>
+        <td>Response represents the response of an <a href="yii-base-application.html">yii\base\Application</a> to a <a href="yii-base-request.html">yii\base\Request</a>.</td>
+    </tr>
+    <tr>
+        <td><a href="yii-base-security.html">yii\base\Security</a></td>
+        <td>Security provides a set of methods to handle common security-related tasks.</td>
+    </tr>
+    <tr>
+        <td><a href="yii-base-staticinstanceinterface.html">yii\base\StaticInstanceInterface</a></td>
+        <td>StaticInstanceInterface is the interface for providing static instances to classes,
+which can be used to obtain class meta information that can not be expressed in static methods.</td>
+    </tr>
+    <tr>
+        <td><a href="yii-base-staticinstancetrait.html">yii\base\StaticInstanceTrait</a></td>
+        <td>StaticInstanceTrait provides methods to satisfy <a href="yii-base-staticinstanceinterface.html">yii\base\StaticInstanceInterface</a> interface.</td>
+    </tr>
+    <tr>
+        <td><a href="yii-base-theme.html">yii\base\Theme</a></td>
+        <td>Theme represents an application theme.</td>
+    </tr>
+    <tr>
+        <td><a href="yii-base-unknownclassexception.html">yii\base\UnknownClassException</a></td>
+        <td>UnknownClassException represents an exception caused by using an unknown class.</td>
+    </tr>
+    <tr>
+        <td><a href="yii-base-unknownmethodexception.html">yii\base\UnknownMethodException</a></td>
+        <td>UnknownMethodException represents an exception caused by accessing an unknown object method.</td>
+    </tr>
+    <tr>
+        <td><a href="yii-base-unknownpropertyexception.html">yii\base\UnknownPropertyException</a></td>
+        <td>UnknownPropertyException represents an exception caused by accessing unknown object properties.</td>
+    </tr>
+    <tr>
+        <td><a href="yii-base-userexception.html">yii\base\UserException</a></td>
+        <td>UserException is the base class for exceptions that are meant to be shown to end users.</td>
+    </tr>
+    <tr>
+        <td><a href="yii-base-view.html">yii\base\View</a></td>
+        <td>View represents a view object in the MVC pattern.</td>
+    </tr>
+    <tr>
+        <td><a href="yii-base-viewcontextinterface.html">yii\base\ViewContextInterface</a></td>
+        <td>ViewContextInterface is the interface that should implemented by classes who want to support relative view names.</td>
+    </tr>
+    <tr>
+        <td><a href="yii-base-viewevent.html">yii\base\ViewEvent</a></td>
+        <td>ViewEvent represents events triggered by the <a href="yii-base-view.html">yii\base\View</a> component.</td>
+    </tr>
+    <tr>
+        <td><a href="yii-base-viewnotfoundexception.html">yii\base\ViewNotFoundException</a></td>
+        <td>ViewNotFoundException represents an exception caused by view file not found.</td>
+    </tr>
+    <tr>
+        <td><a href="yii-base-viewrenderer.html">yii\base\ViewRenderer</a></td>
+        <td>ViewRenderer is the base class for view renderer classes.</td>
+    </tr>
+    <tr>
+        <td><a href="yii-base-widget.html">yii\base\Widget</a></td>
+        <td>Widget is the base class for widgets.</td>
+    </tr>
+    <tr>
+        <td><a href="yii-base-widgetevent.html">yii\base\WidgetEvent</a></td>
+        <td>WidgetEvent represents the event parameter used for a widget event.</td>
+    </tr>
+    <tr>
+        <td><a href="yii-console-application.html">yii\console\Application</a></td>
+        <td>Application represents a console application.</td>
+    </tr>
+    <tr>
+        <td><a href="yii-console-controller.html">yii\console\Controller</a></td>
+        <td>Controller is the base class of console command classes.</td>
+    </tr>
+    <tr>
+        <td><a href="yii-console-errorhandler.html">yii\console\ErrorHandler</a></td>
+        <td>ErrorHandler handles uncaught PHP errors and exceptions.</td>
+    </tr>
+    <tr>
+        <td><a href="yii-console-exception.html">yii\console\Exception</a></td>
+        <td>Exception represents an exception caused by incorrect usage of a console command.</td>
+    </tr>
+    <tr>
+        <td><a href="yii-console-exitcode.html">yii\console\ExitCode</a></td>
+        <td>This class provides constants for defining console command exit codes.</td>
+    </tr>
+    <tr>
+        <td><a href="yii-console-markdown.html">yii\console\Markdown</a></td>
+        <td>A Markdown parser that enhances markdown for reading in console environments.</td>
+    </tr>
+    <tr>
+        <td><a href="yii-console-request.html">yii\console\Request</a></td>
+        <td>The console Request represents the environment information for a console application.</td>
+    </tr>
+    <tr>
+        <td><a href="yii-console-response.html">yii\console\Response</a></td>
+        <td>The console Response represents the result of a console application.</td>
+    </tr>
+    <tr>
+        <td><a href="yii-console-unknowncommandexception.html">yii\console\UnknownCommandException</a></td>
+        <td>UnknownCommandException represents an exception caused by incorrect usage of a console command.</td>
+    </tr>
+    <tr>
+        <td><a href="yii-console-controllers-assetcontroller.html">yii\console\controllers\AssetController</a></td>
+        <td>Allows you to combine and compress your JavaScript and CSS files.</td>
+    </tr>
+    <tr>
+        <td><a href="yii-console-controllers-basemigratecontroller.html">yii\console\controllers\BaseMigrateController</a></td>
+        <td>BaseMigrateController is the base class for migrate controllers.</td>
+    </tr>
+    <tr>
+        <td><a href="yii-console-controllers-cachecontroller.html">yii\console\controllers\CacheController</a></td>
+        <td>Allows you to flush cache.</td>
+    </tr>
+    <tr>
+        <td><a href="yii-console-controllers-fixturecontroller.html">yii\console\controllers\FixtureController</a></td>
+        <td>Manages fixture data loading and unloading.</td>
+    </tr>
+    <tr>
+        <td><a href="yii-console-controllers-helpcontroller.html">yii\console\controllers\HelpController</a></td>
+        <td>Provides help information about console commands.</td>
+    </tr>
+    <tr>
+        <td><a href="yii-console-controllers-messagecontroller.html">yii\console\controllers\MessageController</a></td>
+        <td>Extracts messages to be translated from source files.</td>
+    </tr>
+    <tr>
+        <td><a href="yii-console-controllers-migratecontroller.html">yii\console\controllers\MigrateController</a></td>
+        <td>Manages application migrations.</td>
+    </tr>
+    <tr>
+        <td><a href="yii-console-controllers-servecontroller.html">yii\console\controllers\ServeController</a></td>
+        <td>Runs PHP built-in web server.</td>
+    </tr>
+    <tr>
+        <td><a href="yii-console-widgets-table.html">yii\console\widgets\Table</a></td>
+        <td>Table class displays a table in console.</td>
+    </tr>
+    <tr>
+        <td><a href="yii-data-activedatafilter.html">yii\data\ActiveDataFilter</a></td>
+        <td>ActiveDataFilter allows composing a filtering condition in a format suitable for <a href="yii-db-queryinterface.html#where()-detail">yii\db\QueryInterface::where()</a>.</td>
+    </tr>
+    <tr>
+        <td><a href="yii-data-activedataprovider.html">yii\data\ActiveDataProvider</a></td>
+        <td>ActiveDataProvider implements a data provider based on <a href="yii-db-query.html">yii\db\Query</a> and <a href="yii-db-activequery.html">yii\db\ActiveQuery</a>.</td>
+    </tr>
+    <tr>
+        <td><a href="yii-data-arraydataprovider.html">yii\data\ArrayDataProvider</a></td>
+        <td>ArrayDataProvider implements a data provider based on a data array.</td>
+    </tr>
+    <tr>
+        <td><a href="yii-data-basedataprovider.html">yii\data\BaseDataProvider</a></td>
+        <td>BaseDataProvider provides a base class that implements the <a href="yii-data-dataproviderinterface.html">yii\data\DataProviderInterface</a>.</td>
+    </tr>
+    <tr>
+        <td><a href="yii-data-datafilter.html">yii\data\DataFilter</a></td>
+        <td>DataFilter is a special <a href="yii-base-model.html">yii\base\Model</a> for processing query filtering specification.</td>
+    </tr>
+    <tr>
+        <td><a href="yii-data-dataproviderinterface.html">yii\data\DataProviderInterface</a></td>
+        <td>DataProviderInterface is the interface that must be implemented by data provider classes.</td>
+    </tr>
+    <tr>
+        <td><a href="yii-data-pagination.html">yii\data\Pagination</a></td>
+        <td>Pagination represents information relevant to pagination of data items.</td>
+    </tr>
+    <tr>
+        <td><a href="yii-data-sort.html">yii\data\Sort</a></td>
+        <td>Sort represents information relevant to sorting.</td>
+    </tr>
+    <tr>
+        <td><a href="yii-data-sqldataprovider.html">yii\data\SqlDataProvider</a></td>
+        <td>SqlDataProvider implements a data provider based on a plain SQL statement.</td>
+    </tr>
+    <tr>
+        <td><a href="yii-db-activequery.html">yii\db\ActiveQuery</a></td>
+        <td>ActiveQuery represents a DB query associated with an Active Record class.</td>
+    </tr>
+    <tr>
+        <td><a href="yii-db-activequeryinterface.html">yii\db\ActiveQueryInterface</a></td>
+        <td>ActiveQueryInterface defines the common interface to be implemented by active record query classes.</td>
+    </tr>
+    <tr>
+        <td><a href="yii-db-activequerytrait.html">yii\db\ActiveQueryTrait</a></td>
+        <td>ActiveQueryTrait implements the common methods and properties for active record query classes.</td>
+    </tr>
+    <tr>
+        <td><a href="yii-db-activerecord.html">yii\db\ActiveRecord</a></td>
+        <td>ActiveRecord is the base class for classes representing relational data in terms of objects.</td>
+    </tr>
+    <tr>
+        <td><a href="yii-db-activerecordinterface.html">yii\db\ActiveRecordInterface</a></td>
+        <td>ActiveRecordInterface.</td>
+    </tr>
+    <tr>
+        <td><a href="yii-db-activerelationtrait.html">yii\db\ActiveRelationTrait</a></td>
+        <td>ActiveRelationTrait implements the common methods and properties for active record relational queries.</td>
+    </tr>
+    <tr>
+        <td><a href="yii-db-aftersaveevent.html">yii\db\AfterSaveEvent</a></td>
+        <td>AfterSaveEvent represents the information available in <a href="yii-db-baseactiverecord.html#EVENT_AFTER_INSERT-detail">yii\db\ActiveRecord::EVENT_AFTER_INSERT</a> and <a href="yii-db-baseactiverecord.html#EVENT_AFTER_UPDATE-detail">yii\db\ActiveRecord::EVENT_AFTER_UPDATE</a>.</td>
+    </tr>
+    <tr>
+        <td><a href="yii-db-arrayexpression.html">yii\db\ArrayExpression</a></td>
+        <td>Class ArrayExpression represents an array SQL expression.</td>
+    </tr>
+    <tr>
+        <td><a href="yii-db-baseactiverecord.html">yii\db\BaseActiveRecord</a></td>
+        <td>ActiveRecord is the base class for classes representing relational data in terms of objects.</td>
+    </tr>
+    <tr>
+        <td><a href="yii-db-batchqueryresult.html">yii\db\BatchQueryResult</a></td>
+        <td>BatchQueryResult represents a batch query from which you can retrieve data in batches.</td>
+    </tr>
+    <tr>
+        <td><a href="yii-db-checkconstraint.html">yii\db\CheckConstraint</a></td>
+        <td>CheckConstraint represents the metadata of a table <code>CHECK</code> constraint.</td>
+    </tr>
+    <tr>
+        <td><a href="yii-db-columnschema.html">yii\db\ColumnSchema</a></td>
+        <td>ColumnSchema class describes the metadata of a column in a database table.</td>
+    </tr>
+    <tr>
+        <td><a href="yii-db-columnschemabuilder.html">yii\db\ColumnSchemaBuilder</a></td>
+        <td>ColumnSchemaBuilder helps to define database schema types using a PHP interface.</td>
+    </tr>
+    <tr>
+        <td><a href="yii-db-command.html">yii\db\Command</a></td>
+        <td>Command represents a SQL statement to be executed against a database.</td>
+    </tr>
+    <tr>
+        <td><a href="yii-db-connection.html">yii\db\Connection</a></td>
+        <td>Connection represents a connection to a database via <a href="https://secure.php.net/manual/en/book.pdo.php">PDO</a>.</td>
+    </tr>
+    <tr>
+        <td><a href="yii-db-constraint.html">yii\db\Constraint</a></td>
+        <td>Constraint represents the metadata of a table constraint.</td>
+    </tr>
+    <tr>
+        <td><a href="yii-db-constraintfinderinterface.html">yii\db\ConstraintFinderInterface</a></td>
+        <td>ConstraintFinderInterface defines methods for getting a table constraint information.</td>
+    </tr>
+    <tr>
+        <td><a href="yii-db-constraintfindertrait.html">yii\db\ConstraintFinderTrait</a></td>
+        <td>ConstraintFinderTrait provides methods for getting a table constraint information.</td>
+    </tr>
+    <tr>
+        <td><a href="yii-db-datareader.html">yii\db\DataReader</a></td>
+        <td>DataReader represents a forward-only stream of rows from a query result set.</td>
+    </tr>
+    <tr>
+        <td><a href="yii-db-defaultvalueconstraint.html">yii\db\DefaultValueConstraint</a></td>
+        <td>DefaultValueConstraint represents the metadata of a table <code>DEFAULT</code> constraint.</td>
+    </tr>
+    <tr>
+        <td><a href="yii-db-exception.html">yii\db\Exception</a></td>
+        <td>Exception represents an exception that is caused by some DB-related operations.</td>
+    </tr>
+    <tr>
+        <td><a href="yii-db-expression.html">yii\db\Expression</a></td>
+        <td>Expression represents a DB expression that does not need escaping or quoting.</td>
+    </tr>
+    <tr>
+        <td><a href="yii-db-expressionbuilder.html">yii\db\ExpressionBuilder</a></td>
+        <td>Class ExpressionBuilder builds objects of <span class="broken-link">\yii\db\yii\db\Expression</span> class.</td>
+    </tr>
+    <tr>
+        <td><a href="yii-db-expressionbuilderinterface.html">yii\db\ExpressionBuilderInterface</a></td>
+        <td>Interface ExpressionBuilderInterface is designed to build raw SQL from specific expression
+objects that implement <a href="yii-db-expressioninterface.html">yii\db\ExpressionInterface</a>.</td>
+    </tr>
+    <tr>
+        <td><a href="yii-db-expressionbuildertrait.html">yii\db\ExpressionBuilderTrait</a></td>
+        <td>Trait ExpressionBuilderTrait provides common constructor for classes that
+should implement <a href="yii-db-expressionbuilderinterface.html">yii\db\ExpressionBuilderInterface</a></td>
+    </tr>
+    <tr>
+        <td><a href="yii-db-expressioninterface.html">yii\db\ExpressionInterface</a></td>
+        <td>Interface ExpressionInterface should be used to mark classes, that should be built
+in a special way.</td>
+    </tr>
+    <tr>
+        <td><a href="yii-db-foreignkeyconstraint.html">yii\db\ForeignKeyConstraint</a></td>
+        <td>ForeignKeyConstraint represents the metadata of a table <code>FOREIGN KEY</code> constraint.</td>
+    </tr>
+    <tr>
+        <td><a href="yii-db-indexconstraint.html">yii\db\IndexConstraint</a></td>
+        <td>IndexConstraint represents the metadata of a table <code>INDEX</code> constraint.</td>
+    </tr>
+    <tr>
+        <td><a href="yii-db-integrityexception.html">yii\db\IntegrityException</a></td>
+        <td>Exception represents an exception that is caused by violation of DB constraints.</td>
+    </tr>
+    <tr>
+        <td><a href="yii-db-jsonexpression.html">yii\db\JsonExpression</a></td>
+        <td>Class JsonExpression represents data that should be encoded to JSON.</td>
+    </tr>
+    <tr>
+        <td><a href="yii-db-migration.html">yii\db\Migration</a></td>
+        <td>Migration is the base class for representing a database migration.</td>
+    </tr>
+    <tr>
+        <td><a href="yii-db-migrationinterface.html">yii\db\MigrationInterface</a></td>
+        <td>The MigrationInterface defines the minimum set of methods to be implemented by a database migration.</td>
+    </tr>
+    <tr>
+        <td><a href="yii-db-pdovalue.html">yii\db\PdoValue</a></td>
+        <td>Class PdoValue represents a $value that should be bound to PDO with exact $type.</td>
+    </tr>
+    <tr>
+        <td><a href="yii-db-pdovaluebuilder.html">yii\db\PdoValueBuilder</a></td>
+        <td>Class PdoValueBuilder builds object of the <a href="yii-db-pdovalue.html">yii\db\PdoValue</a> expression class.</td>
+    </tr>
+    <tr>
+        <td><a href="yii-db-query.html">yii\db\Query</a></td>
+        <td>Query represents a SELECT SQL statement in a way that is independent of DBMS.</td>
+    </tr>
+    <tr>
+        <td><a href="yii-db-querybuilder.html">yii\db\QueryBuilder</a></td>
+        <td>QueryBuilder builds a SELECT SQL statement based on the specification given as a <a href="yii-db-query.html">yii\db\Query</a> object.</td>
+    </tr>
+    <tr>
+        <td><a href="yii-db-queryexpressionbuilder.html">yii\db\QueryExpressionBuilder</a></td>
+        <td>Class QueryExpressionBuilder is used internally to build <a href="yii-db-query.html">yii\db\Query</a> object
+using unified <a href="yii-db-querybuilder.html">yii\db\QueryBuilder</a> expression building interface.</td>
+    </tr>
+    <tr>
+        <td><a href="yii-db-queryinterface.html">yii\db\QueryInterface</a></td>
+        <td>The QueryInterface defines the minimum set of methods to be implemented by a database query.</td>
+    </tr>
+    <tr>
+        <td><a href="yii-db-querytrait.html">yii\db\QueryTrait</a></td>
+        <td>The BaseQuery trait represents the minimum method set of a database Query.</td>
+    </tr>
+    <tr>
+        <td><a href="yii-db-schema.html">yii\db\Schema</a></td>
+        <td>Schema is the base class for concrete DBMS-specific schema classes.</td>
+    </tr>
+    <tr>
+        <td><a href="yii-db-schemabuildertrait.html">yii\db\SchemaBuilderTrait</a></td>
+        <td>SchemaBuilderTrait contains shortcut methods to create instances of <a href="yii-db-columnschemabuilder.html">yii\db\ColumnSchemaBuilder</a>.</td>
+    </tr>
+    <tr>
+        <td><a href="yii-db-sqltoken.html">yii\db\SqlToken</a></td>
+        <td>SqlToken represents SQL tokens produced by <a href="yii-db-sqltokenizer.html">yii\db\SqlTokenizer</a> or its child classes.</td>
+    </tr>
+    <tr>
+        <td><a href="yii-db-sqltokenizer.html">yii\db\SqlTokenizer</a></td>
+        <td>SqlTokenizer splits an SQL query into individual SQL tokens.</td>
+    </tr>
+    <tr>
+        <td><a href="yii-db-staleobjectexception.html">yii\db\StaleObjectException</a></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td><a href="yii-db-tableschema.html">yii\db\TableSchema</a></td>
+        <td>TableSchema represents the metadata of a database table.</td>
+    </tr>
+    <tr>
+        <td><a href="yii-db-transaction.html">yii\db\Transaction</a></td>
+        <td>Transaction represents a DB transaction.</td>
+    </tr>
+    <tr>
+        <td><a href="yii-db-viewfindertrait.html">yii\db\ViewFinderTrait</a></td>
+        <td>ViewFinderTrait implements the method getViewNames for finding views in a database.</td>
+    </tr>
+    <tr>
+        <td><a href="yii-db-conditions-andcondition.html">yii\db\conditions\AndCondition</a></td>
+        <td>Condition that connects two or more SQL expressions with the <code>AND</code> operator.</td>
+    </tr>
+    <tr>
+        <td><a href="yii-db-conditions-betweencolumnscondition.html">yii\db\conditions\BetweenColumnsCondition</a></td>
+        <td>Class BetweenColumnCondition represents a <code>BETWEEN</code> condition where
+values is between two columns. For example:</td>
+    </tr>
+    <tr>
+        <td><a href="yii-db-conditions-betweencolumnsconditionbuilder.html">yii\db\conditions\BetweenColumnsConditionBuilder</a></td>
+        <td>Class BetweenColumnsConditionBuilder builds objects of <a href="yii-db-conditions-betweencolumnscondition.html">yii\db\conditions\BetweenColumnsCondition</a></td>
+    </tr>
+    <tr>
+        <td><a href="yii-db-conditions-betweencondition.html">yii\db\conditions\BetweenCondition</a></td>
+        <td>Class BetweenCondition represents a <code>BETWEEN</code> condition.</td>
+    </tr>
+    <tr>
+        <td><a href="yii-db-conditions-betweenconditionbuilder.html">yii\db\conditions\BetweenConditionBuilder</a></td>
+        <td>Class BetweenConditionBuilder builds objects of <a href="yii-db-conditions-betweencondition.html">yii\db\conditions\BetweenCondition</a></td>
+    </tr>
+    <tr>
+        <td><a href="yii-db-conditions-conditioninterface.html">yii\db\conditions\ConditionInterface</a></td>
+        <td>Interface ConditionInterface should be implemented by classes that represent a condition
+in DBAL of framework.</td>
+    </tr>
+    <tr>
+        <td><a href="yii-db-conditions-conjunctioncondition.html">yii\db\conditions\ConjunctionCondition</a></td>
+        <td>Class ConjunctionCondition</td>
+    </tr>
+    <tr>
+        <td><a href="yii-db-conditions-conjunctionconditionbuilder.html">yii\db\conditions\ConjunctionConditionBuilder</a></td>
+        <td>Class ConjunctionConditionBuilder builds objects of abstract class <a href="yii-db-conditions-conjunctioncondition.html">yii\db\conditions\ConjunctionCondition</a></td>
+    </tr>
+    <tr>
+        <td><a href="yii-db-conditions-existscondition.html">yii\db\conditions\ExistsCondition</a></td>
+        <td>Condition that represents <code>EXISTS</code> operator.</td>
+    </tr>
+    <tr>
+        <td><a href="yii-db-conditions-existsconditionbuilder.html">yii\db\conditions\ExistsConditionBuilder</a></td>
+        <td>Class ExistsConditionBuilder builds objects of <a href="yii-db-conditions-existscondition.html">yii\db\conditions\ExistsCondition</a></td>
+    </tr>
+    <tr>
+        <td><a href="yii-db-conditions-hashcondition.html">yii\db\conditions\HashCondition</a></td>
+        <td>Condition based on column-value pairs.</td>
+    </tr>
+    <tr>
+        <td><a href="yii-db-conditions-hashconditionbuilder.html">yii\db\conditions\HashConditionBuilder</a></td>
+        <td>Class HashConditionBuilder builds objects of <a href="yii-db-conditions-hashcondition.html">yii\db\conditions\HashCondition</a></td>
+    </tr>
+    <tr>
+        <td><a href="yii-db-conditions-incondition.html">yii\db\conditions\InCondition</a></td>
+        <td>Class InCondition represents <code>IN</code> condition.</td>
+    </tr>
+    <tr>
+        <td><a href="yii-db-conditions-inconditionbuilder.html">yii\db\conditions\InConditionBuilder</a></td>
+        <td>Class InConditionBuilder builds objects of <a href="yii-db-conditions-incondition.html">yii\db\conditions\InCondition</a></td>
+    </tr>
+    <tr>
+        <td><a href="yii-db-conditions-likecondition.html">yii\db\conditions\LikeCondition</a></td>
+        <td>Class LikeCondition represents a <code>LIKE</code> condition.</td>
+    </tr>
+    <tr>
+        <td><a href="yii-db-conditions-likeconditionbuilder.html">yii\db\conditions\LikeConditionBuilder</a></td>
+        <td>Class LikeConditionBuilder builds objects of <a href="yii-db-conditions-likecondition.html">yii\db\conditions\LikeCondition</a></td>
+    </tr>
+    <tr>
+        <td><a href="yii-db-conditions-notcondition.html">yii\db\conditions\NotCondition</a></td>
+        <td>Condition that inverts passed <span class="broken-link">\yii\db\conditions\condition</span>.</td>
+    </tr>
+    <tr>
+        <td><a href="yii-db-conditions-notconditionbuilder.html">yii\db\conditions\NotConditionBuilder</a></td>
+        <td>Class NotConditionBuilder builds objects of <a href="yii-db-conditions-notcondition.html">yii\db\conditions\NotCondition</a></td>
+    </tr>
+    <tr>
+        <td><a href="yii-db-conditions-orcondition.html">yii\db\conditions\OrCondition</a></td>
+        <td>Condition that connects two or more SQL expressions with the <code>AND</code> operator.</td>
+    </tr>
+    <tr>
+        <td><a href="yii-db-conditions-simplecondition.html">yii\db\conditions\SimpleCondition</a></td>
+        <td>Class SimpleCondition represents a simple condition like <code>"column" operator value</code>.</td>
+    </tr>
+    <tr>
+        <td><a href="yii-db-conditions-simpleconditionbuilder.html">yii\db\conditions\SimpleConditionBuilder</a></td>
+        <td>Class NotConditionBuilder builds objects of <a href="yii-db-conditions-simplecondition.html">yii\db\conditions\SimpleCondition</a></td>
+    </tr>
+    <tr>
+        <td><a href="yii-db-cubrid-columnschemabuilder.html">yii\db\cubrid\ColumnSchemaBuilder</a></td>
+        <td>ColumnSchemaBuilder is the schema builder for Cubrid databases.</td>
+    </tr>
+    <tr>
+        <td><a href="yii-db-cubrid-querybuilder.html">yii\db\cubrid\QueryBuilder</a></td>
+        <td>QueryBuilder is the query builder for CUBRID databases (version 9.3.x and higher).</td>
+    </tr>
+    <tr>
+        <td><a href="yii-db-cubrid-schema.html">yii\db\cubrid\Schema</a></td>
+        <td>Schema is the class for retrieving metadata from a CUBRID database (version 9.3.x and higher).</td>
+    </tr>
+    <tr>
+        <td><a href="yii-db-cubrid-conditions-likeconditionbuilder.html">yii\db\cubrid\conditions\LikeConditionBuilder</a></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td><a href="yii-db-mssql-columnschema.html">yii\db\mssql\ColumnSchema</a></td>
+        <td>Class ColumnSchema for MSSQL database</td>
+    </tr>
+    <tr>
+        <td><a href="yii-db-mssql-pdo.html">yii\db\mssql\PDO</a></td>
+        <td>This is an extension of the default PDO class of MSSQL and DBLIB drivers.</td>
+    </tr>
+    <tr>
+        <td><a href="yii-db-mssql-querybuilder.html">yii\db\mssql\QueryBuilder</a></td>
+        <td>QueryBuilder is the query builder for MS SQL Server databases (version 2008 and above).</td>
+    </tr>
+    <tr>
+        <td><a href="yii-db-mssql-schema.html">yii\db\mssql\Schema</a></td>
+        <td>Schema is the class for retrieving metadata from MS SQL Server databases (version 2008 and above).</td>
+    </tr>
+    <tr>
+        <td><a href="yii-db-mssql-sqlsrvpdo.html">yii\db\mssql\SqlsrvPDO</a></td>
+        <td>This is an extension of the default PDO class of SQLSRV driver.</td>
+    </tr>
+    <tr>
+        <td><a href="yii-db-mssql-tableschema.html">yii\db\mssql\TableSchema</a></td>
+        <td>TableSchema represents the metadata of a database table.</td>
+    </tr>
+    <tr>
+        <td><a href="yii-db-mssql-conditions-inconditionbuilder.html">yii\db\mssql\conditions\InConditionBuilder</a></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td><a href="yii-db-mssql-conditions-likeconditionbuilder.html">yii\db\mssql\conditions\LikeConditionBuilder</a></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td><a href="yii-db-mysql-columnschema.html">yii\db\mysql\ColumnSchema</a></td>
+        <td>Class ColumnSchema for MySQL database</td>
+    </tr>
+    <tr>
+        <td><a href="yii-db-mysql-columnschemabuilder.html">yii\db\mysql\ColumnSchemaBuilder</a></td>
+        <td>ColumnSchemaBuilder is the schema builder for MySQL databases.</td>
+    </tr>
+    <tr>
+        <td><a href="yii-db-mysql-jsonexpressionbuilder.html">yii\db\mysql\JsonExpressionBuilder</a></td>
+        <td>Class JsonExpressionBuilder builds <a href="yii-db-jsonexpression.html">yii\db\JsonExpression</a> for MySQL DBMS.</td>
+    </tr>
+    <tr>
+        <td><a href="yii-db-mysql-querybuilder.html">yii\db\mysql\QueryBuilder</a></td>
+        <td>QueryBuilder is the query builder for MySQL databases.</td>
+    </tr>
+    <tr>
+        <td><a href="yii-db-mysql-schema.html">yii\db\mysql\Schema</a></td>
+        <td>Schema is the class for retrieving metadata from a MySQL database (version 4.1.x and 5.x).</td>
+    </tr>
+    <tr>
+        <td><a href="yii-db-oci-columnschemabuilder.html">yii\db\oci\ColumnSchemaBuilder</a></td>
+        <td>ColumnSchemaBuilder is the schema builder for Oracle databases.</td>
+    </tr>
+    <tr>
+        <td><a href="yii-db-oci-querybuilder.html">yii\db\oci\QueryBuilder</a></td>
+        <td>QueryBuilder is the query builder for Oracle databases.</td>
+    </tr>
+    <tr>
+        <td><a href="yii-db-oci-schema.html">yii\db\oci\Schema</a></td>
+        <td>Schema is the class for retrieving metadata from an Oracle database.</td>
+    </tr>
+    <tr>
+        <td><a href="yii-db-oci-conditions-inconditionbuilder.html">yii\db\oci\conditions\InConditionBuilder</a></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td><a href="yii-db-oci-conditions-likeconditionbuilder.html">yii\db\oci\conditions\LikeConditionBuilder</a></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td><a href="yii-db-pgsql-arrayexpressionbuilder.html">yii\db\pgsql\ArrayExpressionBuilder</a></td>
+        <td>Class ArrayExpressionBuilder builds <a href="yii-db-arrayexpression.html">yii\db\ArrayExpression</a> for PostgreSQL DBMS.</td>
+    </tr>
+    <tr>
+        <td><a href="yii-db-pgsql-arrayparser.html">yii\db\pgsql\ArrayParser</a></td>
+        <td>The class converts PostgreSQL array representation to PHP array</td>
+    </tr>
+    <tr>
+        <td><a href="yii-db-pgsql-columnschema.html">yii\db\pgsql\ColumnSchema</a></td>
+        <td>Class ColumnSchema for PostgreSQL database.</td>
+    </tr>
+    <tr>
+        <td><a href="yii-db-pgsql-jsonexpressionbuilder.html">yii\db\pgsql\JsonExpressionBuilder</a></td>
+        <td>Class JsonExpressionBuilder builds <a href="yii-db-jsonexpression.html">yii\db\JsonExpression</a> for PostgreSQL DBMS.</td>
+    </tr>
+    <tr>
+        <td><a href="yii-db-pgsql-querybuilder.html">yii\db\pgsql\QueryBuilder</a></td>
+        <td>QueryBuilder is the query builder for PostgreSQL databases.</td>
+    </tr>
+    <tr>
+        <td><a href="yii-db-pgsql-schema.html">yii\db\pgsql\Schema</a></td>
+        <td>Schema is the class for retrieving metadata from a PostgreSQL database
+(version 9.x and above).</td>
+    </tr>
+    <tr>
+        <td><a href="yii-db-sqlite-columnschemabuilder.html">yii\db\sqlite\ColumnSchemaBuilder</a></td>
+        <td>ColumnSchemaBuilder is the schema builder for Sqlite databases.</td>
+    </tr>
+    <tr>
+        <td><a href="yii-db-sqlite-command.html">yii\db\sqlite\Command</a></td>
+        <td>Command represents an SQLite's SQL statement to be executed against a database.</td>
+    </tr>
+    <tr>
+        <td><a href="yii-db-sqlite-querybuilder.html">yii\db\sqlite\QueryBuilder</a></td>
+        <td>QueryBuilder is the query builder for SQLite databases.</td>
+    </tr>
+    <tr>
+        <td><a href="yii-db-sqlite-schema.html">yii\db\sqlite\Schema</a></td>
+        <td>Schema is the class for retrieving metadata from a SQLite (2/3) database.</td>
+    </tr>
+    <tr>
+        <td><a href="yii-db-sqlite-sqltokenizer.html">yii\db\sqlite\SqlTokenizer</a></td>
+        <td>SqlTokenizer splits SQLite query into individual SQL tokens.</td>
+    </tr>
+    <tr>
+        <td><a href="yii-db-sqlite-conditions-inconditionbuilder.html">yii\db\sqlite\conditions\InConditionBuilder</a></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td><a href="yii-db-sqlite-conditions-likeconditionbuilder.html">yii\db\sqlite\conditions\LikeConditionBuilder</a></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td><a href="yii-helpers-arrayhelper.html">yii\helpers\ArrayHelper</a></td>
+        <td>ArrayHelper provides additional array functionality that you can use in your
+application.</td>
+    </tr>
+    <tr>
+        <td><a href="yii-helpers-basearrayhelper.html">yii\helpers\BaseArrayHelper</a></td>
+        <td>BaseArrayHelper provides concrete implementation for <a href="yii-helpers-arrayhelper.html">yii\helpers\ArrayHelper</a>.</td>
+    </tr>
+    <tr>
+        <td><a href="yii-helpers-baseconsole.html">yii\helpers\BaseConsole</a></td>
+        <td>BaseConsole provides concrete implementation for <a href="yii-helpers-console.html">yii\helpers\Console</a>.</td>
+    </tr>
+    <tr>
+        <td><a href="yii-helpers-basefilehelper.html">yii\helpers\BaseFileHelper</a></td>
+        <td>BaseFileHelper provides concrete implementation for <a href="yii-helpers-filehelper.html">yii\helpers\FileHelper</a>.</td>
+    </tr>
+    <tr>
+        <td><a href="yii-helpers-baseformatconverter.html">yii\helpers\BaseFormatConverter</a></td>
+        <td>BaseFormatConverter provides concrete implementation for <a href="yii-helpers-formatconverter.html">yii\helpers\FormatConverter</a>.</td>
+    </tr>
+    <tr>
+        <td><a href="yii-helpers-basehtml.html">yii\helpers\BaseHtml</a></td>
+        <td>BaseHtml provides concrete implementation for <a href="yii-helpers-html.html">yii\helpers\Html</a>.</td>
+    </tr>
+    <tr>
+        <td><a href="yii-helpers-basehtmlpurifier.html">yii\helpers\BaseHtmlPurifier</a></td>
+        <td>BaseHtmlPurifier provides concrete implementation for <a href="yii-helpers-htmlpurifier.html">yii\helpers\HtmlPurifier</a>.</td>
+    </tr>
+    <tr>
+        <td><a href="yii-helpers-baseinflector.html">yii\helpers\BaseInflector</a></td>
+        <td>BaseInflector provides concrete implementation for <a href="yii-helpers-inflector.html">yii\helpers\Inflector</a>.</td>
+    </tr>
+    <tr>
+        <td><a href="yii-helpers-baseiphelper.html">yii\helpers\BaseIpHelper</a></td>
+        <td>Class BaseIpHelper provides concrete implementation for <a href="yii-helpers-iphelper.html">yii\helpers\IpHelper</a></td>
+    </tr>
+    <tr>
+        <td><a href="yii-helpers-basejson.html">yii\helpers\BaseJson</a></td>
+        <td>BaseJson provides concrete implementation for <a href="yii-helpers-json.html">yii\helpers\Json</a>.</td>
+    </tr>
+    <tr>
+        <td><a href="yii-helpers-basemarkdown.html">yii\helpers\BaseMarkdown</a></td>
+        <td>BaseMarkdown provides concrete implementation for <a href="yii-helpers-markdown.html">yii\helpers\Markdown</a>.</td>
+    </tr>
+    <tr>
+        <td><a href="yii-helpers-basestringhelper.html">yii\helpers\BaseStringHelper</a></td>
+        <td>BaseStringHelper provides concrete implementation for <a href="yii-helpers-stringhelper.html">yii\helpers\StringHelper</a>.</td>
+    </tr>
+    <tr>
+        <td><a href="yii-helpers-baseurl.html">yii\helpers\BaseUrl</a></td>
+        <td>BaseUrl provides concrete implementation for <a href="yii-helpers-url.html">yii\helpers\Url</a>.</td>
+    </tr>
+    <tr>
+        <td><a href="yii-helpers-basevardumper.html">yii\helpers\BaseVarDumper</a></td>
+        <td>BaseVarDumper provides concrete implementation for <a href="yii-helpers-vardumper.html">yii\helpers\VarDumper</a>.</td>
+    </tr>
+    <tr>
+        <td><a href="yii-helpers-console.html">yii\helpers\Console</a></td>
+        <td>Console helper provides useful methods for command line related tasks such as getting input or formatting and coloring
+output.</td>
+    </tr>
+    <tr>
+        <td><a href="yii-helpers-filehelper.html">yii\helpers\FileHelper</a></td>
+        <td>File system helper.</td>
+    </tr>
+    <tr>
+        <td><a href="yii-helpers-formatconverter.html">yii\helpers\FormatConverter</a></td>
+        <td>FormatConverter provides functionality to convert between different formatting pattern formats.</td>
+    </tr>
+    <tr>
+        <td><a href="yii-helpers-html.html">yii\helpers\Html</a></td>
+        <td>Html provides a set of static methods for generating commonly used HTML tags.</td>
+    </tr>
+    <tr>
+        <td><a href="yii-helpers-htmlpurifier.html">yii\helpers\HtmlPurifier</a></td>
+        <td>HtmlPurifier provides an ability to clean up HTML from any harmful code.</td>
+    </tr>
+    <tr>
+        <td><a href="yii-helpers-inflector.html">yii\helpers\Inflector</a></td>
+        <td>Inflector pluralizes and singularizes English nouns. It also contains some other useful methods.</td>
+    </tr>
+    <tr>
+        <td><a href="yii-helpers-iphelper.html">yii\helpers\IpHelper</a></td>
+        <td>Class IpHelper provides a set of IP-related static methods.</td>
+    </tr>
+    <tr>
+        <td><a href="yii-helpers-json.html">yii\helpers\Json</a></td>
+        <td>Json is a helper class providing JSON data encoding and decoding.</td>
+    </tr>
+    <tr>
+        <td><a href="yii-helpers-markdown.html">yii\helpers\Markdown</a></td>
+        <td>Markdown provides an ability to transform markdown into HTML.</td>
+    </tr>
+    <tr>
+        <td><a href="yii-helpers-replacearrayvalue.html">yii\helpers\ReplaceArrayValue</a></td>
+        <td>Object that represents the replacement of array value while performing <a href="yii-helpers-basearrayhelper.html#merge()-detail">yii\helpers\ArrayHelper::merge()</a>.</td>
+    </tr>
+    <tr>
+        <td><a href="yii-helpers-stringhelper.html">yii\helpers\StringHelper</a></td>
+        <td>StringHelper.</td>
+    </tr>
+    <tr>
+        <td><a href="yii-helpers-unsetarrayvalue.html">yii\helpers\UnsetArrayValue</a></td>
+        <td>Object that represents the removal of array value while performing <a href="yii-helpers-basearrayhelper.html#merge()-detail">yii\helpers\ArrayHelper::merge()</a>.</td>
+    </tr>
+    <tr>
+        <td><a href="yii-helpers-url.html">yii\helpers\Url</a></td>
+        <td>Url provides a set of static methods for managing URLs.</td>
+    </tr>
+    <tr>
+        <td><a href="yii-helpers-vardumper.html">yii\helpers\VarDumper</a></td>
+        <td>VarDumper is intended to replace the buggy PHP function var_dump and print_r.</td>
+    </tr>
+</table>
+    </div>
+</div>
+
+<script type="text/javascript">
+    /*<![CDATA[*/
+    $("a.toggle").on('click', function () {
+        var $this = $(this);
+        if ($this.hasClass('properties-hidden')) {
+            $this.text($this.text().replace(/Show/,'Hide'));
+            $this.parents(".summary").find(".inherited").show();
+            $this.removeClass('properties-hidden');
+        } else {
+            $this.text($this.text().replace(/Hide/,'Show'));
+            $this.parents(".summary").find(".inherited").hide();
+            $this.addClass('properties-hidden');
+        }
+
+        return false;
+    });
+    /*
+     $(".sourceCode a.show").toggle(function () {
+     $(this).text($(this).text().replace(/show/,'hide'));
+     $(this).parents(".sourceCode").find("div.code").show();
+     },function () {
+     $(this).text($(this).text().replace(/hide/,'show'));
+     $(this).parents(".sourceCode").find("div.code").hide();
+     });
+     $("a.sourceLink").click(function () {
+     $(this).attr('target','_blank');
+     });
+     */
+    /*]]>*/
+</script>
+
+
+</div>
+
+<footer class="footer">
+        <p class="pull-right"><small>Page generated on Tue, 14 Jan 2020 17:06:17 +0000</small></p>
+    Powered by <a href="http://www.yiiframework.com/" rel="external">Yii Framework</a></footer>
+
+<script>jQuery(function ($) {
+    var shiftWindow = function () { scrollBy(0, -50) };
+    if (location.hash) setTimeout(shiftWindow, 1);
+    window.addEventListener("hashchange", shiftWindow);
+var element = document.createElement("script");
+element.src = "./jssearch.index.js";
+document.body.appendChild(element);
+
+var searchBox = $('#searchbox');
+
+// search when typing in search field
+searchBox.on("keyup", function(event) {
+    var query = $(this).val();
+
+    if (query == '' || event.which == 27) {
+        $('#search-resultbox').hide();
+        return;
+    } else if (event.which == 13) {
+        var selectedLink = $('#search-resultbox a.selected');
+        if (selectedLink.length != 0) {
+            document.location = selectedLink.attr('href');
+            return;
+        }
+    } else if (event.which == 38 || event.which == 40) {
+        $('#search-resultbox').show();
+
+        var selected = $('#search-resultbox a.selected');
+        if (selected.length == 0) {
+            $('#search-results').find('a').first().addClass('selected');
+        } else {
+            var next;
+            if (event.which == 40) {
+                next = selected.parent().next().find('a').first();
+            } else {
+                next = selected.parent().prev().find('a').first();
+            }
+            if (next.length != 0) {
+                var resultbox = $('#search-results');
+                var position = next.position();
+
+//              TODO scrolling is buggy and jumps around
+//                resultbox.scrollTop(Math.floor(position.top));
+//                console.log(position.top);
+
+                selected.removeClass('selected');
+                next.addClass('selected');
+            }
+        }
+
+        return;
+    }
+    $('#search-resultbox').show();
+    $('#search-results').html('<li><span class="no-results">No results</span></li>');
+
+    var result = jssearch.search(query);
+
+    if (result.length > 0) {
+        var i = 0;
+        var resHtml = '';
+
+        for (var key in result) {
+            if (i++ > 20) {
+                break;
+            }
+            resHtml = resHtml +
+            '<li><a href="' + result[key].file.u.substr(3) +'"><span class="title">' + result[key].file.t + '</span>' +
+            '<span class="description">' + result[key].file.d + '</span></a></li>';
+        }
+        $('#search-results').html(resHtml);
+    }
+});
+
+// hide the search results on ESC
+$(document).on("keyup", function(event) { if (event.which == 27) { $('#search-resultbox').hide(); } });
+// hide search results on click to document
+$(document).bind('click', function (e) { $('#search-resultbox').hide(); });
+// except the following:
+searchBox.bind('click', function(e) { e.stopPropagation(); });
+$('#search-resultbox').bind('click', function(e) { e.stopPropagation(); });
+
+});</script></body>
+</html>

@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="language" content="en" />
+        
+<link href="./assets/69608709/css/bootstrap.css" rel="stylesheet">
+<link href="./assets/b57d45b6/solarized_light.css" rel="stylesheet">
+<link href="./assets/2cb8559b/style.css" rel="stylesheet">
+<script src="./assets/17baad71/jquery.js"></script>
+<script src="./assets/69608709/js/bootstrap.js"></script>
+<script src="./assets/ef6629b9/jssearch.js"></script>    <title>Configurable, yii\base\Configurable - Yii Framework 2.0 API Documentation</title>
+</head>
+<body>
+
+<div class="wrap">
+    <nav id="w3997" class="navbar-inverse navbar-fixed-top navbar"><div class="navbar-header"><button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#w3997-collapse"><span class="sr-only">Toggle navigation</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span></button><a class="navbar-brand" href="./index.html">Yii Framework 2.0 API Documentation</a></div><div id="w3997-collapse" class="collapse navbar-collapse"><ul id="w3998" class="navbar-nav nav"><li><a href="./index.html">Class reference</a></li>
+<li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Extensions <span class="caret"></span></a><ul id="w3999" class="dropdown-menu"><li><a href="./ext-bootstrap-index.html" tabindex="-1">bootstrap</a></li></ul></li></ul><div class="navbar-form navbar-left" role="search">
+  <div class="form-group">
+    <input id="searchbox" type="text" class="form-control" placeholder="Search">
+  </div>
+</div>
+</div></nav>
+    <div id="search-resultbox" style="display: none;" class="modal-content">
+        <ul id="search-results">
+        </ul>
+    </div>
+
+    
+<div class="row">
+    <div class="col-md-3">
+                <div id="navigation" class="list-group"><a class="list-group-item active" href="#navigation-3979" data-toggle="collapse" data-parent="#navigation">yii\base <b class="caret"></b></a><div id="navigation-3979" class="submenu panel-collapse collapse in"><a class="list-group-item" href="./yii-base-action.html">Action</a>
+<a class="list-group-item" href="./yii-base-actionevent.html">ActionEvent</a>
+<a class="list-group-item" href="./yii-base-actionfilter.html">ActionFilter</a>
+<a class="list-group-item" href="./yii-base-application.html">Application</a>
+<a class="list-group-item" href="./yii-base-arrayaccesstrait.html">ArrayAccessTrait</a>
+<a class="list-group-item" href="./yii-base-arrayable.html">Arrayable</a>
+<a class="list-group-item" href="./yii-base-arrayabletrait.html">ArrayableTrait</a>
+<a class="list-group-item" href="./yii-base-baseobject.html">BaseObject</a>
+<a class="list-group-item" href="./yii-base-behavior.html">Behavior</a>
+<a class="list-group-item" href="./yii-base-bootstrapinterface.html">BootstrapInterface</a>
+<a class="list-group-item" href="./yii-base-component.html">Component</a>
+<a class="list-group-item active" href="./yii-base-configurable.html">Configurable</a>
+<a class="list-group-item" href="./yii-base-controller.html">Controller</a>
+<a class="list-group-item" href="./yii-base-dynamiccontentawareinterface.html">DynamicContentAwareInterface</a>
+<a class="list-group-item" href="./yii-base-dynamiccontentawaretrait.html">DynamicContentAwareTrait</a>
+<a class="list-group-item" href="./yii-base-dynamicmodel.html">DynamicModel</a>
+<a class="list-group-item" href="./yii-base-errorexception.html">ErrorException</a>
+<a class="list-group-item" href="./yii-base-errorhandler.html">ErrorHandler</a>
+<a class="list-group-item" href="./yii-base-event.html">Event</a>
+<a class="list-group-item" href="./yii-base-exception.html">Exception</a>
+<a class="list-group-item" href="./yii-base-exitexception.html">ExitException</a>
+<a class="list-group-item" href="./yii-base-inlineaction.html">InlineAction</a>
+<a class="list-group-item" href="./yii-base-invalidargumentexception.html">InvalidArgumentException</a>
+<a class="list-group-item" href="./yii-base-invalidcallexception.html">InvalidCallException</a>
+<a class="list-group-item" href="./yii-base-invalidconfigexception.html">InvalidConfigException</a>
+<a class="list-group-item" href="./yii-base-invalidparamexception.html">InvalidParamException</a>
+<a class="list-group-item" href="./yii-base-invalidrouteexception.html">InvalidRouteException</a>
+<a class="list-group-item" href="./yii-base-invalidvalueexception.html">InvalidValueException</a>
+<a class="list-group-item" href="./yii-base-model.html">Model</a>
+<a class="list-group-item" href="./yii-base-modelevent.html">ModelEvent</a>
+<a class="list-group-item" href="./yii-base-module.html">Module</a>
+<a class="list-group-item" href="./yii-base-notsupportedexception.html">NotSupportedException</a>
+<a class="list-group-item" href="./yii-base-request.html">Request</a>
+<a class="list-group-item" href="./yii-base-response.html">Response</a>
+<a class="list-group-item" href="./yii-base-security.html">Security</a>
+<a class="list-group-item" href="./yii-base-staticinstanceinterface.html">StaticInstanceInterface</a>
+<a class="list-group-item" href="./yii-base-staticinstancetrait.html">StaticInstanceTrait</a>
+<a class="list-group-item" href="./yii-base-theme.html">Theme</a>
+<a class="list-group-item" href="./yii-base-unknownclassexception.html">UnknownClassException</a>
+<a class="list-group-item" href="./yii-base-unknownmethodexception.html">UnknownMethodException</a>
+<a class="list-group-item" href="./yii-base-unknownpropertyexception.html">UnknownPropertyException</a>
+<a class="list-group-item" href="./yii-base-userexception.html">UserException</a>
+<a class="list-group-item" href="./yii-base-view.html">View</a>
+<a class="list-group-item" href="./yii-base-viewcontextinterface.html">ViewContextInterface</a>
+<a class="list-group-item" href="./yii-base-viewevent.html">ViewEvent</a>
+<a class="list-group-item" href="./yii-base-viewnotfoundexception.html">ViewNotFoundException</a>
+<a class="list-group-item" href="./yii-base-viewrenderer.html">ViewRenderer</a>
+<a class="list-group-item" href="./yii-base-widget.html">Widget</a>
+<a class="list-group-item" href="./yii-base-widgetevent.html">WidgetEvent</a></div>
+<a class="list-group-item" href="#navigation-3980" data-toggle="collapse" data-parent="#navigation">yii\console <b class="caret"></b></a><div id="navigation-3980" class="submenu panel-collapse collapse"><a class="list-group-item" href="./yii-console-application.html">Application</a>
+<a class="list-group-item" href="./yii-console-controller.html">Controller</a>
+<a class="list-group-item" href="./yii-console-errorhandler.html">ErrorHandler</a>
+<a class="list-group-item" href="./yii-console-exception.html">Exception</a>
+<a class="list-group-item" href="./yii-console-exitcode.html">ExitCode</a>
+<a class="list-group-item" href="./yii-console-markdown.html">Markdown</a>
+<a class="list-group-item" href="./yii-console-request.html">Request</a>
+<a class="list-group-item" href="./yii-console-response.html">Response</a>
+<a class="list-group-item" href="./yii-console-unknowncommandexception.html">UnknownCommandException</a></div>
+<a class="list-group-item" href="#navigation-3981" data-toggle="collapse" data-parent="#navigation">yii\console\controllers <b class="caret"></b></a><div id="navigation-3981" class="submenu panel-collapse collapse"><a class="list-group-item" href="./yii-console-controllers-assetcontroller.html">AssetController</a>
+<a class="list-group-item" href="./yii-console-controllers-basemigratecontroller.html">BaseMigrateController</a>
+<a class="list-group-item" href="./yii-console-controllers-cachecontroller.html">CacheController</a>
+<a class="list-group-item" href="./yii-console-controllers-fixturecontroller.html">FixtureController</a>
+<a class="list-group-item" href="./yii-console-controllers-helpcontroller.html">HelpController</a>
+<a class="list-group-item" href="./yii-console-controllers-messagecontroller.html">MessageController</a>
+<a class="list-group-item" href="./yii-console-controllers-migratecontroller.html">MigrateController</a>
+<a class="list-group-item" href="./yii-console-controllers-servecontroller.html">ServeController</a></div>
+<a class="list-group-item" href="#navigation-3982" data-toggle="collapse" data-parent="#navigation">yii\console\widgets <b class="caret"></b></a><div id="navigation-3982" class="submenu panel-collapse collapse"><a class="list-group-item" href="./yii-console-widgets-table.html">Table</a></div>
+<a class="list-group-item" href="#navigation-3983" data-toggle="collapse" data-parent="#navigation">yii\data <b class="caret"></b></a><div id="navigation-3983" class="submenu panel-collapse collapse"><a class="list-group-item" href="./yii-data-activedatafilter.html">ActiveDataFilter</a>
+<a class="list-group-item" href="./yii-data-activedataprovider.html">ActiveDataProvider</a>
+<a class="list-group-item" href="./yii-data-arraydataprovider.html">ArrayDataProvider</a>
+<a class="list-group-item" href="./yii-data-basedataprovider.html">BaseDataProvider</a>
+<a class="list-group-item" href="./yii-data-datafilter.html">DataFilter</a>
+<a class="list-group-item" href="./yii-data-dataproviderinterface.html">DataProviderInterface</a>
+<a class="list-group-item" href="./yii-data-pagination.html">Pagination</a>
+<a class="list-group-item" href="./yii-data-sort.html">Sort</a>
+<a class="list-group-item" href="./yii-data-sqldataprovider.html">SqlDataProvider</a></div>
+<a class="list-group-item" href="#navigation-3984" data-toggle="collapse" data-parent="#navigation">yii\db <b class="caret"></b></a><div id="navigation-3984" class="submenu panel-collapse collapse"><a class="list-group-item" href="./yii-db-activequery.html">ActiveQuery</a>
+<a class="list-group-item" href="./yii-db-activequeryinterface.html">ActiveQueryInterface</a>
+<a class="list-group-item" href="./yii-db-activequerytrait.html">ActiveQueryTrait</a>
+<a class="list-group-item" href="./yii-db-activerecord.html">ActiveRecord</a>
+<a class="list-group-item" href="./yii-db-activerecordinterface.html">ActiveRecordInterface</a>
+<a class="list-group-item" href="./yii-db-activerelationtrait.html">ActiveRelationTrait</a>
+<a class="list-group-item" href="./yii-db-aftersaveevent.html">AfterSaveEvent</a>
+<a class="list-group-item" href="./yii-db-arrayexpression.html">ArrayExpression</a>
+<a class="list-group-item" href="./yii-db-baseactiverecord.html">BaseActiveRecord</a>
+<a class="list-group-item" href="./yii-db-batchqueryresult.html">BatchQueryResult</a>
+<a class="list-group-item" href="./yii-db-checkconstraint.html">CheckConstraint</a>
+<a class="list-group-item" href="./yii-db-columnschema.html">ColumnSchema</a>
+<a class="list-group-item" href="./yii-db-columnschemabuilder.html">ColumnSchemaBuilder</a>
+<a class="list-group-item" href="./yii-db-command.html">Command</a>
+<a class="list-group-item" href="./yii-db-connection.html">Connection</a>
+<a class="list-group-item" href="./yii-db-constraint.html">Constraint</a>
+<a class="list-group-item" href="./yii-db-constraintfinderinterface.html">ConstraintFinderInterface</a>
+<a class="list-group-item" href="./yii-db-constraintfindertrait.html">ConstraintFinderTrait</a>
+<a class="list-group-item" href="./yii-db-datareader.html">DataReader</a>
+<a class="list-group-item" href="./yii-db-defaultvalueconstraint.html">DefaultValueConstraint</a>
+<a class="list-group-item" href="./yii-db-exception.html">Exception</a>
+<a class="list-group-item" href="./yii-db-expression.html">Expression</a>
+<a class="list-group-item" href="./yii-db-expressionbuilder.html">ExpressionBuilder</a>
+<a class="list-group-item" href="./yii-db-expressionbuilderinterface.html">ExpressionBuilderInterface</a>
+<a class="list-group-item" href="./yii-db-expressionbuildertrait.html">ExpressionBuilderTrait</a>
+<a class="list-group-item" href="./yii-db-expressioninterface.html">ExpressionInterface</a>
+<a class="list-group-item" href="./yii-db-foreignkeyconstraint.html">ForeignKeyConstraint</a>
+<a class="list-group-item" href="./yii-db-indexconstraint.html">IndexConstraint</a>
+<a class="list-group-item" href="./yii-db-integrityexception.html">IntegrityException</a>
+<a class="list-group-item" href="./yii-db-jsonexpression.html">JsonExpression</a>
+<a class="list-group-item" href="./yii-db-migration.html">Migration</a>
+<a class="list-group-item" href="./yii-db-migrationinterface.html">MigrationInterface</a>
+<a class="list-group-item" href="./yii-db-pdovalue.html">PdoValue</a>
+<a class="list-group-item" href="./yii-db-pdovaluebuilder.html">PdoValueBuilder</a>
+<a class="list-group-item" href="./yii-db-query.html">Query</a>
+<a class="list-group-item" href="./yii-db-querybuilder.html">QueryBuilder</a>
+<a class="list-group-item" href="./yii-db-queryexpressionbuilder.html">QueryExpressionBuilder</a>
+<a class="list-group-item" href="./yii-db-queryinterface.html">QueryInterface</a>
+<a class="list-group-item" href="./yii-db-querytrait.html">QueryTrait</a>
+<a class="list-group-item" href="./yii-db-schema.html">Schema</a>
+<a class="list-group-item" href="./yii-db-schemabuildertrait.html">SchemaBuilderTrait</a>
+<a class="list-group-item" href="./yii-db-sqltoken.html">SqlToken</a>
+<a class="list-group-item" href="./yii-db-sqltokenizer.html">SqlTokenizer</a>
+<a class="list-group-item" href="./yii-db-staleobjectexception.html">StaleObjectException</a>
+<a class="list-group-item" href="./yii-db-tableschema.html">TableSchema</a>
+<a class="list-group-item" href="./yii-db-transaction.html">Transaction</a>
+<a class="list-group-item" href="./yii-db-viewfindertrait.html">ViewFinderTrait</a></div>
+<a class="list-group-item" href="#navigation-3985" data-toggle="collapse" data-parent="#navigation">yii\db\conditions <b class="caret"></b></a><div id="navigation-3985" class="submenu panel-collapse collapse"><a class="list-group-item" href="./yii-db-conditions-andcondition.html">AndCondition</a>
+<a class="list-group-item" href="./yii-db-conditions-betweencolumnscondition.html">BetweenColumnsCondition</a>
+<a class="list-group-item" href="./yii-db-conditions-betweencolumnsconditionbuilder.html">BetweenColumnsConditionBuilder</a>
+<a class="list-group-item" href="./yii-db-conditions-betweencondition.html">BetweenCondition</a>
+<a class="list-group-item" href="./yii-db-conditions-betweenconditionbuilder.html">BetweenConditionBuilder</a>
+<a class="list-group-item" href="./yii-db-conditions-conditioninterface.html">ConditionInterface</a>
+<a class="list-group-item" href="./yii-db-conditions-conjunctioncondition.html">ConjunctionCondition</a>
+<a class="list-group-item" href="./yii-db-conditions-conjunctionconditionbuilder.html">ConjunctionConditionBuilder</a>
+<a class="list-group-item" href="./yii-db-conditions-existscondition.html">ExistsCondition</a>
+<a class="list-group-item" href="./yii-db-conditions-existsconditionbuilder.html">ExistsConditionBuilder</a>
+<a class="list-group-item" href="./yii-db-conditions-hashcondition.html">HashCondition</a>
+<a class="list-group-item" href="./yii-db-conditions-hashconditionbuilder.html">HashConditionBuilder</a>
+<a class="list-group-item" href="./yii-db-conditions-incondition.html">InCondition</a>
+<a class="list-group-item" href="./yii-db-conditions-inconditionbuilder.html">InConditionBuilder</a>
+<a class="list-group-item" href="./yii-db-conditions-likecondition.html">LikeCondition</a>
+<a class="list-group-item" href="./yii-db-conditions-likeconditionbuilder.html">LikeConditionBuilder</a>
+<a class="list-group-item" href="./yii-db-conditions-notcondition.html">NotCondition</a>
+<a class="list-group-item" href="./yii-db-conditions-notconditionbuilder.html">NotConditionBuilder</a>
+<a class="list-group-item" href="./yii-db-conditions-orcondition.html">OrCondition</a>
+<a class="list-group-item" href="./yii-db-conditions-simplecondition.html">SimpleCondition</a>
+<a class="list-group-item" href="./yii-db-conditions-simpleconditionbuilder.html">SimpleConditionBuilder</a></div>
+<a class="list-group-item" href="#navigation-3986" data-toggle="collapse" data-parent="#navigation">yii\db\cubrid <b class="caret"></b></a><div id="navigation-3986" class="submenu panel-collapse collapse"><a class="list-group-item" href="./yii-db-cubrid-columnschemabuilder.html">ColumnSchemaBuilder</a>
+<a class="list-group-item" href="./yii-db-cubrid-querybuilder.html">QueryBuilder</a>
+<a class="list-group-item" href="./yii-db-cubrid-schema.html">Schema</a></div>
+<a class="list-group-item" href="#navigation-3987" data-toggle="collapse" data-parent="#navigation">yii\db\cubrid\conditions <b class="caret"></b></a><div id="navigation-3987" class="submenu panel-collapse collapse"><a class="list-group-item" href="./yii-db-cubrid-conditions-likeconditionbuilder.html">LikeConditionBuilder</a></div>
+<a class="list-group-item" href="#navigation-3988" data-toggle="collapse" data-parent="#navigation">yii\db\mssql <b class="caret"></b></a><div id="navigation-3988" class="submenu panel-collapse collapse"><a class="list-group-item" href="./yii-db-mssql-columnschema.html">ColumnSchema</a>
+<a class="list-group-item" href="./yii-db-mssql-pdo.html">PDO</a>
+<a class="list-group-item" href="./yii-db-mssql-querybuilder.html">QueryBuilder</a>
+<a class="list-group-item" href="./yii-db-mssql-schema.html">Schema</a>
+<a class="list-group-item" href="./yii-db-mssql-sqlsrvpdo.html">SqlsrvPDO</a>
+<a class="list-group-item" href="./yii-db-mssql-tableschema.html">TableSchema</a></div>
+<a class="list-group-item" href="#navigation-3989" data-toggle="collapse" data-parent="#navigation">yii\db\mssql\conditions <b class="caret"></b></a><div id="navigation-3989" class="submenu panel-collapse collapse"><a class="list-group-item" href="./yii-db-mssql-conditions-inconditionbuilder.html">InConditionBuilder</a>
+<a class="list-group-item" href="./yii-db-mssql-conditions-likeconditionbuilder.html">LikeConditionBuilder</a></div>
+<a class="list-group-item" href="#navigation-3990" data-toggle="collapse" data-parent="#navigation">yii\db\mysql <b class="caret"></b></a><div id="navigation-3990" class="submenu panel-collapse collapse"><a class="list-group-item" href="./yii-db-mysql-columnschema.html">ColumnSchema</a>
+<a class="list-group-item" href="./yii-db-mysql-columnschemabuilder.html">ColumnSchemaBuilder</a>
+<a class="list-group-item" href="./yii-db-mysql-jsonexpressionbuilder.html">JsonExpressionBuilder</a>
+<a class="list-group-item" href="./yii-db-mysql-querybuilder.html">QueryBuilder</a>
+<a class="list-group-item" href="./yii-db-mysql-schema.html">Schema</a></div>
+<a class="list-group-item" href="#navigation-3991" data-toggle="collapse" data-parent="#navigation">yii\db\oci <b class="caret"></b></a><div id="navigation-3991" class="submenu panel-collapse collapse"><a class="list-group-item" href="./yii-db-oci-columnschemabuilder.html">ColumnSchemaBuilder</a>
+<a class="list-group-item" href="./yii-db-oci-querybuilder.html">QueryBuilder</a>
+<a class="list-group-item" href="./yii-db-oci-schema.html">Schema</a></div>
+<a class="list-group-item" href="#navigation-3992" data-toggle="collapse" data-parent="#navigation">yii\db\oci\conditions <b class="caret"></b></a><div id="navigation-3992" class="submenu panel-collapse collapse"><a class="list-group-item" href="./yii-db-oci-conditions-inconditionbuilder.html">InConditionBuilder</a>
+<a class="list-group-item" href="./yii-db-oci-conditions-likeconditionbuilder.html">LikeConditionBuilder</a></div>
+<a class="list-group-item" href="#navigation-3993" data-toggle="collapse" data-parent="#navigation">yii\db\pgsql <b class="caret"></b></a><div id="navigation-3993" class="submenu panel-collapse collapse"><a class="list-group-item" href="./yii-db-pgsql-arrayexpressionbuilder.html">ArrayExpressionBuilder</a>
+<a class="list-group-item" href="./yii-db-pgsql-arrayparser.html">ArrayParser</a>
+<a class="list-group-item" href="./yii-db-pgsql-columnschema.html">ColumnSchema</a>
+<a class="list-group-item" href="./yii-db-pgsql-jsonexpressionbuilder.html">JsonExpressionBuilder</a>
+<a class="list-group-item" href="./yii-db-pgsql-querybuilder.html">QueryBuilder</a>
+<a class="list-group-item" href="./yii-db-pgsql-schema.html">Schema</a></div>
+<a class="list-group-item" href="#navigation-3994" data-toggle="collapse" data-parent="#navigation">yii\db\sqlite <b class="caret"></b></a><div id="navigation-3994" class="submenu panel-collapse collapse"><a class="list-group-item" href="./yii-db-sqlite-columnschemabuilder.html">ColumnSchemaBuilder</a>
+<a class="list-group-item" href="./yii-db-sqlite-command.html">Command</a>
+<a class="list-group-item" href="./yii-db-sqlite-querybuilder.html">QueryBuilder</a>
+<a class="list-group-item" href="./yii-db-sqlite-schema.html">Schema</a>
+<a class="list-group-item" href="./yii-db-sqlite-sqltokenizer.html">SqlTokenizer</a></div>
+<a class="list-group-item" href="#navigation-3995" data-toggle="collapse" data-parent="#navigation">yii\db\sqlite\conditions <b class="caret"></b></a><div id="navigation-3995" class="submenu panel-collapse collapse"><a class="list-group-item" href="./yii-db-sqlite-conditions-inconditionbuilder.html">InConditionBuilder</a>
+<a class="list-group-item" href="./yii-db-sqlite-conditions-likeconditionbuilder.html">LikeConditionBuilder</a></div>
+<a class="list-group-item" href="#navigation-3996" data-toggle="collapse" data-parent="#navigation">yii\helpers <b class="caret"></b></a><div id="navigation-3996" class="submenu panel-collapse collapse"><a class="list-group-item" href="./yii-helpers-arrayhelper.html">ArrayHelper</a>
+<a class="list-group-item" href="./yii-helpers-basearrayhelper.html">BaseArrayHelper</a>
+<a class="list-group-item" href="./yii-helpers-baseconsole.html">BaseConsole</a>
+<a class="list-group-item" href="./yii-helpers-basefilehelper.html">BaseFileHelper</a>
+<a class="list-group-item" href="./yii-helpers-baseformatconverter.html">BaseFormatConverter</a>
+<a class="list-group-item" href="./yii-helpers-basehtml.html">BaseHtml</a>
+<a class="list-group-item" href="./yii-helpers-basehtmlpurifier.html">BaseHtmlPurifier</a>
+<a class="list-group-item" href="./yii-helpers-baseinflector.html">BaseInflector</a>
+<a class="list-group-item" href="./yii-helpers-baseiphelper.html">BaseIpHelper</a>
+<a class="list-group-item" href="./yii-helpers-basejson.html">BaseJson</a>
+<a class="list-group-item" href="./yii-helpers-basemarkdown.html">BaseMarkdown</a>
+<a class="list-group-item" href="./yii-helpers-basestringhelper.html">BaseStringHelper</a>
+<a class="list-group-item" href="./yii-helpers-baseurl.html">BaseUrl</a>
+<a class="list-group-item" href="./yii-helpers-basevardumper.html">BaseVarDumper</a>
+<a class="list-group-item" href="./yii-helpers-console.html">Console</a>
+<a class="list-group-item" href="./yii-helpers-filehelper.html">FileHelper</a>
+<a class="list-group-item" href="./yii-helpers-formatconverter.html">FormatConverter</a>
+<a class="list-group-item" href="./yii-helpers-html.html">Html</a>
+<a class="list-group-item" href="./yii-helpers-htmlpurifier.html">HtmlPurifier</a>
+<a class="list-group-item" href="./yii-helpers-inflector.html">Inflector</a>
+<a class="list-group-item" href="./yii-helpers-iphelper.html">IpHelper</a>
+<a class="list-group-item" href="./yii-helpers-json.html">Json</a>
+<a class="list-group-item" href="./yii-helpers-markdown.html">Markdown</a>
+<a class="list-group-item" href="./yii-helpers-replacearrayvalue.html">ReplaceArrayValue</a>
+<a class="list-group-item" href="./yii-helpers-stringhelper.html">StringHelper</a>
+<a class="list-group-item" href="./yii-helpers-unsetarrayvalue.html">UnsetArrayValue</a>
+<a class="list-group-item" href="./yii-helpers-url.html">Url</a>
+<a class="list-group-item" href="./yii-helpers-vardumper.html">VarDumper</a></div></div>    </div>
+    <div class="col-md-9 api-content" role="main">
+        <h1>Interface yii\base\Configurable</h1>
+<div class="top-nav">
+    <a href="index.html">All Classes</a>
+                </div>
+
+<table class="summaryTable docClass table table-bordered">
+    <colgroup>
+        <col class="col-name" />
+        <col class="col-value" />
+    </colgroup>
+                                <tr><th>Implemented by</th><td><a href="rootlocal-crud-actions-createaction.html">rootlocal\crud\actions\CreateAction</a>, <a href="rootlocal-crud-actions-deleteaction.html">rootlocal\crud\actions\DeleteAction</a>, <a href="rootlocal-crud-actions-indexaction.html">rootlocal\crud\actions\IndexAction</a>, <a href="rootlocal-crud-actions-updateaction.html">rootlocal\crud\actions\UpdateAction</a>, <a href="rootlocal-crud-actions-validateaction.html">rootlocal\crud\actions\ValidateAction</a>, <a href="rootlocal-crud-actions-viewaction.html">rootlocal\crud\actions\ViewAction</a>, <a href="rootlocal-crud-components-action.html">rootlocal\crud\components\Action</a>, <a href="yii-base-action.html">yii\base\Action</a>, <a href="yii-base-actionevent.html">yii\base\ActionEvent</a>, <a href="yii-base-actionfilter.html">yii\base\ActionFilter</a>, <a href="yii-base-baseobject.html">yii\base\BaseObject</a>, <a href="yii-base-behavior.html">yii\base\Behavior</a>, <a href="yii-base-component.html">yii\base\Component</a>, <a href="yii-base-controller.html">yii\base\Controller</a>, <a href="yii-base-dynamicmodel.html">yii\base\DynamicModel</a>, <a href="yii-base-errorhandler.html">yii\base\ErrorHandler</a>, <a href="yii-base-event.html">yii\base\Event</a>, <a href="yii-base-inlineaction.html">yii\base\InlineAction</a>, <a href="yii-base-model.html">yii\base\Model</a>, <a href="yii-base-modelevent.html">yii\base\ModelEvent</a>, <a href="yii-base-request.html">yii\base\Request</a>, <a href="yii-base-response.html">yii\base\Response</a>, <a href="yii-base-security.html">yii\base\Security</a>, <a href="yii-base-theme.html">yii\base\Theme</a>, <a href="yii-base-view.html">yii\base\View</a>, <a href="yii-base-viewevent.html">yii\base\ViewEvent</a>, <a href="yii-base-viewrenderer.html">yii\base\ViewRenderer</a>, <a href="yii-base-widget.html">yii\base\Widget</a>, <a href="yii-base-widgetevent.html">yii\base\WidgetEvent</a>, <a href="yii-bootstrap-alert.html">yii\bootstrap\Alert</a>, <a href="yii-bootstrap-button.html">yii\bootstrap\Button</a>, <a href="yii-bootstrap-buttondropdown.html">yii\bootstrap\ButtonDropdown</a>, <a href="yii-bootstrap-buttongroup.html">yii\bootstrap\ButtonGroup</a>, <a href="yii-bootstrap-carousel.html">yii\bootstrap\Carousel</a>, <a href="yii-bootstrap-collapse.html">yii\bootstrap\Collapse</a>, <a href="yii-bootstrap-dropdown.html">yii\bootstrap\Dropdown</a>, <a href="yii-bootstrap-modal.html">yii\bootstrap\Modal</a>, <a href="yii-bootstrap-nav.html">yii\bootstrap\Nav</a>, <a href="yii-bootstrap-navbar.html">yii\bootstrap\NavBar</a>, <a href="yii-bootstrap-progress.html">yii\bootstrap\Progress</a>, <a href="yii-bootstrap-tabs.html">yii\bootstrap\Tabs</a>, <a href="yii-bootstrap-widget.html">yii\bootstrap\Widget</a>, <a href="yii-console-controller.html">yii\console\Controller</a>, <a href="yii-console-errorhandler.html">yii\console\ErrorHandler</a>, <a href="yii-console-request.html">yii\console\Request</a>, <a href="yii-console-response.html">yii\console\Response</a>, <a href="yii-console-controllers-assetcontroller.html">yii\console\controllers\AssetController</a>, <a href="yii-console-controllers-basemigratecontroller.html">yii\console\controllers\BaseMigrateController</a>, <a href="yii-console-controllers-cachecontroller.html">yii\console\controllers\CacheController</a>, <a href="yii-console-controllers-fixturecontroller.html">yii\console\controllers\FixtureController</a>, <a href="yii-console-controllers-helpcontroller.html">yii\console\controllers\HelpController</a>, <a href="yii-console-controllers-messagecontroller.html">yii\console\controllers\MessageController</a>, <a href="yii-console-controllers-migratecontroller.html">yii\console\controllers\MigrateController</a>, <a href="yii-console-controllers-servecontroller.html">yii\console\controllers\ServeController</a>, <a href="yii-console-widgets-table.html">yii\console\widgets\Table</a>, <a href="yii-data-activedatafilter.html">yii\data\ActiveDataFilter</a>, <a href="yii-data-activedataprovider.html">yii\data\ActiveDataProvider</a>, <a href="yii-data-arraydataprovider.html">yii\data\ArrayDataProvider</a>, <a href="yii-data-basedataprovider.html">yii\data\BaseDataProvider</a>, <a href="yii-data-datafilter.html">yii\data\DataFilter</a>, <a href="yii-data-pagination.html">yii\data\Pagination</a>, <a href="yii-data-sort.html">yii\data\Sort</a>, <a href="yii-data-sqldataprovider.html">yii\data\SqlDataProvider</a>, <a href="yii-db-activequery.html">yii\db\ActiveQuery</a>, <a href="yii-db-activerecord.html">yii\db\ActiveRecord</a>, <a href="yii-db-aftersaveevent.html">yii\db\AfterSaveEvent</a>, <a href="yii-db-baseactiverecord.html">yii\db\BaseActiveRecord</a>, <a href="yii-db-batchqueryresult.html">yii\db\BatchQueryResult</a>, <a href="yii-db-checkconstraint.html">yii\db\CheckConstraint</a>, <a href="yii-db-columnschema.html">yii\db\ColumnSchema</a>, <a href="yii-db-columnschemabuilder.html">yii\db\ColumnSchemaBuilder</a>, <a href="yii-db-command.html">yii\db\Command</a>, <a href="yii-db-connection.html">yii\db\Connection</a>, <a href="yii-db-constraint.html">yii\db\Constraint</a>, <a href="yii-db-datareader.html">yii\db\DataReader</a>, <a href="yii-db-defaultvalueconstraint.html">yii\db\DefaultValueConstraint</a>, <a href="yii-db-expression.html">yii\db\Expression</a>, <a href="yii-db-foreignkeyconstraint.html">yii\db\ForeignKeyConstraint</a>, <a href="yii-db-indexconstraint.html">yii\db\IndexConstraint</a>, <a href="yii-db-migration.html">yii\db\Migration</a>, <a href="yii-db-query.html">yii\db\Query</a>, <a href="yii-db-querybuilder.html">yii\db\QueryBuilder</a>, <a href="yii-db-schema.html">yii\db\Schema</a>, <a href="yii-db-sqltoken.html">yii\db\SqlToken</a>, <a href="yii-db-sqltokenizer.html">yii\db\SqlTokenizer</a>, <a href="yii-db-tableschema.html">yii\db\TableSchema</a>, <a href="yii-db-transaction.html">yii\db\Transaction</a>, <a href="yii-db-cubrid-columnschemabuilder.html">yii\db\cubrid\ColumnSchemaBuilder</a>, <a href="yii-db-cubrid-querybuilder.html">yii\db\cubrid\QueryBuilder</a>, <a href="yii-db-cubrid-schema.html">yii\db\cubrid\Schema</a>, <a href="yii-db-mssql-columnschema.html">yii\db\mssql\ColumnSchema</a>, <a href="yii-db-mssql-querybuilder.html">yii\db\mssql\QueryBuilder</a>, <a href="yii-db-mssql-schema.html">yii\db\mssql\Schema</a>, <a href="yii-db-mssql-tableschema.html">yii\db\mssql\TableSchema</a>, <a href="yii-db-mysql-columnschema.html">yii\db\mysql\ColumnSchema</a>, <a href="yii-db-mysql-columnschemabuilder.html">yii\db\mysql\ColumnSchemaBuilder</a>, <a href="yii-db-mysql-querybuilder.html">yii\db\mysql\QueryBuilder</a>, <a href="yii-db-mysql-schema.html">yii\db\mysql\Schema</a>, <a href="yii-db-oci-columnschemabuilder.html">yii\db\oci\ColumnSchemaBuilder</a>, <a href="yii-db-oci-querybuilder.html">yii\db\oci\QueryBuilder</a>, <a href="yii-db-oci-schema.html">yii\db\oci\Schema</a>, <a href="yii-db-pgsql-columnschema.html">yii\db\pgsql\ColumnSchema</a>, <a href="yii-db-pgsql-querybuilder.html">yii\db\pgsql\QueryBuilder</a>, <a href="yii-db-pgsql-schema.html">yii\db\pgsql\Schema</a>, <a href="yii-db-sqlite-columnschemabuilder.html">yii\db\sqlite\ColumnSchemaBuilder</a>, <a href="yii-db-sqlite-command.html">yii\db\sqlite\Command</a>, <a href="yii-db-sqlite-querybuilder.html">yii\db\sqlite\QueryBuilder</a>, <a href="yii-db-sqlite-schema.html">yii\db\sqlite\Schema</a>, <a href="yii-db-sqlite-sqltokenizer.html">yii\db\sqlite\SqlTokenizer</a></td></tr>
+                    <tr><th>Available since version</th><td>2.0.3</td></tr>
+                    <tr>
+          <th>Source Code</th>
+          <td><a href="https://github.com/yiisoft/yii2/blob/master/framework/base/Configurable.php">https://github.com/yiisoft/yii2/blob/master/framework/base/Configurable.php</a></td>
+        </tr>
+    </table>
+
+<div class="class-description">
+    <p><strong>Configurable is the interface that should be implemented by classes who support configuring
+its properties through the last parameter to its constructor.</strong></p>
+    <p>The interface does not declare any method. Classes implementing this interface must declare their constructors
+like the following:</p>
+<pre><code class="hljs php language-php"><span class="hljs-keyword">public</span> <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">__constructor</span><span class="hljs-params">($param1, $param2, ..., $config = [])</span>
+</span></code></pre>
+<p>That is, the last parameter of the constructor must accept a configuration array.</p>
+<p>This interface is mainly used by <span class="broken-link">\yii\di\Container</span> so that it can pass object configuration as the
+last parameter to the implementing class' constructor.</p>
+<p>For more details and usage information on Configurable, see the <a href="/guide-concept-configurations.html">guide article on configurations</a>.</p>
+
+    </div>
+
+<a id="properties"></a>
+
+<a id="methods"></a>
+
+<a id="events"></a>
+
+<a id="constants"></a>
+
+    </div>
+</div>
+
+<script type="text/javascript">
+    /*<![CDATA[*/
+    $("a.toggle").on('click', function () {
+        var $this = $(this);
+        if ($this.hasClass('properties-hidden')) {
+            $this.text($this.text().replace(/Show/,'Hide'));
+            $this.parents(".summary").find(".inherited").show();
+            $this.removeClass('properties-hidden');
+        } else {
+            $this.text($this.text().replace(/Hide/,'Show'));
+            $this.parents(".summary").find(".inherited").hide();
+            $this.addClass('properties-hidden');
+        }
+
+        return false;
+    });
+    /*
+     $(".sourceCode a.show").toggle(function () {
+     $(this).text($(this).text().replace(/show/,'hide'));
+     $(this).parents(".sourceCode").find("div.code").show();
+     },function () {
+     $(this).text($(this).text().replace(/hide/,'show'));
+     $(this).parents(".sourceCode").find("div.code").hide();
+     });
+     $("a.sourceLink").click(function () {
+     $(this).attr('target','_blank');
+     });
+     */
+    /*]]>*/
+</script>
+
+
+</div>
+
+<footer class="footer">
+        <p class="pull-right"><small>Page generated on Tue, 14 Jan 2020 17:06:15 +0000</small></p>
+    Powered by <a href="http://www.yiiframework.com/" rel="external">Yii Framework</a></footer>
+
+<script>jQuery(function ($) {
+    var shiftWindow = function () { scrollBy(0, -50) };
+    if (location.hash) setTimeout(shiftWindow, 1);
+    window.addEventListener("hashchange", shiftWindow);
+var element = document.createElement("script");
+element.src = "./jssearch.index.js";
+document.body.appendChild(element);
+
+var searchBox = $('#searchbox');
+
+// search when typing in search field
+searchBox.on("keyup", function(event) {
+    var query = $(this).val();
+
+    if (query == '' || event.which == 27) {
+        $('#search-resultbox').hide();
+        return;
+    } else if (event.which == 13) {
+        var selectedLink = $('#search-resultbox a.selected');
+        if (selectedLink.length != 0) {
+            document.location = selectedLink.attr('href');
+            return;
+        }
+    } else if (event.which == 38 || event.which == 40) {
+        $('#search-resultbox').show();
+
+        var selected = $('#search-resultbox a.selected');
+        if (selected.length == 0) {
+            $('#search-results').find('a').first().addClass('selected');
+        } else {
+            var next;
+            if (event.which == 40) {
+                next = selected.parent().next().find('a').first();
+            } else {
+                next = selected.parent().prev().find('a').first();
+            }
+            if (next.length != 0) {
+                var resultbox = $('#search-results');
+                var position = next.position();
+
+//              TODO scrolling is buggy and jumps around
+//                resultbox.scrollTop(Math.floor(position.top));
+//                console.log(position.top);
+
+                selected.removeClass('selected');
+                next.addClass('selected');
+            }
+        }
+
+        return;
+    }
+    $('#search-resultbox').show();
+    $('#search-results').html('<li><span class="no-results">No results</span></li>');
+
+    var result = jssearch.search(query);
+
+    if (result.length > 0) {
+        var i = 0;
+        var resHtml = '';
+
+        for (var key in result) {
+            if (i++ > 20) {
+                break;
+            }
+            resHtml = resHtml +
+            '<li><a href="' + result[key].file.u.substr(3) +'"><span class="title">' + result[key].file.t + '</span>' +
+            '<span class="description">' + result[key].file.d + '</span></a></li>';
+        }
+        $('#search-results').html(resHtml);
+    }
+});
+
+// hide the search results on ESC
+$(document).on("keyup", function(event) { if (event.which == 27) { $('#search-resultbox').hide(); } });
+// hide search results on click to document
+$(document).bind('click', function (e) { $('#search-resultbox').hide(); });
+// except the following:
+searchBox.bind('click', function(e) { e.stopPropagation(); });
+$('#search-resultbox').bind('click', function(e) { e.stopPropagation(); });
+
+});</script></body>
+</html>
