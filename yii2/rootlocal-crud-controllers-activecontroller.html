@@ -273,6 +273,11 @@ in the request.</td>
         <td>Sets an object property to null.</td>
         <td><a href="yii-base-baseobject.html">yii\base\BaseObject</a></td>
     </tr>
+            <tr id="accessControl()">
+        <td><a href="rootlocal-crud-controllers-activecontroller.html#accessControl()-detail">accessControl()</a></td>
+        <td>List of access rule objects or configuration arrays for creating the rule objects.</td>
+        <td><a href="rootlocal-crud-controllers-activecontroller.html">rootlocal\crud\controllers\ActiveController</a></td>
+    </tr>
             <tr id="actions()">
         <td><a href="rootlocal-crud-controllers-activecontroller.html#actions()-detail">actions()</a></td>
         <td>Declares external actions for the controller</td>
@@ -570,6 +575,46 @@ in the request.</td>
 
 <div class="method-doc">
 
+    <div class="detail-header h3" id="accessControl()-detail">
+        <a href="#" class="tool-link" title="go to top"><span class="glyphicon glyphicon-arrow-up"></span></a>
+        <a class="tool-link hash" href="rootlocal-crud-controllers-activecontroller.html#accessControl()-detail" title="direct link to this method"><span class="glyphicon icon-hash"></span></a>
+        
+        accessControl()
+        <span class="detail-header-tag small">
+            public                                    method
+                    </span>
+    </div>
+
+    
+    <div class="doc-description">
+        <p><strong>List of access rule objects or configuration arrays for creating the rule objects.</strong></p>
+
+        <p>If a rule is specified via a configuration array, it will be merged with <span class="broken-link">\rootlocal\crud\controllers\ruleConfig</span> first
+before it is used for creating the rule object.</p>
+<p>Example:</p>
+<pre><code class="hljs php language-php"><span class="hljs-keyword">public</span> <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">accessControl</span><span class="hljs-params">()</span>
+</span>{
+<span class="hljs-keyword">return</span> [[
+     <span class="hljs-string">'actions'</span> =&gt; [
+         <span class="hljs-string">'index'</span>,
+         <span class="hljs-string">'view'</span>,
+         <span class="hljs-string">'create'</span>,
+         <span class="hljs-string">'update'</span>,
+         <span class="hljs-string">'delete'</span>,
+     ],
+     <span class="hljs-string">'allow'</span> =&gt; <span class="hljs-keyword">true</span>,
+     <span class="hljs-string">'roles'</span> =&gt; [<span class="hljs-string">'@'</span>]]];
+}
+</code></pre>
+
+            </div>
+
+    <table class="detail-table table table-striped table-bordered table-hover">
+        <tr><td colspan="3" class="signature"><span class="signature-defs">public</span> <span class="signature-type"><a href="http://www.php.net/language.types.array">array</a></span> <strong><a href="rootlocal-crud-controllers-activecontroller.html#accessControl()-detail">accessControl</a></strong> ( )</td></tr>
+            </table>
+
+<!--	-->
+
     <div class="detail-header h3" id="actions()-detail">
         <a href="#" class="tool-link" title="go to top"><span class="glyphicon glyphicon-arrow-up"></span></a>
         <a class="tool-link hash" href="rootlocal-crud-controllers-activecontroller.html#actions()-detail" title="direct link to this method"><span class="glyphicon icon-hash"></span></a>
@@ -777,7 +822,7 @@ If the user does not have access, a <span class="broken-link">\yii\web\Forbidden
 </div>
 
 <footer class="footer">
-        <p class="pull-right"><small>Page generated on Wed, 15 Jan 2020 16:32:47 +0000</small></p>
+        <p class="pull-right"><small>Page generated on Wed, 15 Jan 2020 17:53:50 +0000</small></p>
     Powered by <a href="http://www.yiiframework.com/" rel="external">Yii Framework</a></footer>
 
 <script>jQuery(function ($) {
