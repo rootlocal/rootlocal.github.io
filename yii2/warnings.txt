@@ -3,147 +3,147 @@ Array
     [0] => Array
         (
             [line] => 20
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2-bootstrap/src/BootstrapAsset.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2-bootstrap/src/BootstrapAsset.php
             [message] => No docblock for element '$sourcePath'
         )
 
     [1] => Array
         (
             [line] => 20
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2-bootstrap/src/BootstrapAsset.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2-bootstrap/src/BootstrapAsset.php
             [message] => No short description for element '$sourcePath'
         )
 
     [2] => Array
         (
             [line] => 21
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2-bootstrap/src/BootstrapAsset.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2-bootstrap/src/BootstrapAsset.php
             [message] => No docblock for element '$css'
         )
 
     [3] => Array
         (
             [line] => 21
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2-bootstrap/src/BootstrapAsset.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2-bootstrap/src/BootstrapAsset.php
             [message] => No short description for element '$css'
         )
 
     [4] => Array
         (
             [line] => 20
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2-bootstrap/src/BootstrapPluginAsset.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2-bootstrap/src/BootstrapPluginAsset.php
             [message] => No docblock for element '$sourcePath'
         )
 
     [5] => Array
         (
             [line] => 20
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2-bootstrap/src/BootstrapPluginAsset.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2-bootstrap/src/BootstrapPluginAsset.php
             [message] => No short description for element '$sourcePath'
         )
 
     [6] => Array
         (
             [line] => 21
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2-bootstrap/src/BootstrapPluginAsset.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2-bootstrap/src/BootstrapPluginAsset.php
             [message] => No docblock for element '$js'
         )
 
     [7] => Array
         (
             [line] => 21
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2-bootstrap/src/BootstrapPluginAsset.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2-bootstrap/src/BootstrapPluginAsset.php
             [message] => No short description for element '$js'
         )
 
     [8] => Array
         (
             [line] => 24
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2-bootstrap/src/BootstrapPluginAsset.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2-bootstrap/src/BootstrapPluginAsset.php
             [message] => No docblock for element '$depends'
         )
 
     [9] => Array
         (
             [line] => 24
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2-bootstrap/src/BootstrapPluginAsset.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2-bootstrap/src/BootstrapPluginAsset.php
             [message] => No short description for element '$depends'
         )
 
     [10] => Array
         (
             [line] => 20
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2-bootstrap/src/BootstrapThemeAsset.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2-bootstrap/src/BootstrapThemeAsset.php
             [message] => No docblock for element '$sourcePath'
         )
 
     [11] => Array
         (
             [line] => 20
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2-bootstrap/src/BootstrapThemeAsset.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2-bootstrap/src/BootstrapThemeAsset.php
             [message] => No short description for element '$sourcePath'
         )
 
     [12] => Array
         (
             [line] => 21
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2-bootstrap/src/BootstrapThemeAsset.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2-bootstrap/src/BootstrapThemeAsset.php
             [message] => No docblock for element '$css'
         )
 
     [13] => Array
         (
             [line] => 21
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2-bootstrap/src/BootstrapThemeAsset.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2-bootstrap/src/BootstrapThemeAsset.php
             [message] => No short description for element '$css'
         )
 
     [14] => Array
         (
             [line] => 24
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2-bootstrap/src/BootstrapThemeAsset.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2-bootstrap/src/BootstrapThemeAsset.php
             [message] => No docblock for element '$depends'
         )
 
     [15] => Array
         (
             [line] => 24
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2-bootstrap/src/BootstrapThemeAsset.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2-bootstrap/src/BootstrapThemeAsset.php
             [message] => No short description for element '$depends'
         )
 
     [16] => Array
         (
             [line] => 28
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/console/UnknownCommandException.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/console/UnknownCommandException.php
             [message] => No short description for element '$application'
         )
 
     [17] => Array
         (
             [line] => 200
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/data/ActiveDataProvider.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/data/ActiveDataProvider.php
             [message] => No docblock for element '__clone'
         )
 
     [18] => Array
         (
             [line] => 22
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/db/ExpressionBuilderTrait.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/db/ExpressionBuilderTrait.php
             [message] => No short description for element '$queryBuilder'
         )
 
     [19] => Array
         (
             [line] => 21
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/db/conditions/ConjunctionCondition.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/db/conditions/ConjunctionCondition.php
             [message] => No short description for element '$expressions'
         )
 
     [20] => Array
         (
             [line] => 30
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/helpers/BaseJson.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/helpers/BaseJson.php
             [message] => No short description for element '$jsonErrorMessages'
         )
 

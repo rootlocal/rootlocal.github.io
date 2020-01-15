@@ -3,1543 +3,1569 @@ Array
     [0] => Array
         (
             [line] => 151
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2-bootstrap/src/ActiveField.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2-bootstrap/src/ActiveField.php
             [message] => Method __construct has no parent to inherit from in yii\bootstrap\ActiveField.
         )
 
     [1] => Array
         (
             [line] => 161
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2-bootstrap/src/ActiveField.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2-bootstrap/src/ActiveField.php
             [message] => Method render has no parent to inherit from in yii\bootstrap\ActiveField.
         )
 
     [2] => Array
         (
             [line] => 193
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2-bootstrap/src/ActiveField.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2-bootstrap/src/ActiveField.php
             [message] => Method checkbox has no parent to inherit from in yii\bootstrap\ActiveField.
         )
 
     [3] => Array
         (
             [line] => 218
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2-bootstrap/src/ActiveField.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2-bootstrap/src/ActiveField.php
             [message] => Method radio has no parent to inherit from in yii\bootstrap\ActiveField.
         )
 
     [4] => Array
         (
             [line] => 243
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2-bootstrap/src/ActiveField.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2-bootstrap/src/ActiveField.php
             [message] => Method checkboxList has no parent to inherit from in yii\bootstrap\ActiveField.
         )
 
     [5] => Array
         (
             [line] => 275
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2-bootstrap/src/ActiveField.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2-bootstrap/src/ActiveField.php
             [message] => Method radioList has no parent to inherit from in yii\bootstrap\ActiveField.
         )
 
     [6] => Array
         (
             [line] => 325
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2-bootstrap/src/ActiveField.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2-bootstrap/src/ActiveField.php
             [message] => Method label has no parent to inherit from in yii\bootstrap\ActiveField.
         )
 
     [7] => Array
         (
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2-bootstrap/src/ActiveField.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2-bootstrap/src/ActiveField.php
             [message] => broken link to \yii\widgets\ActiveField in yii\bootstrap\ActiveField
         )
 
     [8] => Array
         (
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2-bootstrap/src/ActiveField.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2-bootstrap/src/ActiveField.php
             [message] => broken link to \yii\widgets\ActiveField in yii\bootstrap\ActiveField
         )
 
     [9] => Array
         (
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2-bootstrap/src/ActiveField.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2-bootstrap/src/ActiveField.php
             [message] => broken link to \yii\bootstrap\template in yii\bootstrap\ActiveField
         )
 
     [10] => Array
         (
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2-bootstrap/src/ActiveField.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2-bootstrap/src/ActiveField.php
             [message] => broken link to \yii\bootstrap\template in yii\bootstrap\ActiveField
         )
 
     [11] => Array
         (
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2-bootstrap/src/ActiveField.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2-bootstrap/src/ActiveField.php
             [message] => broken link to \yii\widgets\ActiveForm::fieldConfig in yii\bootstrap\ActiveField
         )
 
     [12] => Array
         (
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2-bootstrap/src/ActiveField.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2-bootstrap/src/ActiveField.php
             [message] => broken link to \yii\widgets\ActiveForm in yii\bootstrap\ActiveField
         )
 
     [13] => Array
         (
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2-bootstrap/src/ActiveField.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2-bootstrap/src/ActiveField.php
             [message] => broken link to \yii\widgets\ActiveField in yii\bootstrap\ActiveField
         )
 
     [14] => Array
         (
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2-bootstrap/src/ActiveField.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2-bootstrap/src/ActiveField.php
             [message] => broken link to \yii\widgets\ActiveField in yii\bootstrap\ActiveField
         )
 
     [15] => Array
         (
             [line] => 89
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2-bootstrap/src/ActiveForm.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2-bootstrap/src/ActiveForm.php
             [message] => Method init has no parent to inherit from in yii\bootstrap\ActiveForm.
         )
 
     [16] => Array
         (
             [line] => 105
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2-bootstrap/src/ActiveForm.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2-bootstrap/src/ActiveForm.php
             [message] => Method field has no parent to inherit from in yii\bootstrap\ActiveForm.
         )
 
     [17] => Array
         (
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2-bootstrap/src/ActiveForm.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2-bootstrap/src/ActiveForm.php
             [message] => broken link to \yii\widgets\ActiveForm in yii\bootstrap\ActiveForm
         )
 
     [18] => Array
         (
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2-bootstrap/src/ActiveForm.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2-bootstrap/src/ActiveForm.php
             [message] => broken link to yii\bootstrap\ActiveField::template in yii\bootstrap\ActiveForm
         )
 
     [19] => Array
         (
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2-bootstrap/src/ActiveForm.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2-bootstrap/src/ActiveForm.php
             [message] => broken link to \yii\bootstrap\fieldConfig in yii\bootstrap\ActiveForm
         )
 
     [20] => Array
         (
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2-bootstrap/src/ActiveForm.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2-bootstrap/src/ActiveForm.php
             [message] => broken link to \yii\bootstrap\fieldConfig in yii\bootstrap\ActiveForm
         )
 
     [21] => Array
         (
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2-bootstrap/src/ActiveForm.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2-bootstrap/src/ActiveForm.php
             [message] => broken link to \yii\bootstrap\fieldConfig in yii\bootstrap\ActiveForm
         )
 
     [22] => Array
         (
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2-bootstrap/src/ActiveForm.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2-bootstrap/src/ActiveForm.php
             [message] => broken link to \yii\bootstrap\fieldConfig in yii\bootstrap\ActiveForm
         )
 
     [23] => Array
         (
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2-bootstrap/src/ActiveForm.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2-bootstrap/src/ActiveForm.php
             [message] => broken link to \yii\widgets\ActiveForm in yii\bootstrap\ActiveForm
         )
 
     [24] => Array
         (
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2-bootstrap/src/ActiveForm.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2-bootstrap/src/ActiveForm.php
             [message] => broken link to \yii\widgets\ActiveForm in yii\bootstrap\ActiveForm
         )
 
     [25] => Array
         (
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2-bootstrap/src/InputWidget.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2-bootstrap/src/InputWidget.php
             [message] => broken link to \yii\widgets\InputWidget in yii\bootstrap\InputWidget
         )
 
     [26] => Array
         (
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2-bootstrap/src/InputWidget.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2-bootstrap/src/InputWidget.php
             [message] => broken link to \yii\widgets\InputWidget in yii\bootstrap\InputWidget
         )
 
     [27] => Array
         (
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2-bootstrap/src/InputWidget.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2-bootstrap/src/InputWidget.php
             [message] => broken link to \yii\widgets\InputWidget in yii\bootstrap\InputWidget
         )
 
     [28] => Array
         (
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2-bootstrap/src/NavBar.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2-bootstrap/src/NavBar.php
             [message] => broken link to \yii\widgets\Menu in yii\bootstrap\NavBar
         )
 
     [29] => Array
         (
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2-bootstrap/src/NavBar.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2-bootstrap/src/NavBar.php
             [message] => broken link to \yii\web\Application::homeUrl in yii\bootstrap\NavBar
         )
 
     [30] => Array
         (
             [line] => 145
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2-bootstrap/src/Progress.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2-bootstrap/src/Progress.php
             [message] => Undefined parameter documented: $label, in renderBar().
         )
 
     [31] => Array
         (
             [line] => 68
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2-bootstrap/src/ToggleButtonGroup.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2-bootstrap/src/ToggleButtonGroup.php
             [message] => Method run has no parent to inherit from in yii\bootstrap\ToggleButtonGroup.
         )
 
     [32] => Array
         (
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2-bootstrap/src/ToggleButtonGroup.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2-bootstrap/src/ToggleButtonGroup.php
             [message] => broken link to \yii\bootstrap\yii\bootstrap\ActiveForm in yii\bootstrap\ToggleButtonGroup
         )
 
     [33] => Array
         (
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2-bootstrap/src/ToggleButtonGroup.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2-bootstrap/src/ToggleButtonGroup.php
             [message] => broken link to \yii\bootstrap\yii\widgets\ActiveField::widget() in yii\bootstrap\ToggleButtonGroup
         )
 
     [34] => Array
         (
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/base/ActionFilter.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/base/ActionFilter.php
             [message] => broken link to \yii\filters\AccessControl in yii\base\ActionFilter
         )
 
     [35] => Array
         (
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/base/ActionFilter.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/base/ActionFilter.php
             [message] => broken link to \yii\filters\PageCache in yii\base\ActionFilter
         )
 
     [36] => Array
         (
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/base/ActionFilter.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/base/ActionFilter.php
             [message] => broken link to \yii\filters\HttpCache in yii\base\ActionFilter
         )
 
     [37] => Array
         (
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/base/Application.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/base/Application.php
             [message] => broken link to \Yii::$container in yii\base\Application
         )
 
     [38] => Array
         (
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/base/Application.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/base/Application.php
             [message] => broken link to \yii\base\components in yii\base\Application
         )
 
     [39] => Array
         (
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/base/Application.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/base/Application.php
             [message] => broken link to \yii\base\modules in yii\base\Application
         )
 
     [40] => Array
         (
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/base/Application.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/base/Application.php
             [message] => broken link to \yii\base\basePath in yii\base\Application
         )
 
     [41] => Array
         (
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/base/Application.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/base/Application.php
             [message] => broken link to \yii\base\basePath in yii\base\Application
         )
 
     [42] => Array
         (
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/base/Application.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/base/Application.php
             [message] => broken link to \yii\base\set() in yii\base\Application
         )
 
     [43] => Array
         (
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/base/Application.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/base/Application.php
             [message] => broken link to \yii\base\response in yii\base\Application
         )
 
     [44] => Array
         (
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/base/Application.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/base/Application.php
             [message] => broken link to \yii\base\basePath in yii\base\Application
         )
 
     [45] => Array
         (
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/base/Application.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/base/Application.php
             [message] => broken link to \yii\base\basePath in yii\base\Application
         )
 
     [46] => Array
         (
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/base/Application.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/base/Application.php
             [message] => broken link to \yii\base\basePath in yii\base\Application
         )
 
     [47] => Array
         (
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/base/Application.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/base/Application.php
             [message] => broken link to \Yii::$container in yii\base\Application
         )
 
     [48] => Array
         (
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/base/Application.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/base/Application.php
             [message] => broken link to \Yii::$container in yii\base\Application
         )
 
     [49] => Array
         (
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/base/ArrayableTrait.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/base/ArrayableTrait.php
             [message] => broken link to \yii\web\Linkable in yii\base\ArrayableTrait
         )
 
     [50] => Array
         (
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/base/Component.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/base/Component.php
             [message] => broken link to \Yii::createObject() in yii\base\Component
         )
 
     [51] => Array
         (
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/base/Component.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/base/Component.php
             [message] => broken link to \Yii::createObject() in yii\base\Component
         )
 
     [52] => Array
         (
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/base/Configurable.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/base/Configurable.php
             [message] => broken link to \yii\di\Container in yii\base\Configurable
         )
 
     [53] => Array
         (
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/base/Controller.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/base/Controller.php
             [message] => broken link to \Yii::createObject() in yii\base\Controller
         )
 
     [54] => Array
         (
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/base/Controller.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/base/Controller.php
             [message] => broken link to yii\base\Application::viewPath in yii\base\Controller
         )
 
     [55] => Array
         (
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/base/Controller.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/base/Controller.php
             [message] => broken link to yii\base\Module::viewPath in yii\base\Controller
         )
 
     [56] => Array
         (
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/base/Controller.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/base/Controller.php
             [message] => broken link to yii\base\Application::layoutPath in yii\base\Controller
         )
 
     [57] => Array
         (
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/base/Controller.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/base/Controller.php
             [message] => broken link to yii\base\Module::layoutPath in yii\base\Controller
         )
 
     [58] => Array
         (
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/base/Model.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/base/Model.php
             [message] => broken link to \yii\widgets\ActiveForm in yii\base\Model
         )
 
     [59] => Array
         (
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/base/Model.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/base/Model.php
             [message] => broken link to \yii\validators\RequiredValidator in yii\base\Model
         )
 
     [60] => Array
         (
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/base/Model.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/base/Model.php
             [message] => broken link to \yii\validators\RequiredValidator::$when in yii\base\Model
         )
 
     [61] => Array
         (
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/base/Model.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/base/Model.php
             [message] => broken link to \yii\validators\Validator in yii\base\Model
         )
 
     [62] => Array
         (
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/base/Model.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/base/Model.php
             [message] => broken link to \yii\validators\Validator::builtInValidators in yii\base\Model
         )
 
     [63] => Array
         (
             [line] => 739
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/base/Module.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/base/Module.php
             [message] => Method get has no parent to inherit from in yii\base\Module.
         )
 
     [64] => Array
         (
             [line] => 758
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/base/Module.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/base/Module.php
             [message] => Method has has no parent to inherit from in yii\base\Module.
         )
 
     [65] => Array
         (
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/base/Module.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/base/Module.php
             [message] => broken link to \yii\base\modules in yii\base\Module
         )
 
     [66] => Array
         (
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/base/Module.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/base/Module.php
             [message] => broken link to \yii\base\components in yii\base\Module
         )
 
     [67] => Array
         (
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/base/Module.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/base/Module.php
             [message] => broken link to \yii\base\layoutPath in yii\base\Module
         )
 
     [68] => Array
         (
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/base/Module.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/base/Module.php
             [message] => broken link to \yii\base\modules in yii\base\Module
         )
 
     [69] => Array
         (
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/base/Module.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/base/Module.php
             [message] => broken link to \yii\base\modules in yii\base\Module
         )
 
     [70] => Array
         (
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/base/Module.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/base/Module.php
             [message] => broken link to \yii\base\viewPath in yii\base\Module
         )
 
     [71] => Array
         (
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/base/Module.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/base/Module.php
             [message] => broken link to \yii\base\basePath in yii\base\Module
         )
 
     [72] => Array
         (
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/base/Module.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/base/Module.php
             [message] => broken link to \Yii::setAlias() in yii\base\Module
         )
 
     [73] => Array
         (
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/base/Module.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/base/Module.php
             [message] => broken link to \Yii::createObject() in yii\base\Module
         )
 
     [74] => Array
         (
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/base/Theme.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/base/Theme.php
             [message] => broken link to yii\base\Application::basePath in yii\base\Theme
         )
 
     [75] => Array
         (
             [line] => 413
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/base/View.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/base/View.php
             [message] => Method param $placeholder does not exist in parent method, @inheritdoc not possible in addDynamicPlaceholder in yii\base\View.
         )
 
     [76] => Array
         (
             [line] => 103
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/base/View.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/base/View.php
             [message] => Property $dynamicPlaceholders conflicts with a defined getter getDynamicPlaceholders in yii\base\View.
         )
 
     [77] => Array
         (
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/base/View.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/base/View.php
             [message] => broken link to \yii\widgets\Block in yii\base\View
         )
 
     [78] => Array
         (
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/base/View.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/base/View.php
             [message] => broken link to \yii\widgets\FragmentCache in yii\base\View
         )
 
     [79] => Array
         (
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/base/View.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/base/View.php
             [message] => broken link to \yii\widgets\ContentDecorator in yii\base\View
         )
 
     [80] => Array
         (
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/base/View.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/base/View.php
             [message] => broken link to yii\base\Application::viewPath in yii\base\View
         )
 
     [81] => Array
         (
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/base/View.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/base/View.php
             [message] => broken link to yii\base\Module::viewPath in yii\base\View
         )
 
     [82] => Array
         (
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/base/Widget.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/base/Widget.php
             [message] => broken link to yii\base\Application::viewPath in yii\base\Widget
         )
 
     [83] => Array
         (
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/base/Widget.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/base/Widget.php
             [message] => broken link to yii\base\Module::viewPath in yii\base\Widget
         )
 
     [84] => Array
         (
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/console/Application.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/console/Application.php
             [message] => broken link to \yii\console\basePath in yii\console\Application
         )
 
     [85] => Array
         (
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/console/Application.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/console/Application.php
             [message] => broken link to \yii\console\basePath in yii\console\Application
         )
 
     [86] => Array
         (
             [line] => 65
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/console/Controller.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/console/Controller.php
             [message] => Property $help conflicts with a defined getter getHelp in yii\console\Controller.
         )
 
     [87] => Array
         (
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/console/controllers/AssetController.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/console/controllers/AssetController.php
             [message] => broken link to \yii\web\AssetBundle::sourcePath in yii\console\controllers\AssetController
         )
 
     [88] => Array
         (
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/console/controllers/HelpController.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/console/controllers/HelpController.php
             [message] => broken link to \yii\console\controllers\ExitCode::UNSPECIFIED_ERROR in yii\console\controllers\HelpController
         )
 
     [89] => Array
         (
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/console/controllers/HelpController.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/console/controllers/HelpController.php
             [message] => broken link to \yii\console\controllers\ExitCode::OK in yii\console\controllers\HelpController
         )
 
     [90] => Array
         (
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/console/controllers/MigrateController.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/console/controllers/MigrateController.php
             [message] => broken link to \yii\console\controllers\ExitCode::UNSPECIFIED_ERROR in yii\console\controllers\MigrateController
         )
 
     [91] => Array
         (
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/console/controllers/MigrateController.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/console/controllers/MigrateController.php
             [message] => broken link to \yii\console\controllers\ExitCode::OK in yii\console\controllers\MigrateController
         )
 
     [92] => Array
         (
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/console/controllers/ServeController.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/console/controllers/ServeController.php
             [message] => broken link to \yii\console\controllers\ExitCode::UNSPECIFIED_ERROR in yii\console\controllers\ServeController
         )
 
     [93] => Array
         (
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/console/controllers/ServeController.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/console/controllers/ServeController.php
             [message] => broken link to \yii\console\controllers\ExitCode::OK in yii\console\controllers\ServeController
         )
 
     [94] => Array
         (
             [line] => 70
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/console/widgets/Table.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/console/widgets/Table.php
             [message] => Property $headers conflicts with a defined setter setHeaders in yii\console\widgets\Table.
         )
 
     [95] => Array
         (
             [line] => 75
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/console/widgets/Table.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/console/widgets/Table.php
             [message] => Property $rows conflicts with a defined setter setRows in yii\console\widgets\Table.
         )
 
     [96] => Array
         (
             [line] => 80
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/console/widgets/Table.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/console/widgets/Table.php
             [message] => Property $chars conflicts with a defined setter setChars in yii\console\widgets\Table.
         )
 
     [97] => Array
         (
             [line] => 106
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/console/widgets/Table.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/console/widgets/Table.php
             [message] => Property $screenWidth conflicts with a defined setter setScreenWidth in yii\console\widgets\Table.
         )
 
     [98] => Array
         (
             [line] => 111
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/console/widgets/Table.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/console/widgets/Table.php
             [message] => Property $listPrefix conflicts with a defined setter setListPrefix in yii\console\widgets\Table.
         )
 
     [99] => Array
         (
             [line] => 357
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/data/DataFilter.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/data/DataFilter.php
             [message] => Undefined parameter documented:  in detectSearchAttributeType().
         )
 
     [100] => Array
         (
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/data/DataFilter.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/data/DataFilter.php
             [message] => broken link to \yii\data\model in yii\data\DataFilter
         )
 
     [101] => Array
         (
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/data/DataFilter.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/data/DataFilter.php
             [message] => broken link to \yii\data\model in yii\data\DataFilter
         )
 
     [102] => Array
         (
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/data/DataFilter.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/data/DataFilter.php
             [message] => broken link to \yii\widgets\ActiveForm in yii\data\DataFilter
         )
 
     [103] => Array
         (
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/data/DataFilter.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/data/DataFilter.php
             [message] => broken link to \yii\validators\Validator in yii\data\DataFilter
         )
 
     [104] => Array
         (
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/data/DataFilter.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/data/DataFilter.php
             [message] => broken link to \yii\validators\Validator::builtInValidators in yii\data\DataFilter
         )
 
     [105] => Array
         (
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/data/DataFilter.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/data/DataFilter.php
             [message] => broken link to \yii\data\model in yii\data\DataFilter
         )
 
     [106] => Array
         (
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/data/DataProviderInterface.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/data/DataProviderInterface.php
             [message] => broken link to \yii\grid\GridView in yii\data\DataProviderInterface
         )
 
     [107] => Array
         (
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/data/DataProviderInterface.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/data/DataProviderInterface.php
             [message] => broken link to \yii\widgets\ListView in yii\data\DataProviderInterface
         )
 
     [108] => Array
         (
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/data/Pagination.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/data/Pagination.php
             [message] => broken link to \yii\widgets\LinkPager in yii\data\Pagination
         )
 
     [109] => Array
         (
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/db/ArrayExpression.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/db/ArrayExpression.php
             [message] => broken link to \yii\db\dimensions in yii\db\ArrayExpression
         )
 
     [110] => Array
         (
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/db/ArrayExpression.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/db/ArrayExpression.php
             [message] => broken link to \yii\db\type in yii\db\ArrayExpression
         )
 
     [111] => Array
         (
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/db/ArrayExpression.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/db/ArrayExpression.php
             [message] => broken link to \yii\db\value in yii\db\ArrayExpression
         )
 
     [112] => Array
         (
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/db/BaseActiveRecord.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/db/BaseActiveRecord.php
             [message] => broken link to \yii\behaviors\AttributeTypecastBehavior in yii\db\BaseActiveRecord
         )
 
     [113] => Array
         (
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/db/BaseActiveRecord.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/db/BaseActiveRecord.php
             [message] => broken link to \yii\behaviors\OptimisticLockBehavior in yii\db\BaseActiveRecord
         )
 
     [114] => Array
         (
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/db/Command.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/db/Command.php
             [message] => broken link to \yii\db\yii\db\PdoValue in yii\db\Command
         )
 
     [115] => Array
         (
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/db/Command.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/db/Command.php
             [message] => broken link to \yii\db\yii\db\Query in yii\db\Command
         )
 
     [116] => Array
         (
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/db/Command.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/db/Command.php
             [message] => broken link to \yii\db\yii\db\Query in yii\db\Command
         )
 
     [117] => Array
         (
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/db/Command.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/db/Command.php
             [message] => broken link to \PDOStatement::execute() in yii\db\Command
         )
 
     [118] => Array
         (
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/db/Connection.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/db/Connection.php
             [message] => broken link to \version_compare() in yii\db\Connection
         )
 
     [119] => Array
         (
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/db/Connection.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/db/Connection.php
             [message] => broken link to \Yii::createObject() in yii\db\Connection
         )
 
     [120] => Array
         (
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/db/Connection.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/db/Connection.php
             [message] => broken link to \Yii::createObject() in yii\db\Connection
         )
 
     [121] => Array
         (
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/db/Connection.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/db/Connection.php
             [message] => broken link to \version_compare() in yii\db\Connection
         )
 
     [122] => Array
         (
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/db/ExpressionBuilder.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/db/ExpressionBuilder.php
             [message] => broken link to \yii\db\yii\db\Expression in yii\db\ExpressionBuilder
         )
 
     [123] => Array
         (
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/db/ExpressionBuilder.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/db/ExpressionBuilder.php
             [message] => broken link to \yii\db\yii\db\Expression in yii\db\ExpressionBuilder
         )
 
     [124] => Array
         (
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/db/ExpressionBuilder.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/db/ExpressionBuilder.php
             [message] => broken link to \yii\db\yii\db\Expression in yii\db\ExpressionBuilder
         )
 
     [125] => Array
         (
             [line] => 99
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/db/Migration.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/db/Migration.php
             [message] => Method getDb has no parent to inherit from in yii\db\Migration.
         )
 
     [126] => Array
         (
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/db/QueryBuilder.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/db/QueryBuilder.php
             [message] => broken link to \yii\db\yii\db\condition\ConditionInterface in yii\db\QueryBuilder
         )
 
     [127] => Array
         (
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/db/QueryBuilder.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/db/QueryBuilder.php
             [message] => broken link to \yii\db\yii\db\condition\ConditionInterface in yii\db\QueryBuilder
         )
 
     [128] => Array
         (
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/db/QueryBuilder.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/db/QueryBuilder.php
             [message] => broken link to \yii\db\yii\db\condition\ConditionInterface in yii\db\QueryBuilder
         )
 
     [129] => Array
         (
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/db/QueryBuilder.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/db/QueryBuilder.php
             [message] => broken link to \yii\db\yii\db\condition\ConditionInterface in yii\db\QueryBuilder
         )
 
     [130] => Array
         (
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/db/QueryBuilder.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/db/QueryBuilder.php
             [message] => broken link to \yii\db\yii\db\condition\ConditionInterface in yii\db\QueryBuilder
         )
 
     [131] => Array
         (
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/db/QueryBuilder.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/db/QueryBuilder.php
             [message] => broken link to \yii\db\yii\db\condition\ConditionInterface in yii\db\QueryBuilder
         )
 
     [132] => Array
         (
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/db/QueryBuilder.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/db/QueryBuilder.php
             [message] => broken link to \yii\db\setConditonClasses() in yii\db\QueryBuilder
         )
 
     [133] => Array
         (
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/db/QueryBuilder.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/db/QueryBuilder.php
             [message] => broken link to \yii\db\setExpressionBuilder() in yii\db\QueryBuilder
         )
 
     [134] => Array
         (
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/db/QueryBuilder.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/db/QueryBuilder.php
             [message] => broken link to \yii\db\yii\db\condition\ConditionInterface in yii\db\QueryBuilder
         )
 
     [135] => Array
         (
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/db/QueryBuilder.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/db/QueryBuilder.php
             [message] => broken link to \yii\db\yii\db\Query in yii\db\QueryBuilder
         )
 
     [136] => Array
         (
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/db/QueryBuilder.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/db/QueryBuilder.php
             [message] => broken link to \yii\db\yii\db\Query in yii\db\QueryBuilder
         )
 
     [137] => Array
         (
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/db/QueryBuilder.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/db/QueryBuilder.php
             [message] => broken link to \yii\db\yii\db\Query in yii\db\QueryBuilder
         )
 
     [138] => Array
         (
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/db/QueryBuilder.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/db/QueryBuilder.php
             [message] => broken link to \yii\db\yii\db\condition\ConditionInterface in yii\db\QueryBuilder
         )
 
     [139] => Array
         (
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/db/Schema.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/db/Schema.php
             [message] => broken link to \version_compare() in yii\db\Schema
         )
 
     [140] => Array
         (
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/db/Schema.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/db/Schema.php
             [message] => broken link to \version_compare() in yii\db\Schema
         )
 
     [141] => Array
         (
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/db/Schema.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/db/Schema.php
             [message] => broken link to \version_compare() in yii\db\Schema
         )
 
     [142] => Array
         (
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/db/Schema.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/db/Schema.php
             [message] => broken link to \version_compare() in yii\db\Schema
         )
 
     [143] => Array
         (
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/db/Schema.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/db/Schema.php
             [message] => broken link to \version_compare() in yii\db\Schema
         )
 
     [144] => Array
         (
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/db/Schema.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/db/Schema.php
             [message] => broken link to \version_compare() in yii\db\Schema
         )
 
     [145] => Array
         (
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/db/Schema.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/db/Schema.php
             [message] => broken link to \version_compare() in yii\db\Schema
         )
 
     [146] => Array
         (
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/db/Schema.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/db/Schema.php
             [message] => broken link to \version_compare() in yii\db\Schema
         )
 
     [147] => Array
         (
             [line] => 69
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/db/conditions/BetweenColumnsCondition.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/db/conditions/BetweenColumnsCondition.php
             [message] => Undefined parameter documented:  in __construct().
         )
 
     [148] => Array
         (
             [line] => 47
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/db/conditions/InCondition.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/db/conditions/InCondition.php
             [message] => Undefined parameter documented:  in __construct().
         )
 
     [149] => Array
         (
             [line] => 47
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/db/conditions/InCondition.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/db/conditions/InCondition.php
             [message] => Undefined parameter documented:  in __construct().
         )
 
     [150] => Array
         (
             [line] => 48
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/db/conditions/LikeCondition.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/db/conditions/LikeCondition.php
             [message] => Undefined parameter documented:  in setEscapingReplacements().
         )
 
     [151] => Array
         (
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/db/conditions/NotCondition.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/db/conditions/NotCondition.php
             [message] => broken link to \yii\db\conditions\condition in yii\db\conditions\NotCondition
         )
 
     [152] => Array
         (
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/db/conditions/NotCondition.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/db/conditions/NotCondition.php
             [message] => broken link to \yii\db\conditions\condition in yii\db\conditions\NotCondition
         )
 
     [153] => Array
         (
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/db/conditions/NotCondition.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/db/conditions/NotCondition.php
             [message] => broken link to \yii\db\conditions\condition in yii\db\conditions\NotCondition
         )
 
     [154] => Array
         (
             [line] => 105
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/db/cubrid/QueryBuilder.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/db/cubrid/QueryBuilder.php
             [message] => Property $expressionBuilders conflicts with a defined setter setExpressionBuilders in yii\db\cubrid\QueryBuilder.
         )
 
     [155] => Array
         (
             [line] => 80
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/db/cubrid/QueryBuilder.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/db/cubrid/QueryBuilder.php
             [message] => Property $conditionClasses conflicts with a defined setter setConditionClasses in yii\db\cubrid\QueryBuilder.
         )
 
     [156] => Array
         (
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/db/cubrid/QueryBuilder.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/db/cubrid/QueryBuilder.php
             [message] => broken link to \yii\db\cubrid\Query in yii\db\cubrid\QueryBuilder
         )
 
     [157] => Array
         (
             [line] => 159
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/db/cubrid/Schema.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/db/cubrid/Schema.php
             [message] => Method loadTablePrimaryKey has no parent to inherit from in yii\db\cubrid\Schema.
         )
 
     [158] => Array
         (
             [line] => 176
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/db/cubrid/Schema.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/db/cubrid/Schema.php
             [message] => Method loadTableForeignKeys has no parent to inherit from in yii\db\cubrid\Schema.
         )
 
     [159] => Array
         (
             [line] => 206
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/db/cubrid/Schema.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/db/cubrid/Schema.php
             [message] => Method loadTableIndexes has no parent to inherit from in yii\db\cubrid\Schema.
         )
 
     [160] => Array
         (
             [line] => 214
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/db/cubrid/Schema.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/db/cubrid/Schema.php
             [message] => Method loadTableUniques has no parent to inherit from in yii\db\cubrid\Schema.
         )
 
     [161] => Array
         (
             [line] => 223
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/db/cubrid/Schema.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/db/cubrid/Schema.php
             [message] => Method loadTableChecks has no parent to inherit from in yii\db\cubrid\Schema.
         )
 
     [162] => Array
         (
             [line] => 232
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/db/cubrid/Schema.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/db/cubrid/Schema.php
             [message] => Method loadTableDefaultValues has no parent to inherit from in yii\db\cubrid\Schema.
         )
 
     [163] => Array
         (
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/db/cubrid/Schema.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/db/cubrid/Schema.php
             [message] => broken link to \yii\db\cubrid\ColumnSchema in yii\db\cubrid\Schema
         )
 
     [164] => Array
         (
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/db/cubrid/Schema.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/db/cubrid/Schema.php
             [message] => broken link to \yii\db\cubrid\ColumnSchema in yii\db\cubrid\Schema
         )
 
     [165] => Array
         (
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/db/cubrid/conditions/LikeConditionBuilder.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/db/cubrid/conditions/LikeConditionBuilder.php
             [message] => broken link to \yii\db\cubrid\conditions\buildLikeCondition() in yii\db\cubrid\conditions\LikeConditionBuilder
         )
 
     [166] => Array
         (
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/db/mssql/QueryBuilder.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/db/mssql/QueryBuilder.php
             [message] => broken link to \yii\db\mssql\Query::orderBy in yii\db\mssql\QueryBuilder
         )
 
     [167] => Array
         (
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/db/mssql/QueryBuilder.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/db/mssql/QueryBuilder.php
             [message] => broken link to \yii\db\mssql\Query::limit in yii\db\mssql\QueryBuilder
         )
 
     [168] => Array
         (
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/db/mssql/QueryBuilder.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/db/mssql/QueryBuilder.php
             [message] => broken link to \yii\db\mssql\Query::offset in yii\db\mssql\QueryBuilder
         )
 
     [169] => Array
         (
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/db/mssql/QueryBuilder.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/db/mssql/QueryBuilder.php
             [message] => broken link to \yii\db\mssql\yii\db\Query in yii\db\mssql\QueryBuilder
         )
 
     [170] => Array
         (
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/db/mssql/QueryBuilder.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/db/mssql/QueryBuilder.php
             [message] => broken link to \yii\db\mssql\yii\db\Query in yii\db\mssql\QueryBuilder
         )
 
     [171] => Array
         (
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/db/mssql/QueryBuilder.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/db/mssql/QueryBuilder.php
             [message] => broken link to \version_compare() in yii\db\mssql\QueryBuilder
         )
 
     [172] => Array
         (
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/db/mssql/QueryBuilder.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/db/mssql/QueryBuilder.php
             [message] => broken link to \yii\db\mssql\Query::where() in yii\db\mssql\QueryBuilder
         )
 
     [173] => Array
         (
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/db/mssql/QueryBuilder.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/db/mssql/QueryBuilder.php
             [message] => broken link to \yii\db\mssql\Query in yii\db\mssql\QueryBuilder
         )
 
     [174] => Array
         (
             [line] => 210
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/db/mssql/Schema.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/db/mssql/Schema.php
             [message] => Method loadTablePrimaryKey has no parent to inherit from in yii\db\mssql\Schema.
         )
 
     [175] => Array
         (
             [line] => 218
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/db/mssql/Schema.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/db/mssql/Schema.php
             [message] => Method loadTableForeignKeys has no parent to inherit from in yii\db\mssql\Schema.
         )
 
     [176] => Array
         (
             [line] => 226
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/db/mssql/Schema.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/db/mssql/Schema.php
             [message] => Method loadTableIndexes has no parent to inherit from in yii\db\mssql\Schema.
         )
 
     [177] => Array
         (
             [line] => 265
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/db/mssql/Schema.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/db/mssql/Schema.php
             [message] => Method loadTableUniques has no parent to inherit from in yii\db\mssql\Schema.
         )
 
     [178] => Array
         (
             [line] => 273
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/db/mssql/Schema.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/db/mssql/Schema.php
             [message] => Method loadTableChecks has no parent to inherit from in yii\db\mssql\Schema.
         )
 
     [179] => Array
         (
             [line] => 281
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/db/mssql/Schema.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/db/mssql/Schema.php
             [message] => Method loadTableDefaultValues has no parent to inherit from in yii\db\mssql\Schema.
         )
 
     [180] => Array
         (
             [line] => 585
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/db/mssql/Schema.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/db/mssql/Schema.php
             [message] => Method findViewNames has no parent to inherit from in yii\db\mssql\Schema.
         )
 
     [181] => Array
         (
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/db/mysql/ColumnSchema.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/db/mysql/ColumnSchema.php
             [message] => broken link to \yii\db\mysql\Expression in yii\db\mysql\ColumnSchema
         )
 
     [182] => Array
         (
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/db/mysql/ColumnSchema.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/db/mysql/ColumnSchema.php
             [message] => broken link to \yii\db\mysql\Expression in yii\db\mysql\ColumnSchema
         )
 
     [183] => Array
         (
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/db/mysql/QueryBuilder.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/db/mysql/QueryBuilder.php
             [message] => broken link to \yii\db\mysql\yii\db\Query in yii\db\mysql\QueryBuilder
         )
 
     [184] => Array
         (
             [line] => 136
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/db/mysql/Schema.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/db/mysql/Schema.php
             [message] => Method loadTablePrimaryKey has no parent to inherit from in yii\db\mysql\Schema.
         )
 
     [185] => Array
         (
             [line] => 144
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/db/mysql/Schema.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/db/mysql/Schema.php
             [message] => Method loadTableForeignKeys has no parent to inherit from in yii\db\mysql\Schema.
         )
 
     [186] => Array
         (
             [line] => 152
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/db/mysql/Schema.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/db/mysql/Schema.php
             [message] => Method loadTableIndexes has no parent to inherit from in yii\db\mysql\Schema.
         )
 
     [187] => Array
         (
             [line] => 188
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/db/mysql/Schema.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/db/mysql/Schema.php
             [message] => Method loadTableUniques has no parent to inherit from in yii\db\mysql\Schema.
         )
 
     [188] => Array
         (
             [line] => 197
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/db/mysql/Schema.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/db/mysql/Schema.php
             [message] => Method loadTableChecks has no parent to inherit from in yii\db\mysql\Schema.
         )
 
     [189] => Array
         (
             [line] => 206
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/db/mysql/Schema.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/db/mysql/Schema.php
             [message] => Method loadTableDefaultValues has no parent to inherit from in yii\db\mysql\Schema.
         )
 
     [190] => Array
         (
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/db/oci/QueryBuilder.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/db/oci/QueryBuilder.php
             [message] => broken link to \yii\db\oci\yii\db\Query in yii\db\oci\QueryBuilder
         )
 
     [191] => Array
         (
             [line] => 164
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/db/oci/Schema.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/db/oci/Schema.php
             [message] => Method loadTablePrimaryKey has no parent to inherit from in yii\db\oci\Schema.
         )
 
     [192] => Array
         (
             [line] => 172
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/db/oci/Schema.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/db/oci/Schema.php
             [message] => Method loadTableForeignKeys has no parent to inherit from in yii\db\oci\Schema.
         )
 
     [193] => Array
         (
             [line] => 180
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/db/oci/Schema.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/db/oci/Schema.php
             [message] => Method loadTableIndexes has no parent to inherit from in yii\db\oci\Schema.
         )
 
     [194] => Array
         (
             [line] => 221
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/db/oci/Schema.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/db/oci/Schema.php
             [message] => Method loadTableUniques has no parent to inherit from in yii\db\oci\Schema.
         )
 
     [195] => Array
         (
             [line] => 229
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/db/oci/Schema.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/db/oci/Schema.php
             [message] => Method loadTableChecks has no parent to inherit from in yii\db\oci\Schema.
         )
 
     [196] => Array
         (
             [line] => 238
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/db/oci/Schema.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/db/oci/Schema.php
             [message] => Method loadTableDefaultValues has no parent to inherit from in yii\db\oci\Schema.
         )
 
     [197] => Array
         (
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/db/oci/conditions/LikeConditionBuilder.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/db/oci/conditions/LikeConditionBuilder.php
             [message] => broken link to \yii\db\oci\conditions\buildLikeCondition() in yii\db\oci\conditions\LikeConditionBuilder
         )
 
     [198] => Array
         (
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/db/pgsql/ArrayExpressionBuilder.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/db/pgsql/ArrayExpressionBuilder.php
             [message] => broken link to \yii\db\pgsql\type in yii\db\pgsql\ArrayExpressionBuilder
         )
 
     [199] => Array
         (
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/db/pgsql/ColumnSchema.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/db/pgsql/ColumnSchema.php
             [message] => broken link to \yii\db\pgsql\Expression in yii\db\pgsql\ColumnSchema
         )
 
     [200] => Array
         (
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/db/pgsql/ColumnSchema.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/db/pgsql/ColumnSchema.php
             [message] => broken link to \yii\db\pgsql\Expression in yii\db\pgsql\ColumnSchema
         )
 
     [201] => Array
         (
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/db/pgsql/JsonExpressionBuilder.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/db/pgsql/JsonExpressionBuilder.php
             [message] => broken link to \yii\db\pgsql\type in yii\db\pgsql\JsonExpressionBuilder
         )
 
     [202] => Array
         (
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/db/pgsql/QueryBuilder.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/db/pgsql/QueryBuilder.php
             [message] => broken link to \yii\db\pgsql\yii\db\Query in yii\db\pgsql\QueryBuilder
         )
 
     [203] => Array
         (
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/db/pgsql/QueryBuilder.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/db/pgsql/QueryBuilder.php
             [message] => broken link to \yii\db\pgsql\yii\db\Query in yii\db\pgsql\QueryBuilder
         )
 
     [204] => Array
         (
             [line] => 203
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/db/pgsql/Schema.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/db/pgsql/Schema.php
             [message] => Method loadTablePrimaryKey has no parent to inherit from in yii\db\pgsql\Schema.
         )
 
     [205] => Array
         (
             [line] => 211
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/db/pgsql/Schema.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/db/pgsql/Schema.php
             [message] => Method loadTableForeignKeys has no parent to inherit from in yii\db\pgsql\Schema.
         )
 
     [206] => Array
         (
             [line] => 219
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/db/pgsql/Schema.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/db/pgsql/Schema.php
             [message] => Method loadTableIndexes has no parent to inherit from in yii\db\pgsql\Schema.
         )
 
     [207] => Array
         (
             [line] => 263
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/db/pgsql/Schema.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/db/pgsql/Schema.php
             [message] => Method loadTableUniques has no parent to inherit from in yii\db\pgsql\Schema.
         )
 
     [208] => Array
         (
             [line] => 271
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/db/pgsql/Schema.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/db/pgsql/Schema.php
             [message] => Method loadTableChecks has no parent to inherit from in yii\db\pgsql\Schema.
         )
 
     [209] => Array
         (
             [line] => 280
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/db/pgsql/Schema.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/db/pgsql/Schema.php
             [message] => Method loadTableDefaultValues has no parent to inherit from in yii\db\pgsql\Schema.
         )
 
     [210] => Array
         (
             [line] => 110
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/db/sqlite/Schema.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/db/sqlite/Schema.php
             [message] => Method loadTablePrimaryKey has no parent to inherit from in yii\db\sqlite\Schema.
         )
 
     [211] => Array
         (
             [line] => 118
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/db/sqlite/Schema.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/db/sqlite/Schema.php
             [message] => Method loadTableForeignKeys has no parent to inherit from in yii\db\sqlite\Schema.
         )
 
     [212] => Array
         (
             [line] => 141
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/db/sqlite/Schema.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/db/sqlite/Schema.php
             [message] => Method loadTableIndexes has no parent to inherit from in yii\db\sqlite\Schema.
         )
 
     [213] => Array
         (
             [line] => 149
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/db/sqlite/Schema.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/db/sqlite/Schema.php
             [message] => Method loadTableUniques has no parent to inherit from in yii\db\sqlite\Schema.
         )
 
     [214] => Array
         (
             [line] => 157
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/db/sqlite/Schema.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/db/sqlite/Schema.php
             [message] => Method loadTableChecks has no parent to inherit from in yii\db\sqlite\Schema.
         )
 
     [215] => Array
         (
             [line] => 197
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/db/sqlite/Schema.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/db/sqlite/Schema.php
             [message] => Method loadTableDefaultValues has no parent to inherit from in yii\db\sqlite\Schema.
         )
 
     [216] => Array
         (
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/helpers/BaseHtml.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/helpers/BaseHtml.php
             [message] => broken link to \yii\validators\StringValidator::max in yii\helpers\BaseHtml
         )
 
     [217] => Array
         (
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/helpers/BaseHtml.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/helpers/BaseHtml.php
             [message] => broken link to \yii\validators\StringValidator::max in yii\helpers\BaseHtml
         )
 
     [218] => Array
         (
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/helpers/BaseHtml.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/helpers/BaseHtml.php
             [message] => broken link to \yii\validators\StringValidator::max in yii\helpers\BaseHtml
         )
 
     [219] => Array
         (
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/helpers/BaseHtml.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/helpers/BaseHtml.php
             [message] => broken link to \yii\helpers\mergeCssClasses() in yii\helpers\BaseHtml
         )
 
     [220] => Array
         (
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/helpers/BaseHtml.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/helpers/BaseHtml.php
             [message] => broken link to \yii\web\Request::methodParam in yii\helpers\BaseHtml
         )
 
     [221] => Array
         (
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/helpers/BaseHtml.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/helpers/BaseHtml.php
             [message] => broken link to \yii\web\Request::enableCsrfValidation in yii\helpers\BaseHtml
         )
 
     [222] => Array
         (
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/helpers/BaseJson.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/helpers/BaseJson.php
             [message] => broken link to \yii\web\JsExpression in yii\helpers\BaseJson
         )
 
     [223] => Array
         (
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/helpers/BaseJson.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/helpers/BaseJson.php
             [message] => broken link to \yii\web\JsExpression in yii\helpers\BaseJson
         )
 
     [224] => Array
         (
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/helpers/BaseStringHelper.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/helpers/BaseStringHelper.php
             [message] => broken link to \yii\helpers\fnmatch() in yii\helpers\BaseStringHelper
         )
 
     [225] => Array
         (
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/helpers/BaseUrl.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/helpers/BaseUrl.php
             [message] => broken link to \yii\web\UrlManager::$hostInfo in yii\helpers\BaseUrl
         )
 
     [226] => Array
         (
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/helpers/BaseUrl.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/helpers/BaseUrl.php
             [message] => broken link to \yii\web\Controller::route in yii\helpers\BaseUrl
         )
 
     [227] => Array
         (
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/helpers/BaseUrl.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/helpers/BaseUrl.php
             [message] => broken link to \yii\web\Controller::actionParams in yii\helpers\BaseUrl
         )
 
     [228] => Array
         (
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/helpers/BaseUrl.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/helpers/BaseUrl.php
             [message] => broken link to \yii\web\UrlManager::$hostInfo in yii\helpers\BaseUrl
         )
 
     [229] => Array
         (
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/helpers/BaseUrl.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/helpers/BaseUrl.php
             [message] => broken link to \yii\web\UrlManager::$hostInfo in yii\helpers\BaseUrl
         )
 
     [230] => Array
         (
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/helpers/BaseUrl.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/helpers/BaseUrl.php
             [message] => broken link to \yii\web\Controller::route in yii\helpers\BaseUrl
         )
 
     [231] => Array
         (
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/helpers/BaseUrl.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/helpers/BaseUrl.php
             [message] => broken link to \yii\web\Controller::uniqueId in yii\helpers\BaseUrl
         )
 
     [232] => Array
         (
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/helpers/BaseUrl.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/helpers/BaseUrl.php
             [message] => broken link to \yii\web\User::getReturnUrl() in yii\helpers\BaseUrl
         )
 
     [233] => Array
         (
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/helpers/BaseUrl.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/helpers/BaseUrl.php
             [message] => broken link to \yii\web\User::getReturnUrl() in yii\helpers\BaseUrl
         )
 
     [234] => Array
         (
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/helpers/BaseUrl.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/helpers/BaseUrl.php
             [message] => broken link to \yii\web\User::setReturnUrl() in yii\helpers\BaseUrl
         )
 
     [235] => Array
         (
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/helpers/BaseUrl.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/helpers/BaseUrl.php
             [message] => broken link to \yii\web\User::setReturnUrl() in yii\helpers\BaseUrl
         )
 
     [236] => Array
         (
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/helpers/BaseUrl.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/helpers/BaseUrl.php
             [message] => broken link to \yii\web\UrlManager::$hostInfo in yii\helpers\BaseUrl
         )
 
     [237] => Array
         (
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/helpers/BaseUrl.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/helpers/BaseUrl.php
             [message] => broken link to \yii\web\UrlManager::$hostInfo in yii\helpers\BaseUrl
         )
 
     [238] => Array
         (
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/helpers/BaseUrl.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/helpers/BaseUrl.php
             [message] => broken link to \yii\web\UrlManager in yii\helpers\BaseUrl
         )
 
     [239] => Array
         (
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/helpers/BaseUrl.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/helpers/BaseUrl.php
             [message] => broken link to \yii\web\Controller::route in yii\helpers\BaseUrl
         )
 
     [240] => Array
         (
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/helpers/BaseUrl.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/helpers/BaseUrl.php
             [message] => broken link to \yii\web\Controller::uniqueId in yii\helpers\BaseUrl
         )
 
     [241] => Array
         (
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/helpers/BaseUrl.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/helpers/BaseUrl.php
             [message] => broken link to yii\base\Module::uniqueId in yii\helpers\BaseUrl
         )
 
     [242] => Array
         (
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/helpers/BaseUrl.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/helpers/BaseUrl.php
             [message] => broken link to \yii\web\UrlManager::$hostInfo in yii\helpers\BaseUrl
         )
 
     [243] => Array
         (
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/helpers/IpHelper.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/helpers/IpHelper.php
             [message] => broken link to \yii\validators\IpValidator in yii\helpers\IpHelper
         )
 
     [244] => Array
         (
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/helpers/ReplaceArrayValue.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/helpers/ReplaceArrayValue.php
             [message] => broken link to \yii\helpers\var_export() in yii\helpers\ReplaceArrayValue
         )
 
     [245] => Array
         (
-            [file] => /Volumes/hdd/www/rootlocal.github.io/vendor/yiisoft/yii2/helpers/UnsetArrayValue.php
+            [file] => /Volumes/hdd/www/yii2-api/vendor/yiisoft/yii2/helpers/UnsetArrayValue.php
             [message] => broken link to \yii\helpers\var_export() in yii\helpers\UnsetArrayValue
+        )
+
+    [246] => Array
+        (
+            [line] => 35
+            [file] => /Volumes/hdd/www/yii2-gp38.git/rootlocal/yii2-crud/src/components/Controller.php
+            [message] => Method behaviors has no parent to inherit from in rootlocal\crud\components\Controller.
+        )
+
+    [247] => Array
+        (
+            [file] => /Volumes/hdd/www/yii2-gp38.git/rootlocal/yii2-crud/src/components/Controller.php
+            [message] => broken link to \yii\filters\VerbFilter::actions in rootlocal\crud\components\Controller
+        )
+
+    [248] => Array
+        (
+            [line] => 78
+            [file] => /Volumes/hdd/www/yii2-gp38.git/rootlocal/yii2-crud/src/controllers/ActiveController.php
+            [message] => Method actions has no parent to inherit from in rootlocal\crud\controllers\ActiveController.
+        )
+
+    [249] => Array
+        (
+            [file] => /Volumes/hdd/www/yii2-gp38.git/rootlocal/yii2-crud/src/controllers/ActiveController.php
+            [message] => broken link to \yii\web\ForbiddenHttpException in rootlocal\crud\controllers\ActiveController
         )
 
 )
