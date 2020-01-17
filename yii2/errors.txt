@@ -1786,18 +1786,6 @@ Array
 
     [286] => Array
         (
-            [file] => /Volumes/hdd/www/yii2-gp38.git/rootlocal/yii2-crud/src/components/Controller.php
-            [message] => broken link to \rootlocal\crud\components\ruleConfig in rootlocal\crud\components\Controller
-        )
-
-    [287] => Array
-        (
-            [file] => /Volumes/hdd/www/yii2-gp38.git/rootlocal/yii2-crud/src/controllers/ActiveController.php
-            [message] => broken link to \rootlocal\crud\controllers\ruleConfig in rootlocal\crud\controllers\ActiveController
-        )
-
-    [288] => Array
-        (
             [file] => /Volumes/hdd/www/yii2-gp38.git/rootlocal/yii2-crud/src/controllers/ActiveController.php
             [message] => broken link to \yii\web\ForbiddenHttpException in rootlocal\crud\controllers\ActiveController
         )
