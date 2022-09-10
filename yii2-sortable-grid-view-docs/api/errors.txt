@@ -1,0 +1,96 @@
+Array
+(
+    [0] => Array
+        (
+            [file] => 
+            [message] => broken link to \yii\helpers\Html::renderTagAttributes()
+        )
+
+    [1] => Array
+        (
+            [line] => 
+            [file] => 
+            [message] => Using relative link (https://fontawesome.com) but repoUrl is not set.
+        )
+
+    [2] => Array
+        (
+            [file] => 
+            [message] => broken link to GridView::dataProvider
+        )
+
+    [3] => Array
+        (
+            [line] => 
+            [file] => 
+            [message] => Using relative link (https://api.jqueryui.com/sortable/) but repoUrl is not set.
+        )
+
+    [4] => Array
+        (
+            [line] => 
+            [file] => 
+            [message] => Using relative link (https://api.jqueryui.com/sortable/) but repoUrl is not set.
+        )
+
+    [5] => Array
+        (
+            [line] => 
+            [file] => 
+            [message] => Using relative link (https://api.jqueryui.com/sortable/) but repoUrl is not set.
+        )
+
+    [6] => Array
+        (
+            [file] => 
+            [message] => broken link to EVENT_INIT
+        )
+
+    [7] => Array
+        (
+            [file] => 
+            [message] => broken link to owner
+        )
+
+    [8] => Array
+        (
+            [file] => 
+            [message] => broken link to owner
+        )
+
+    [9] => Array
+        (
+            [line] => 
+            [file] => 
+            [message] => Using empty link.
+        )
+
+    [10] => Array
+        (
+            [line] => 
+            [file] => 
+            [message] => Using empty link.
+        )
+
+    [11] => Array
+        (
+            [line] => 20
+            [file] => rootlocal/yii2-sortable-grid-view/src/Bootstrap.php
+            [message] => Method bootstrap has no parent to inherit from in rootlocal\widgets\sortable\Bootstrap.
+        )
+
+    [12] => Array
+        (
+            [line] => 32
+            [file] => rootlocal/yii2-sortable-grid-view/src/SortableAsset.php
+            [message] => Method init has no parent to inherit from in rootlocal\widgets\sortable\SortableAsset.
+        )
+
+    [13] => Array
+        (
+            [line] => 113
+            [file] => rootlocal/yii2-sortable-grid-view/src/SortableGridColumnWidget.php
+            [message] => Method init has no parent to inherit from in rootlocal\widgets\sortable\SortableGridColumnWidget.
+        )
+
+)

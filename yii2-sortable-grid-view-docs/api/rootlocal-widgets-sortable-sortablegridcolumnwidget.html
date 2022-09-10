@@ -1,0 +1,798 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="language" content="en" />
+        
+<link href="./assets/cc342351/css/bootstrap.css" rel="stylesheet">
+<link href="./assets/a0db892e/solarized-light.css" rel="stylesheet">
+<link href="./assets/92d8a714/style.css" rel="stylesheet">
+<script src="./assets/e1aa869e/jquery.js"></script>
+<script src="./assets/cc342351/js/bootstrap.js"></script>
+<script src="./assets/4ec44320/jssearch.js"></script>    <title>SortableGridColumnWidget, rootlocal\widgets\sortable\SortableGridColumnWidget - YII2 Sortable GridView</title>
+</head>
+<body>
+
+<div class="wrap">
+    <nav id="w4" class="navbar-inverse navbar-fixed-top navbar" role="navigation"><div class="navbar-header"><button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#w4-collapse"><span class="sr-only">Toggle navigation</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span></button><a class="navbar-brand" href="./index.html">YII2 Sortable GridView</a></div><div id="w4-collapse" class="collapse navbar-collapse"><ul id="w5" class="navbar-nav nav"><li><a href="./index.html">Class reference</a></li></ul><div class="navbar-form navbar-left" role="search">
+  <div class="form-group">
+    <input id="searchbox" type="text" class="form-control" placeholder="Search">
+  </div>
+</div>
+</div></nav>
+    <div id="search-resultbox" style="display: none;" class="modal-content">
+        <ul id="search-results">
+        </ul>
+    </div>
+
+    
+<div class="row">
+    <div class="col-md-3">
+                <div id="navigation" class="list-group"><a class="list-group-item active" href="#navigation-3" data-toggle="collapse" data-parent="#navigation">rootlocal\widgets\sortable <b class="caret"></b></a><div id="navigation-3" class="submenu panel-collapse collapse in"><a class="list-group-item" href="./rootlocal-widgets-sortable-bootstrap.html">Bootstrap</a>
+<a class="list-group-item" href="./rootlocal-widgets-sortable-sortableasset.html">SortableAsset</a>
+<a class="list-group-item" href="./rootlocal-widgets-sortable-sortablegridaction.html">SortableGridAction</a>
+<a class="list-group-item" href="./rootlocal-widgets-sortable-sortablegridbehavior.html">SortableGridBehavior</a>
+<a class="list-group-item" href="./rootlocal-widgets-sortable-sortablegridbehaviorinterface.html">SortableGridBehaviorInterface</a>
+<a class="list-group-item active" href="./rootlocal-widgets-sortable-sortablegridcolumnwidget.html">SortableGridColumnWidget</a>
+<a class="list-group-item" href="./rootlocal-widgets-sortable-sortablegridquerytrait.html">SortableGridQueryTrait</a>
+<a class="list-group-item" href="./rootlocal-widgets-sortable-sortablewidget.html">SortableWidget</a></div></div>    </div>
+    <div class="col-md-9 api-content" role="main"><h1>Class rootlocal\widgets\sortable\SortableGridColumnWidget</h1>
+<div class="top-nav">
+    <a href="index">All Classes</a>
+            | <a href="#properties">Properties</a>
+                | <a href="#methods">Methods</a>
+            </div>
+
+<table class="summaryTable docClass table table-bordered">
+    <colgroup>
+        <col class="col-name" />
+        <col class="col-value" />
+    </colgroup>
+            <tr><th>Inheritance</th><td><a href="rootlocal-widgets-sortable-sortablegridcolumnwidget.html">rootlocal\widgets\sortable\SortableGridColumnWidget</a> &raquo;
+yii\grid\Column</td></tr>
+                                        </table>
+
+<div class="class-description">
+    <p><strong>Class SortableGridColumn Sortable Column for Yii2 Grid widget</strong></p>
+    <p>To add an SortableGridColumn to the gridview. Configuration as follows:</p>
+<pre><code class="hljs php language-php"><span class="hljs-string">'columns'</span> =&gt; [
+    <span class="hljs-comment">// ...</span>
+    [
+        <span class="hljs-string">'class'</span> =&gt; SortableGridColumnWidget::class,
+        <span class="hljs-comment">// you may configure additional properties here</span>
+    ],
+]
+</code></pre>
+
+    </div>
+
+
+
+<a id="properties"></a>
+
+<div class="doc-property summary toggle-target-container">
+    <h2>Public Properties</h2>
+
+    <p><a href="#" class="toggle">Hide inherited properties</a></p>
+
+    <table class="summary-table table table-striped table-bordered table-hover">
+        <colgroup>
+            <col class="col-property" />
+            <col class="col-type" />
+            <col class="col-description" />
+            <col class="col-defined" />
+        </colgroup>
+        <tr>
+            <th>Property</th>
+            <th>Type</th>
+            <th>Description</th>
+            <th>Defined By</th>
+        </tr>
+
+                                    <tr id="$buttonOptions" class="">
+                    <td><a href="rootlocal-widgets-sortable-sortablegridcolumnwidget.html#$buttonOptions-detail">$buttonOptions</a></td>
+                    <td><a href="https://www.php.net/language.types.array">array</a></td>
+                    <td>Html options to be applied to the <a href="rootlocal-widgets-sortable-sortablegridcolumnwidget.html#initDefaultButton()-detail">default button</a>.</td>
+                    <td><a href="rootlocal-widgets-sortable-sortablegridcolumnwidget.html">rootlocal\widgets\sortable\SortableGridColumnWidget</a></td>
+                </tr>
+                                                <tr id="$buttons" class="">
+                    <td><a href="rootlocal-widgets-sortable-sortablegridcolumnwidget.html#$buttons-detail">$buttons</a></td>
+                    <td><a href="https://www.php.net/language.types.array">array</a></td>
+                    <td>Button rendering callbacks.</td>
+                    <td><a href="rootlocal-widgets-sortable-sortablegridcolumnwidget.html">rootlocal\widgets\sortable\SortableGridColumnWidget</a></td>
+                </tr>
+                                                <tr id="$headerOptions" class="">
+                    <td><a href="rootlocal-widgets-sortable-sortablegridcolumnwidget.html#$headerOptions-detail">$headerOptions</a></td>
+                    <td><a href="https://www.php.net/language.types.array">array</a></td>
+                    <td>The HTML attributes for the header cell tag.</td>
+                    <td><a href="rootlocal-widgets-sortable-sortablegridcolumnwidget.html">rootlocal\widgets\sortable\SortableGridColumnWidget</a></td>
+                </tr>
+                                                <tr id="$icons" class="">
+                    <td><a href="rootlocal-widgets-sortable-sortablegridcolumnwidget.html#$icons-detail">$icons</a></td>
+                    <td><a href="https://www.php.net/language.types.array">array</a></td>
+                    <td>Button icons.</td>
+                    <td><a href="rootlocal-widgets-sortable-sortablegridcolumnwidget.html">rootlocal\widgets\sortable\SortableGridColumnWidget</a></td>
+                </tr>
+                                                <tr id="$sortableWidgetOptions" class="">
+                    <td><a href="rootlocal-widgets-sortable-sortablegridcolumnwidget.html#$sortableWidgetOptions-detail">$sortableWidgetOptions</a></td>
+                    <td><a href="https://www.php.net/language.types.array">array</a></td>
+                    <td><a href="rootlocal-widgets-sortable-sortablewidget.html">rootlocal\widgets\sortable\SortableWidget</a> Sortable JQuery Widget</td>
+                    <td><a href="rootlocal-widgets-sortable-sortablegridcolumnwidget.html">rootlocal\widgets\sortable\SortableGridColumnWidget</a></td>
+                </tr>
+                                                <tr id="$template" class="">
+                    <td><a href="rootlocal-widgets-sortable-sortablegridcolumnwidget.html#$template-detail">$template</a></td>
+                    <td><a href="https://www.php.net/language.types.string">string</a></td>
+                    <td>The template used for composing each cell in the action column.</td>
+                    <td><a href="rootlocal-widgets-sortable-sortablegridcolumnwidget.html">rootlocal\widgets\sortable\SortableGridColumnWidget</a></td>
+                </tr>
+                                                <tr id="$visibleButtons" class="">
+                    <td><a href="rootlocal-widgets-sortable-sortablegridcolumnwidget.html#$visibleButtons-detail">$visibleButtons</a></td>
+                    <td><a href="https://www.php.net/language.types.array">array</a></td>
+                    <td>Visibility conditions for each button.</td>
+                    <td><a href="rootlocal-widgets-sortable-sortablegridcolumnwidget.html">rootlocal\widgets\sortable\SortableGridColumnWidget</a></td>
+                </tr>
+                        </table>
+</div>
+
+<a id="methods"></a>
+
+<div class="doc-method summary toggle-target-container">
+    <h2>Public Methods</h2>
+
+    <p><a href="#" class="toggle">Hide inherited methods</a></p>
+
+    <table class="summary-table table table-striped table-bordered table-hover">
+        <colgroup>
+            <col class="col-method" />
+            <col class="col-description" />
+            <col class="col-defined" />
+        </colgroup>
+        <tr>
+            <th>Method</th>
+            <th>Description</th>
+            <th>Defined By</th>
+        </tr>
+
+                                    <tr id="init()" class="">
+                    <td><a href="rootlocal-widgets-sortable-sortablegridcolumnwidget.html#init()-detail">init()</a></td>
+                    <td></td>
+                    <td><a href="rootlocal-widgets-sortable-sortablegridcolumnwidget.html">rootlocal\widgets\sortable\SortableGridColumnWidget</a></td>
+                </tr>
+                                                                                    </table>
+</div>
+
+<div class="doc-method summary toggle-target-container">
+    <h2>Protected Methods</h2>
+
+    <p><a href="#" class="toggle">Hide inherited methods</a></p>
+
+    <table class="summary-table table table-striped table-bordered table-hover">
+        <colgroup>
+            <col class="col-method" />
+            <col class="col-description" />
+            <col class="col-defined" />
+        </colgroup>
+        <tr>
+            <th>Method</th>
+            <th>Description</th>
+            <th>Defined By</th>
+        </tr>
+
+                                                        <tr id="initDefaultButton()" class="">
+                    <td><a href="rootlocal-widgets-sortable-sortablegridcolumnwidget.html#initDefaultButton()-detail">initDefaultButton()</a></td>
+                    <td>Initializes the default button rendering callback for single button.</td>
+                    <td><a href="rootlocal-widgets-sortable-sortablegridcolumnwidget.html">rootlocal\widgets\sortable\SortableGridColumnWidget</a></td>
+                </tr>
+                                                <tr id="initDefaultButtons()" class="">
+                    <td><a href="rootlocal-widgets-sortable-sortablegridcolumnwidget.html#initDefaultButtons()-detail">initDefaultButtons()</a></td>
+                    <td>Initializes the default button rendering callbacks.</td>
+                    <td><a href="rootlocal-widgets-sortable-sortablegridcolumnwidget.html">rootlocal\widgets\sortable\SortableGridColumnWidget</a></td>
+                </tr>
+                                                <tr id="renderDataCellContent()" class="">
+                    <td><a href="rootlocal-widgets-sortable-sortablegridcolumnwidget.html#renderDataCellContent()-detail">renderDataCellContent()</a></td>
+                    <td>Renders the data cell content.</td>
+                    <td><a href="rootlocal-widgets-sortable-sortablegridcolumnwidget.html">rootlocal\widgets\sortable\SortableGridColumnWidget</a></td>
+                </tr>
+                        </table>
+</div>
+
+<a id="events"></a>
+
+<a id="constants"></a>
+
+
+<h2>Property Details</h2>
+
+<div class="property-doc toggle-target-container">
+    <p><a href="#" class="toggle">Hide inherited properties</a></p>
+
+            <div id="$buttonOptions-detail">
+            <div class="detail-header h3">
+                <a href="#" class="tool-link" title="go to top"><span class="glyphicon glyphicon-arrow-up"></span></a>
+                <a class="tool-link hash" href="rootlocal-widgets-sortable-sortablegridcolumnwidget.html#$buttonOptions-detail" title="direct link to this method"><span class="glyphicon icon-hash"></span></a>
+                
+                $buttonOptions
+                <span class="detail-header-tag small">
+                    public                                                                                property
+                                    </span>
+            </div>
+
+            
+            <div class="doc-description">
+                
+                <p>Html options to be applied to the <a href="rootlocal-widgets-sortable-sortablegridcolumnwidget.html#initDefaultButton()-detail">default button</a>.</p>
+                            </div>
+
+            <div class="signature"><span class="signature-defs">public</span> <span class="signature-type"><a href="https://www.php.net/language.types.array">array</a></span> <a href="rootlocal-widgets-sortable-sortablegridcolumnwidget.html#$buttonOptions-detail">$buttonOptions</a> <span style="color: #0000BB"></span><span style="color: #007700">=&nbsp;[]</span></div>
+            
+            
+        </div>
+            <div id="$buttons-detail">
+            <div class="detail-header h3">
+                <a href="#" class="tool-link" title="go to top"><span class="glyphicon glyphicon-arrow-up"></span></a>
+                <a class="tool-link hash" href="rootlocal-widgets-sortable-sortablegridcolumnwidget.html#$buttons-detail" title="direct link to this method"><span class="glyphicon icon-hash"></span></a>
+                
+                $buttons
+                <span class="detail-header-tag small">
+                    public                                                                                property
+                                    </span>
+            </div>
+
+            
+            <div class="doc-description">
+                
+                <p>Button rendering callbacks. The array keys are the button names (without curly brackets),
+and the values are the corresponding button rendering callbacks. The callbacks should use the following
+signature:</p>
+<pre><code class="hljs php language-php"><span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-params">($model, $key)</span> </span>{
+    <span class="hljs-comment">// return the button HTML code</span>
+}
+</code></pre>
+<pre><code class="hljs php language-php">[
+    <span class="hljs-string">'sort'</span> =&gt; <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-params">($model, $key)</span> </span>{
+        <span class="hljs-keyword">return</span> $model-&gt;status === $model::STATUS_SORTING ? Html::tag(<span class="hljs-string">'span'</span>, <span class="hljs-string">'sort'</span>) : <span class="hljs-string">''</span>;
+    },
+],
+</code></pre>
+                            </div>
+
+            <div class="signature"><span class="signature-defs">public</span> <span class="signature-type"><a href="https://www.php.net/language.types.array">array</a></span> <a href="rootlocal-widgets-sortable-sortablegridcolumnwidget.html#$buttons-detail">$buttons</a> <span style="color: #0000BB"></span><span style="color: #007700">=&nbsp;[]</span></div>
+            
+            
+        </div>
+            <div id="$headerOptions-detail">
+            <div class="detail-header h3">
+                <a href="#" class="tool-link" title="go to top"><span class="glyphicon glyphicon-arrow-up"></span></a>
+                <a class="tool-link hash" href="rootlocal-widgets-sortable-sortablegridcolumnwidget.html#$headerOptions-detail" title="direct link to this method"><span class="glyphicon icon-hash"></span></a>
+                
+                $headerOptions
+                <span class="detail-header-tag small">
+                    public                                                                                property
+                                    </span>
+            </div>
+
+            
+            <div class="doc-description">
+                
+                <p>The HTML attributes for the header cell tag.</p>
+                <p>See also <span class="broken-link">\yii\helpers\Html::renderTagAttributes()</span> for details on how attributes are being rendered.</p>            </div>
+
+            <div class="signature"><span class="signature-defs">public</span> <span class="signature-type"><a href="https://www.php.net/language.types.array">array</a></span> <a href="rootlocal-widgets-sortable-sortablegridcolumnwidget.html#$headerOptions-detail">$headerOptions</a> <span style="color: #0000BB"></span><span style="color: #007700">=&nbsp;[<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">'class'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">'sortable-column'</span><span style="color: #007700">,<br />]</span></div>
+            
+            
+        </div>
+            <div id="$icons-detail">
+            <div class="detail-header h3">
+                <a href="#" class="tool-link" title="go to top"><span class="glyphicon glyphicon-arrow-up"></span></a>
+                <a class="tool-link hash" href="rootlocal-widgets-sortable-sortablegridcolumnwidget.html#$icons-detail" title="direct link to this method"><span class="glyphicon icon-hash"></span></a>
+                
+                $icons
+                <span class="detail-header-tag small">
+                    public                                                                                property
+                                    </span>
+            </div>
+
+            
+            <div class="doc-description">
+                
+                <p>Button icons. The array keys are the icon names and the values the corresponding html:
+<code>`</code>php
+[</p>
+<pre><code class="hljs twig"><span class="xml">'sort' =&gt; '<span class="hljs-tag">&lt;<span class="hljs-name">i</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"fa fa-sort"</span> <span class="hljs-attr">aria-hidden</span>=<span class="hljs-string">"true"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">i</span>&gt;</span>',
+</span></code></pre>
+<p>]
+<code>`</code>
+Defaults to <a href="https://fontawesome.com">FontAwesome</a></p>
+                <p>See also <a href="https://fontawesome.com">https://fontawesome.com</a>.</p>            </div>
+
+            <div class="signature"><span class="signature-defs">public</span> <span class="signature-type"><a href="https://www.php.net/language.types.array">array</a></span> <a href="rootlocal-widgets-sortable-sortablegridcolumnwidget.html#$icons-detail">$icons</a> <span style="color: #0000BB"></span><span style="color: #007700">=&nbsp;[<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">'sort'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">'&lt;i&nbsp;class="fa&nbsp;fa-arrows"&nbsp;aria-hidden="true"&gt;&lt;/i&gt;'</span><span style="color: #007700">,<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">'up'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">'&lt;i&nbsp;class="fa&nbsp;fa-arrow-up"&gt;&lt;/i&gt;'</span><span style="color: #007700">,<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">'down'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">'&lt;i&nbsp;class="fa&nbsp;fa-arrow-down"&gt;&lt;/i&gt;'</span><span style="color: #007700">,<br />]</span></div>
+            
+            
+        </div>
+            <div id="$sortableWidgetOptions-detail">
+            <div class="detail-header h3">
+                <a href="#" class="tool-link" title="go to top"><span class="glyphicon glyphicon-arrow-up"></span></a>
+                <a class="tool-link hash" href="rootlocal-widgets-sortable-sortablegridcolumnwidget.html#$sortableWidgetOptions-detail" title="direct link to this method"><span class="glyphicon icon-hash"></span></a>
+                
+                $sortableWidgetOptions
+                <span class="detail-header-tag small">
+                    public                                                                                property
+                                    </span>
+            </div>
+
+            
+            <div class="doc-description">
+                
+                <p><a href="rootlocal-widgets-sortable-sortablewidget.html">rootlocal\widgets\sortable\SortableWidget</a> Sortable JQuery Widget</p>
+                            </div>
+
+            <div class="signature"><span class="signature-defs">public</span> <span class="signature-type"><a href="https://www.php.net/language.types.array">array</a></span> <a href="rootlocal-widgets-sortable-sortablegridcolumnwidget.html#$sortableWidgetOptions-detail">$sortableWidgetOptions</a> <span style="color: #0000BB"></span><span style="color: #007700">=&nbsp;[]</span></div>
+            
+            
+        </div>
+            <div id="$template-detail">
+            <div class="detail-header h3">
+                <a href="#" class="tool-link" title="go to top"><span class="glyphicon glyphicon-arrow-up"></span></a>
+                <a class="tool-link hash" href="rootlocal-widgets-sortable-sortablegridcolumnwidget.html#$template-detail" title="direct link to this method"><span class="glyphicon icon-hash"></span></a>
+                
+                $template
+                <span class="detail-header-tag small">
+                    public                                                                                property
+                                    </span>
+            </div>
+
+            
+            <div class="doc-description">
+                
+                <p>The template used for composing each cell in the action column.</p>
+<pre><code class="hljs php language-php">[
+     <span class="hljs-string">'class'</span> =&gt; \rootlocal\widgets\sortable\SortableGridColumnWidget::class,
+     <span class="hljs-string">'template'</span> =&gt; <span class="hljs-string">'{sort}'</span>
+],
+</code></pre>
+                <p>See also <a href="rootlocal-widgets-sortable-sortablegridcolumnwidget.html#$buttons-detail">$buttons</a>.</p>            </div>
+
+            <div class="signature"><span class="signature-defs">public</span> <span class="signature-type"><a href="https://www.php.net/language.types.string">string</a></span> <a href="rootlocal-widgets-sortable-sortablegridcolumnwidget.html#$template-detail">$template</a> <span style="color: #0000BB"></span><span style="color: #007700">=&nbsp;</span><span style="color: #DD0000">'{sort}&nbsp;{up}&nbsp;{down}'</span></div>
+            
+            
+        </div>
+            <div id="$visibleButtons-detail">
+            <div class="detail-header h3">
+                <a href="#" class="tool-link" title="go to top"><span class="glyphicon glyphicon-arrow-up"></span></a>
+                <a class="tool-link hash" href="rootlocal-widgets-sortable-sortablegridcolumnwidget.html#$visibleButtons-detail" title="direct link to this method"><span class="glyphicon icon-hash"></span></a>
+                
+                $visibleButtons
+                <span class="detail-header-tag small">
+                    public                                                                                property
+                                    </span>
+            </div>
+
+            
+            <div class="doc-description">
+                
+                <p>Visibility conditions for each button. The array keys are the button names (without curly brackets),
+and the values are the boolean true/false or the anonymous function. When the button name is not specified in
+this array it will be shown by default.
+The callbacks must use the following signature:</p>
+<pre><code class="hljs php language-php"><span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-params">($model, $key, $index)</span> </span>{
+    <span class="hljs-keyword">return</span> $model-&gt;status === $model::STATUS_SORTING;
+}
+</code></pre>
+<p>Or you can pass a boolean value:</p>
+<pre><code class="hljs php language-php">[
+    <span class="hljs-string">'sort'</span> =&gt; \Yii::$app-&gt;user-&gt;can(<span class="hljs-string">'sort'</span>),
+],
+</code></pre>
+                            </div>
+
+            <div class="signature"><span class="signature-defs">public</span> <span class="signature-type"><a href="https://www.php.net/language.types.array">array</a></span> <a href="rootlocal-widgets-sortable-sortablegridcolumnwidget.html#$visibleButtons-detail">$visibleButtons</a> <span style="color: #0000BB"></span><span style="color: #007700">=&nbsp;[]</span></div>
+            
+            
+        </div>
+    </div>
+
+<h2>Method Details</h2>
+
+<div class="method-doc toggle-target-container">
+    <p><a href="#" class="toggle">Hide inherited methods</a></p>
+
+            <div id="init()-detail"
+             class="">
+            <div class="detail-header h3">
+                <a href="#" class="tool-link" title="go to top"><span class="glyphicon glyphicon-arrow-up"></span></a>
+                <a class="tool-link hash" href="rootlocal-widgets-sortable-sortablegridcolumnwidget.html#init()-detail" title="direct link to this method"><span class="glyphicon icon-hash"></span></a>
+                
+                init()
+
+                <span class="detail-header-tag small">
+                    public                                                            method
+                                    </span>
+            </div>
+
+            
+            <div class="doc-description">
+                
+                <p><strong></strong></p>
+                                            </div>
+
+            <table class="detail-table table table-striped table-bordered table-hover">
+                <tr><td colspan="3" class="signature"><span class="signature-defs">public</span> <span class="signature-type">void</span> <strong><a href="rootlocal-widgets-sortable-sortablegridcolumnwidget.html#init()-detail">init</a></strong> ( )</td></tr>
+
+                            </table>
+
+            
+            
+
+    <p>
+        <a class="btn btn-link" data-toggle="collapse" data-target="#collapseInit" role="button"
+           aria-expanded="false" aria-controls="collapseInit">
+            Source code
+        </a>
+    </p>
+    <div class="collapse" id="collapseInit">
+        <div class="card card-body">
+            <pre>
+                <code class="hljs php language-php"><span class="hljs-keyword">public</span> <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">init</span><span class="hljs-params">()</span>
+</span>{
+    <span class="hljs-keyword">parent</span>::init();
+    $defaultContentOptions = [<span class="hljs-string">'class'</span> =&gt; <span class="hljs-string">'sortable-td'</span>];
+    <span class="hljs-keyword">$this</span>-&gt;contentOptions = ArrayHelper::merge($defaultContentOptions, <span class="hljs-keyword">$this</span>-&gt;contentOptions);
+    <span class="hljs-keyword">$this</span>-&gt;initDefaultButtons();
+    $objClass = <span class="hljs-keyword">$this</span>-&gt;sortableWidgetOptions;
+    $objClass[<span class="hljs-string">'class'</span>] = SortableWidget::class;
+    Yii::createObject($objClass);
+}
+</code>
+            </pre>
+        </div>
+    </div>
+            
+        </div>
+            <div id="initDefaultButton()-detail"
+             class="">
+            <div class="detail-header h3">
+                <a href="#" class="tool-link" title="go to top"><span class="glyphicon glyphicon-arrow-up"></span></a>
+                <a class="tool-link hash" href="rootlocal-widgets-sortable-sortablegridcolumnwidget.html#initDefaultButton()-detail" title="direct link to this method"><span class="glyphicon icon-hash"></span></a>
+                
+                initDefaultButton()
+
+                <span class="detail-header-tag small">
+                    protected                                                            method
+                                    </span>
+            </div>
+
+            
+            <div class="doc-description">
+                
+                <p><strong>Initializes the default button rendering callback for single button.</strong></p>
+                                            </div>
+
+            <table class="detail-table table table-striped table-bordered table-hover">
+                <tr><td colspan="3" class="signature"><span class="signature-defs">protected</span> <span class="signature-type">void</span> <strong><a href="rootlocal-widgets-sortable-sortablegridcolumnwidget.html#initDefaultButton()-detail">initDefaultButton</a></strong> ( <span class="signature-type"><a href="https://www.php.net/language.types.string">string</a></span> <span style="color: #0000BB">$name</span>, <span class="signature-type"><a href="https://www.php.net/language.types.string">string</a></span> <span style="color: #0000BB">$iconName</span>, <span class="signature-type"><a href="https://www.php.net/language.types.array">array</a></span> <span style="color: #0000BB">$additionalOptions&nbsp;</span><span style="color: #007700">=&nbsp;[]</span> )</td></tr>
+
+                                                            <tr>
+                            <td class="param-name-col"><span style="color: #0000BB">$name</span></td>
+                            <td class="param-type-col"><a href="https://www.php.net/language.types.string">string</a></td>
+                            <td class="param-desc-col">
+                               <p>Button name as it's written in template</p>
+                            </td>
+                        </tr>
+                                            <tr>
+                            <td class="param-name-col"><span style="color: #0000BB">$iconName</span></td>
+                            <td class="param-type-col"><a href="https://www.php.net/language.types.string">string</a></td>
+                            <td class="param-desc-col">
+                               <p>The part of Bootstrap font awesome class that makes it unique</p>
+                            </td>
+                        </tr>
+                                            <tr>
+                            <td class="param-name-col"><span style="color: #0000BB">$additionalOptions</span></td>
+                            <td class="param-type-col"><a href="https://www.php.net/language.types.array">array</a></td>
+                            <td class="param-desc-col">
+                               <p>Array of additional HTML tag options</p>
+                            </td>
+                        </tr>
+                    
+                    
+                                                </table>
+
+            
+            
+
+    <p>
+        <a class="btn btn-link" data-toggle="collapse" data-target="#collapseInitDefaultButton" role="button"
+           aria-expanded="false" aria-controls="collapseInitDefaultButton">
+            Source code
+        </a>
+    </p>
+    <div class="collapse" id="collapseInitDefaultButton">
+        <div class="card card-body">
+            <pre>
+                <code class="hljs php language-php"><span class="hljs-keyword">protected</span> <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">initDefaultButton</span><span class="hljs-params">(string $name, string $iconName, array $additionalOptions = [])</span>
+</span>{
+    <span class="hljs-keyword">if</span> (!<span class="hljs-keyword">isset</span>(<span class="hljs-keyword">$this</span>-&gt;buttons[$name]) &amp;&amp; str_contains(<span class="hljs-keyword">$this</span>-&gt;template, <span class="hljs-string">'{'</span> . $name . <span class="hljs-string">'}'</span>)) {
+        <span class="hljs-keyword">$this</span>-&gt;buttons[$name] = <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-params">($url, $model, $key)</span> <span class="hljs-title">use</span> <span class="hljs-params">($name, $iconName, $additionalOptions)</span> </span>{
+            <span class="hljs-keyword">switch</span> ($name) {
+                <span class="hljs-keyword">case</span> <span class="hljs-string">'sort'</span>:
+                    $title = Yii::t(<span class="hljs-string">'rootlocal-sort'</span>, <span class="hljs-string">'Sorting'</span>);
+                    <span class="hljs-keyword">break</span>;
+                <span class="hljs-keyword">case</span> <span class="hljs-string">'up'</span>:
+                    $title = Yii::t(<span class="hljs-string">'rootlocal-sort'</span>, <span class="hljs-string">'Up'</span>);
+                    <span class="hljs-keyword">break</span>;
+                <span class="hljs-keyword">case</span> <span class="hljs-string">'down'</span>:
+                    $title = Yii::t(<span class="hljs-string">'rootlocal-sort'</span>, <span class="hljs-string">'Down'</span>);
+                    <span class="hljs-keyword">break</span>;
+                <span class="hljs-keyword">default</span>:
+                    $title = ucfirst($name);
+                    <span class="hljs-keyword">break</span>;
+            }
+            $options = array_merge([<span class="hljs-string">'title'</span> =&gt; $title, <span class="hljs-string">'aria-label'</span> =&gt; $title], $additionalOptions, <span class="hljs-keyword">$this</span>-&gt;buttonOptions);
+            $icon = <span class="hljs-keyword">$this</span>-&gt;icons[$iconName] ?? Html::tag(<span class="hljs-string">'i'</span>, <span class="hljs-string">''</span>, [<span class="hljs-string">'class'</span> =&gt; <span class="hljs-string">"fa fa-$iconName"</span>]);
+            <span class="hljs-keyword">return</span> Html::tag(<span class="hljs-string">'span'</span>, $icon, $options);
+        };
+    }
+}
+</code>
+            </pre>
+        </div>
+    </div>
+            
+        </div>
+            <div id="initDefaultButtons()-detail"
+             class="">
+            <div class="detail-header h3">
+                <a href="#" class="tool-link" title="go to top"><span class="glyphicon glyphicon-arrow-up"></span></a>
+                <a class="tool-link hash" href="rootlocal-widgets-sortable-sortablegridcolumnwidget.html#initDefaultButtons()-detail" title="direct link to this method"><span class="glyphicon icon-hash"></span></a>
+                
+                initDefaultButtons()
+
+                <span class="detail-header-tag small">
+                    protected                                                            method
+                                    </span>
+            </div>
+
+            
+            <div class="doc-description">
+                
+                <p><strong>Initializes the default button rendering callbacks.</strong></p>
+                                            </div>
+
+            <table class="detail-table table table-striped table-bordered table-hover">
+                <tr><td colspan="3" class="signature"><span class="signature-defs">protected</span> <span class="signature-type">void</span> <strong><a href="rootlocal-widgets-sortable-sortablegridcolumnwidget.html#initDefaultButtons()-detail">initDefaultButtons</a></strong> ( )</td></tr>
+
+                            </table>
+
+            
+            
+
+    <p>
+        <a class="btn btn-link" data-toggle="collapse" data-target="#collapseInitDefaultButtons" role="button"
+           aria-expanded="false" aria-controls="collapseInitDefaultButtons">
+            Source code
+        </a>
+    </p>
+    <div class="collapse" id="collapseInitDefaultButtons">
+        <div class="card card-body">
+            <pre>
+                <code class="hljs php language-php"><span class="hljs-keyword">protected</span> <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">initDefaultButtons</span><span class="hljs-params">()</span>: <span class="hljs-title">void</span>
+</span>{
+    <span class="hljs-keyword">$this</span>-&gt;initDefaultButton(<span class="hljs-string">'sort'</span>, <span class="hljs-string">'sort'</span>, [
+        <span class="hljs-string">'class'</span> =&gt; <span class="hljs-string">'sortable-column-btn sortable-column-btn-sort'</span>,
+    ]);
+    <span class="hljs-keyword">$this</span>-&gt;initDefaultButton(<span class="hljs-string">'up'</span>, <span class="hljs-string">'up'</span>, [
+        <span class="hljs-string">'class'</span> =&gt; <span class="hljs-string">'sortable-column-btn sortable-column-btn-up'</span>,
+    ]);
+    <span class="hljs-keyword">$this</span>-&gt;initDefaultButton(<span class="hljs-string">'down'</span>, <span class="hljs-string">'down'</span>, [
+        <span class="hljs-string">'class'</span> =&gt; <span class="hljs-string">'sortable-column-btn sortable-column-btn-down'</span>,
+    ]);
+}
+</code>
+            </pre>
+        </div>
+    </div>
+            
+        </div>
+            <div id="renderDataCellContent()-detail"
+             class="">
+            <div class="detail-header h3">
+                <a href="#" class="tool-link" title="go to top"><span class="glyphicon glyphicon-arrow-up"></span></a>
+                <a class="tool-link hash" href="rootlocal-widgets-sortable-sortablegridcolumnwidget.html#renderDataCellContent()-detail" title="direct link to this method"><span class="glyphicon icon-hash"></span></a>
+                
+                renderDataCellContent()
+
+                <span class="detail-header-tag small">
+                    protected                                                            method
+                                    </span>
+            </div>
+
+            
+            <div class="doc-description">
+                
+                <p><strong>Renders the data cell content.</strong></p>
+                                            </div>
+
+            <table class="detail-table table table-striped table-bordered table-hover">
+                <tr><td colspan="3" class="signature"><span class="signature-defs">protected</span> <span class="signature-type"><a href="https://www.php.net/language.types.string">string</a></span> <strong><a href="rootlocal-widgets-sortable-sortablegridcolumnwidget.html#renderDataCellContent()-detail">renderDataCellContent</a></strong> ( <span style="color: #0000BB">$model</span>, <span style="color: #0000BB">$key</span>, <span style="color: #0000BB">$index</span> )</td></tr>
+
+                                                            <tr>
+                            <td class="param-name-col"><span style="color: #0000BB">$model</span></td>
+                            <td class="param-type-col">mixed</td>
+                            <td class="param-desc-col">
+                               <p>The data model</p>
+                            </td>
+                        </tr>
+                                            <tr>
+                            <td class="param-name-col"><span style="color: #0000BB">$key</span></td>
+                            <td class="param-type-col">mixed</td>
+                            <td class="param-desc-col">
+                               <p>The key associated with the data model</p>
+                            </td>
+                        </tr>
+                                            <tr>
+                            <td class="param-name-col"><span style="color: #0000BB">$index</span></td>
+                            <td class="param-type-col"><a href="https://www.php.net/language.types.integer">integer</a></td>
+                            <td class="param-desc-col">
+                               <p>The zero-based index of the data model among the models array returned by <span class="broken-link">GridView::dataProvider</span>.</p>
+                            </td>
+                        </tr>
+                    
+                                            <tr>
+                            <th class="param-name-col">return</th>
+                            <td class="param-type-col"><a href="https://www.php.net/language.types.string">string</a></td>
+                            <td class="param-desc-col">
+                                <p>The rendering result</p>
+                            </td>
+                        </tr>
+                    
+                                                </table>
+
+            
+            
+
+    <p>
+        <a class="btn btn-link" data-toggle="collapse" data-target="#collapseRenderDataCellContent" role="button"
+           aria-expanded="false" aria-controls="collapseRenderDataCellContent">
+            Source code
+        </a>
+    </p>
+    <div class="collapse" id="collapseRenderDataCellContent">
+        <div class="card card-body">
+            <pre>
+                <code class="hljs php language-php"><span class="hljs-keyword">protected</span> <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">renderDataCellContent</span><span class="hljs-params">($model, $key, $index)</span>
+</span>{
+    <span class="hljs-keyword">return</span> preg_replace_callback(<span class="hljs-string">'/\\{([\w\-\/]+)\\}/'</span>, <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-params">($matches)</span> <span class="hljs-title">use</span> <span class="hljs-params">($model, $key, $index)</span> </span>{
+        $name = $matches[<span class="hljs-number">1</span>];
+        <span class="hljs-keyword">if</span> (<span class="hljs-keyword">isset</span>(<span class="hljs-keyword">$this</span>-&gt;visibleButtons[$name])) {
+            $isVisible = <span class="hljs-keyword">$this</span>-&gt;visibleButtons[$name] <span class="hljs-keyword">instanceof</span> Closure
+                ? call_user_func(<span class="hljs-keyword">$this</span>-&gt;visibleButtons[$name], $model, $key, $index)
+                : <span class="hljs-keyword">$this</span>-&gt;visibleButtons[$name];
+        } <span class="hljs-keyword">else</span> {
+            $isVisible = <span class="hljs-keyword">true</span>;
+        }
+        <span class="hljs-keyword">if</span> ($isVisible &amp;&amp; <span class="hljs-keyword">isset</span>(<span class="hljs-keyword">$this</span>-&gt;buttons[$name])) {
+            <span class="hljs-keyword">return</span> call_user_func(<span class="hljs-keyword">$this</span>-&gt;buttons[$name], $model, $key, <span class="hljs-keyword">$this</span>);
+        }
+        <span class="hljs-keyword">return</span> <span class="hljs-string">''</span>;
+    }, <span class="hljs-keyword">$this</span>-&gt;template);
+}
+</code>
+            </pre>
+        </div>
+    </div>
+            
+        </div>
+    </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+    /*<![CDATA[*/
+    $('a.toggle').on('click', function () {
+        var $this = $(this);
+        if ($this.hasClass('properties-hidden')) {
+            $this.text($this.text().replace(/Show/,'Hide'));
+            $this.parents('.toggle-target-container').find('.inherited').show();
+            $this.removeClass('properties-hidden');
+        } else {
+            $this.text($this.text().replace(/Hide/,'Show'));
+            $this.parents('.toggle-target-container').find('.inherited').hide();
+            $this.addClass('properties-hidden');
+        }
+
+        return false;
+    });
+    /*]]>*/
+</script>
+
+
+</div>
+
+<footer class="footer">
+        <p class="pull-right"><small>Page generated on Sat, 17 Sep 2022 13:52:34 +0000</small></p>
+    Powered by <a href="https://www.yiiframework.com/" rel="external">Yii Framework</a></footer>
+
+<script>jQuery(function ($) {
+    var shiftWindow = function () { scrollBy(0, -50) };
+    if (location.hash) setTimeout(shiftWindow, 1);
+    window.addEventListener("hashchange", shiftWindow);
+var element = document.createElement("script");
+element.src = "./jssearch.index.js";
+document.body.appendChild(element);
+
+var searchBox = $('#searchbox');
+
+// search when typing in search field
+searchBox.on("keyup", function(event) {
+    var query = $(this).val();
+
+    if (query == '' || event.which == 27) {
+        $('#search-resultbox').hide();
+        return;
+    } else if (event.which == 13) {
+        var selectedLink = $('#search-resultbox a.selected');
+        if (selectedLink.length != 0) {
+            document.location = selectedLink.attr('href');
+            return;
+        }
+    } else if (event.which == 38 || event.which == 40) {
+        $('#search-resultbox').show();
+
+        var selected = $('#search-resultbox a.selected');
+        if (selected.length == 0) {
+            $('#search-results').find('a').first().addClass('selected');
+        } else {
+            var next;
+            if (event.which == 40) {
+                next = selected.parent().next().find('a').first();
+            } else {
+                next = selected.parent().prev().find('a').first();
+            }
+            if (next.length != 0) {
+                var resultbox = $('#search-results');
+                var position = next.position();
+
+//              TODO scrolling is buggy and jumps around
+//                resultbox.scrollTop(Math.floor(position.top));
+//                console.log(position.top);
+
+                selected.removeClass('selected');
+                next.addClass('selected');
+            }
+        }
+
+        return;
+    }
+    $('#search-resultbox').show();
+    $('#search-results').html('<li><span class="no-results">No results</span></li>');
+
+    var result = jssearch.search(query);
+
+    if (result.length > 0) {
+        var i = 0;
+        var resHtml = '';
+
+        for (var key in result) {
+            if (i++ > 20) {
+                break;
+            }
+            resHtml = resHtml +
+            '<li><a href="' + result[key].file.u.substr(3) +'"><span class="title">' + result[key].file.t + '</span>' +
+            '<span class="description">' + result[key].file.d + '</span></a></li>';
+        }
+        $('#search-results').html(resHtml);
+    }
+});
+
+// hide the search results on ESC
+$(document).on("keyup", function(event) { if (event.which == 27) { $('#search-resultbox').hide(); } });
+// hide search results on click to document
+$(document).bind('click', function (e) { $('#search-resultbox').hide(); });
+// except the following:
+searchBox.bind('click', function(e) { e.stopPropagation(); });
+$('#search-resultbox').bind('click', function(e) { e.stopPropagation(); });
+
+});</script></body>
+</html>

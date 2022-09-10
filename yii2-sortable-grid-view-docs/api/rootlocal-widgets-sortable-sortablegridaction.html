@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="language" content="en" />
+        
+<link href="./assets/cc342351/css/bootstrap.css" rel="stylesheet">
+<link href="./assets/a0db892e/solarized-light.css" rel="stylesheet">
+<link href="./assets/92d8a714/style.css" rel="stylesheet">
+<script src="./assets/e1aa869e/jquery.js"></script>
+<script src="./assets/cc342351/js/bootstrap.js"></script>
+<script src="./assets/4ec44320/jssearch.js"></script>    <title>SortableGridAction, rootlocal\widgets\sortable\SortableGridAction - YII2 Sortable GridView</title>
+</head>
+<body>
+
+<div class="wrap">
+    <nav id="w1" class="navbar-inverse navbar-fixed-top navbar" role="navigation"><div class="navbar-header"><button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#w1-collapse"><span class="sr-only">Toggle navigation</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span></button><a class="navbar-brand" href="./index.html">YII2 Sortable GridView</a></div><div id="w1-collapse" class="collapse navbar-collapse"><ul id="w2" class="navbar-nav nav"><li><a href="./index.html">Class reference</a></li></ul><div class="navbar-form navbar-left" role="search">
+  <div class="form-group">
+    <input id="searchbox" type="text" class="form-control" placeholder="Search">
+  </div>
+</div>
+</div></nav>
+    <div id="search-resultbox" style="display: none;" class="modal-content">
+        <ul id="search-results">
+        </ul>
+    </div>
+
+    
+<div class="row">
+    <div class="col-md-3">
+                <div id="navigation" class="list-group"><a class="list-group-item active" href="#navigation-0" data-toggle="collapse" data-parent="#navigation">rootlocal\widgets\sortable <b class="caret"></b></a><div id="navigation-0" class="submenu panel-collapse collapse in"><a class="list-group-item" href="./rootlocal-widgets-sortable-bootstrap.html">Bootstrap</a>
+<a class="list-group-item" href="./rootlocal-widgets-sortable-sortableasset.html">SortableAsset</a>
+<a class="list-group-item active" href="./rootlocal-widgets-sortable-sortablegridaction.html">SortableGridAction</a>
+<a class="list-group-item" href="./rootlocal-widgets-sortable-sortablegridbehavior.html">SortableGridBehavior</a>
+<a class="list-group-item" href="./rootlocal-widgets-sortable-sortablegridbehaviorinterface.html">SortableGridBehaviorInterface</a>
+<a class="list-group-item" href="./rootlocal-widgets-sortable-sortablegridcolumnwidget.html">SortableGridColumnWidget</a>
+<a class="list-group-item" href="./rootlocal-widgets-sortable-sortablegridquerytrait.html">SortableGridQueryTrait</a>
+<a class="list-group-item" href="./rootlocal-widgets-sortable-sortablewidget.html">SortableWidget</a></div></div>    </div>
+    <div class="col-md-9 api-content" role="main"><h1>Class rootlocal\widgets\sortable\SortableGridAction</h1>
+<div class="top-nav">
+    <a href="index">All Classes</a>
+            | <a href="#properties">Properties</a>
+                | <a href="#methods">Methods</a>
+            </div>
+
+<table class="summaryTable docClass table table-bordered">
+    <colgroup>
+        <col class="col-name" />
+        <col class="col-value" />
+    </colgroup>
+            <tr><th>Inheritance</th><td><a href="rootlocal-widgets-sortable-sortablegridaction.html">rootlocal\widgets\sortable\SortableGridAction</a> &raquo;
+yii\base\Action</td></tr>
+                                        </table>
+
+<div class="class-description">
+    <p><strong>Action for sortable Yii2 GridView widget.</strong></p>
+    <p>example:</p>
+<pre><code class="hljs php language-php"><span class="hljs-keyword">public</span> <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">actions</span><span class="hljs-params">()</span>
+</span>{
+   <span class="hljs-keyword">return</span> [
+      <span class="hljs-string">'sort'</span> =&gt; [
+         <span class="hljs-string">'class'</span> =&gt; SortableGridAction::class,
+         <span class="hljs-string">'model'</span> =&gt; Model::class,
+      ],
+  ];
+}
+</code></pre>
+
+    </div>
+
+
+
+<a id="properties"></a>
+
+<div class="doc-property summary toggle-target-container">
+    <h2>Public Properties</h2>
+
+    <p><a href="#" class="toggle">Hide inherited properties</a></p>
+
+    <table class="summary-table table table-striped table-bordered table-hover">
+        <colgroup>
+            <col class="col-property" />
+            <col class="col-type" />
+            <col class="col-description" />
+            <col class="col-defined" />
+        </colgroup>
+        <tr>
+            <th>Property</th>
+            <th>Type</th>
+            <th>Description</th>
+            <th>Defined By</th>
+        </tr>
+
+                                    <tr id="$model" class="">
+                    <td><a href="rootlocal-widgets-sortable-sortablegridaction.html#$model-detail">$model</a></td>
+                    <td>\yii\db\ActiveRecordInterface|<a href="https://www.php.net/language.types.array">array</a>|<a href="https://www.php.net/language.types.string">string</a></td>
+                    <td></td>
+                    <td><a href="rootlocal-widgets-sortable-sortablegridaction.html">rootlocal\widgets\sortable\SortableGridAction</a></td>
+                </tr>
+                        </table>
+</div>
+
+<a id="methods"></a>
+
+<div class="doc-method summary toggle-target-container">
+    <h2>Public Methods</h2>
+
+    <p><a href="#" class="toggle">Hide inherited methods</a></p>
+
+    <table class="summary-table table table-striped table-bordered table-hover">
+        <colgroup>
+            <col class="col-method" />
+            <col class="col-description" />
+            <col class="col-defined" />
+        </colgroup>
+        <tr>
+            <th>Method</th>
+            <th>Description</th>
+            <th>Defined By</th>
+        </tr>
+
+                                    <tr id="getModel()" class="">
+                    <td><a href="rootlocal-widgets-sortable-sortablegridaction.html#getModel()-detail">getModel()</a></td>
+                    <td></td>
+                    <td><a href="rootlocal-widgets-sortable-sortablegridaction.html">rootlocal\widgets\sortable\SortableGridAction</a></td>
+                </tr>
+                                                <tr id="run()" class="">
+                    <td><a href="rootlocal-widgets-sortable-sortablegridaction.html#run()-detail">run()</a></td>
+                    <td></td>
+                    <td><a href="rootlocal-widgets-sortable-sortablegridaction.html">rootlocal\widgets\sortable\SortableGridAction</a></td>
+                </tr>
+                                                <tr id="setModel()" class="">
+                    <td><a href="rootlocal-widgets-sortable-sortablegridaction.html#setModel()-detail">setModel()</a></td>
+                    <td></td>
+                    <td><a href="rootlocal-widgets-sortable-sortablegridaction.html">rootlocal\widgets\sortable\SortableGridAction</a></td>
+                </tr>
+                        </table>
+</div>
+
+<a id="events"></a>
+
+<a id="constants"></a>
+
+
+<h2>Property Details</h2>
+
+<div class="property-doc toggle-target-container">
+    <p><a href="#" class="toggle">Hide inherited properties</a></p>
+
+            <div id="$model-detail">
+            <div class="detail-header h3">
+                <a href="#" class="tool-link" title="go to top"><span class="glyphicon glyphicon-arrow-up"></span></a>
+                <a class="tool-link hash" href="rootlocal-widgets-sortable-sortablegridaction.html#$model-detail" title="direct link to this method"><span class="glyphicon icon-hash"></span></a>
+                
+                $model
+                <span class="detail-header-tag small">
+                    public                                                                                property
+                                    </span>
+            </div>
+
+            
+            <div class="doc-description">
+                
+                                            </div>
+
+            <div class="signature"><span class="signature-defs">public</span> <span class="signature-type">\yii\db\ActiveRecordInterface|<a href="https://www.php.net/language.types.array">array</a>|<a href="https://www.php.net/language.types.string">string</a></span> <a href="rootlocal-widgets-sortable-sortablegridaction.html#$model-detail">$model</a> <span style="color: #0000BB"></span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">null</span></div>
+            
+            
+        </div>
+    </div>
+
+<h2>Method Details</h2>
+
+<div class="method-doc toggle-target-container">
+    <p><a href="#" class="toggle">Hide inherited methods</a></p>
+
+            <div id="getModel()-detail"
+             class="">
+            <div class="detail-header h3">
+                <a href="#" class="tool-link" title="go to top"><span class="glyphicon glyphicon-arrow-up"></span></a>
+                <a class="tool-link hash" href="rootlocal-widgets-sortable-sortablegridaction.html#getModel()-detail" title="direct link to this method"><span class="glyphicon icon-hash"></span></a>
+                
+                getModel()
+
+                <span class="detail-header-tag small">
+                    public                                                            method
+                                    </span>
+            </div>
+
+            
+            <div class="doc-description">
+                
+                <p><strong></strong></p>
+                                            </div>
+
+            <table class="detail-table table table-striped table-bordered table-hover">
+                <tr><td colspan="3" class="signature"><span class="signature-defs">public</span> <span class="signature-type"><a href="rootlocal-widgets-sortable-sortablegridbehaviorinterface.html">rootlocal\widgets\sortable\SortableGridBehaviorInterface</a>|\yii\db\ActiveRecord</span> <strong><a href="rootlocal-widgets-sortable-sortablegridaction.html#getModel()-detail">getModel</a></strong> ( )</td></tr>
+
+                            </table>
+
+            
+            
+
+    <p>
+        <a class="btn btn-link" data-toggle="collapse" data-target="#collapseGetModel" role="button"
+           aria-expanded="false" aria-controls="collapseGetModel">
+            Source code
+        </a>
+    </p>
+    <div class="collapse" id="collapseGetModel">
+        <div class="card card-body">
+            <pre>
+                <code class="hljs php language-php"><span class="hljs-keyword">public</span> <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">getModel</span><span class="hljs-params">()</span>
+</span>{
+    <span class="hljs-keyword">return</span> <span class="hljs-keyword">$this</span>-&gt;_model;
+}
+</code>
+            </pre>
+        </div>
+    </div>
+            
+        </div>
+            <div id="run()-detail"
+             class="">
+            <div class="detail-header h3">
+                <a href="#" class="tool-link" title="go to top"><span class="glyphicon glyphicon-arrow-up"></span></a>
+                <a class="tool-link hash" href="rootlocal-widgets-sortable-sortablegridaction.html#run()-detail" title="direct link to this method"><span class="glyphicon icon-hash"></span></a>
+                
+                run()
+
+                <span class="detail-header-tag small">
+                    public                                                            method
+                                    </span>
+            </div>
+
+            
+            <div class="doc-description">
+                
+                <p><strong></strong></p>
+                                            </div>
+
+            <table class="detail-table table table-striped table-bordered table-hover">
+                <tr><td colspan="3" class="signature"><span class="signature-defs">public</span> <span class="signature-type"><a href="https://www.php.net/language.types.array">array</a>|<a href="https://www.php.net/language.types.string">string</a>[]</span> <strong><a href="rootlocal-widgets-sortable-sortablegridaction.html#run()-detail">run</a></strong> ( )</td></tr>
+
+                                    
+                    
+                                            <tr>
+                            <th class="param-name-col">throws</th>
+                            <td class="param-type-col">\yii\web\BadRequestHttpException</td>
+                            <td class="param-desc-col">
+                                                            </td>
+                        </tr>
+                                            <tr>
+                            <th class="param-name-col">throws</th>
+                            <td class="param-type-col">\yii\base\InvalidConfigException</td>
+                            <td class="param-desc-col">
+                                                            </td>
+                        </tr>
+                                            <tr>
+                            <th class="param-name-col">throws</th>
+                            <td class="param-type-col"><a href="https://www.php.net/class.throwable">Throwable</a></td>
+                            <td class="param-desc-col">
+                                                            </td>
+                        </tr>
+                                                </table>
+
+            
+            
+
+    <p>
+        <a class="btn btn-link" data-toggle="collapse" data-target="#collapseRun" role="button"
+           aria-expanded="false" aria-controls="collapseRun">
+            Source code
+        </a>
+    </p>
+    <div class="collapse" id="collapseRun">
+        <div class="card card-body">
+            <pre>
+                <code class="hljs php language-php"><span class="hljs-keyword">public</span> <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">run</span><span class="hljs-params">()</span>: <span class="hljs-title">array</span>
+</span>{
+    Yii::$app-&gt;response-&gt;format = Response::FORMAT_JSON;
+    $request = Json::decode(Yii::$app-&gt;request-&gt;getRawBody());
+    $result = [];
+    <span class="hljs-keyword">if</span> (!<span class="hljs-keyword">$this</span>-&gt;_model-&gt;hasMethod(<span class="hljs-string">'gridSort'</span>) || !<span class="hljs-keyword">$this</span>-&gt;_model-&gt;hasMethod(<span class="hljs-string">'gridSortUpOrDownButton'</span>)) {
+        <span class="hljs-keyword">throw</span> <span class="hljs-keyword">new</span> InvalidConfigException(<span class="hljs-string">'Not found right `SortableGridBehavior` behavior Model class.'</span>);
+    }
+    <span class="hljs-keyword">if</span> (!array_key_exists(<span class="hljs-string">'action'</span>, $request)) {
+        <span class="hljs-keyword">return</span> [<span class="hljs-string">'status'</span> =&gt; <span class="hljs-string">'error'</span>, <span class="hljs-string">'message'</span> =&gt; <span class="hljs-string">'parameter "action" not requested'</span>];
+    }
+    <span class="hljs-keyword">switch</span> ($request[<span class="hljs-string">'action'</span>]) {
+        <span class="hljs-keyword">case</span> <span class="hljs-string">'up'</span>:
+        <span class="hljs-keyword">case</span> <span class="hljs-string">'down'</span>:
+            $result = <span class="hljs-keyword">$this</span>-&gt;getModel()-&gt;gridSortUpOrDownButton($request[<span class="hljs-string">'action'</span>], $request[<span class="hljs-string">'id'</span>]);
+            <span class="hljs-keyword">break</span>;
+        <span class="hljs-keyword">case</span> <span class="hljs-string">'sortable'</span>:
+            <span class="hljs-keyword">if</span> (array_key_exists(<span class="hljs-string">'items'</span>, $request) &amp;&amp; !<span class="hljs-keyword">empty</span>($request[<span class="hljs-string">'items'</span>])) {
+                $result = <span class="hljs-keyword">$this</span>-&gt;getModel()-&gt;gridSort($request[<span class="hljs-string">'items'</span>]);
+            } <span class="hljs-keyword">else</span> {
+                <span class="hljs-keyword">return</span> [<span class="hljs-string">'status'</span> =&gt; <span class="hljs-string">'error'</span>, <span class="hljs-string">'message'</span> =&gt; <span class="hljs-string">'parameter "items" not requested'</span>];
+            }
+            <span class="hljs-keyword">break</span>;
+    }
+    <span class="hljs-keyword">return</span> [<span class="hljs-string">'status'</span> =&gt; <span class="hljs-keyword">empty</span>($result) ? <span class="hljs-string">'error'</span> : <span class="hljs-string">'success'</span>, <span class="hljs-string">'result'</span> =&gt; Json::htmlEncode($result), <span class="hljs-string">'action'</span> =&gt; $request[<span class="hljs-string">'action'</span>]];
+}
+</code>
+            </pre>
+        </div>
+    </div>
+            
+        </div>
+            <div id="setModel()-detail"
+             class="">
+            <div class="detail-header h3">
+                <a href="#" class="tool-link" title="go to top"><span class="glyphicon glyphicon-arrow-up"></span></a>
+                <a class="tool-link hash" href="rootlocal-widgets-sortable-sortablegridaction.html#setModel()-detail" title="direct link to this method"><span class="glyphicon icon-hash"></span></a>
+                
+                setModel()
+
+                <span class="detail-header-tag small">
+                    public                                                            method
+                                    </span>
+            </div>
+
+            
+            <div class="doc-description">
+                
+                <p><strong></strong></p>
+                                            </div>
+
+            <table class="detail-table table table-striped table-bordered table-hover">
+                <tr><td colspan="3" class="signature"><span class="signature-defs">public</span> <span class="signature-type">void</span> <strong><a href="rootlocal-widgets-sortable-sortablegridaction.html#setModel()-detail">setModel</a></strong> ( <span style="color: #0000BB">$model</span> )</td></tr>
+
+                                                            <tr>
+                            <td class="param-name-col"><span style="color: #0000BB">$model</span></td>
+                            <td class="param-type-col"><a href="https://www.php.net/language.types.string">string</a>|\yii\db\ActiveRecord|<a href="https://www.php.net/language.types.null">null</a></td>
+                            <td class="param-desc-col">
+                                                           </td>
+                        </tr>
+                    
+                    
+                                            <tr>
+                            <th class="param-name-col">throws</th>
+                            <td class="param-type-col">\yii\base\InvalidConfigException</td>
+                            <td class="param-desc-col">
+                                                            </td>
+                        </tr>
+                                                </table>
+
+            
+            
+
+    <p>
+        <a class="btn btn-link" data-toggle="collapse" data-target="#collapseSetModel" role="button"
+           aria-expanded="false" aria-controls="collapseSetModel">
+            Source code
+        </a>
+    </p>
+    <div class="collapse" id="collapseSetModel">
+        <div class="card card-body">
+            <pre>
+                <code class="hljs php language-php"><span class="hljs-keyword">public</span> <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">setModel</span><span class="hljs-params">($model)</span>: <span class="hljs-title">void</span>
+</span>{
+    <span class="hljs-keyword">if</span> (is_string($model)) {
+        <span class="hljs-comment">/** <span class="hljs-doctag">@var</span> SortableGridBehaviorInterface $obj */</span>
+        $obj = Yii::createObject([<span class="hljs-string">'class'</span> =&gt; $model]);
+        <span class="hljs-keyword">$this</span>-&gt;_model = $obj;
+        <span class="hljs-keyword">return</span>;
+    }
+    <span class="hljs-keyword">if</span> (is_array($model) &amp;&amp; array_key_exists(<span class="hljs-string">'class'</span>, $model)) {
+        <span class="hljs-comment">/** <span class="hljs-doctag">@var</span> SortableGridBehaviorInterface $obj */</span>
+        $obj = Yii::createObject($model);
+        <span class="hljs-keyword">$this</span>-&gt;model = $obj;
+        <span class="hljs-keyword">return</span>;
+    }
+    <span class="hljs-keyword">if</span> ($model <span class="hljs-keyword">instanceof</span> ActiveRecord) {
+        <span class="hljs-comment">/** <span class="hljs-doctag">@var</span> SortableGridBehaviorInterface $obj */</span>
+        $obj = $model;
+        <span class="hljs-keyword">$this</span>-&gt;model = $obj;
+        <span class="hljs-keyword">return</span>;
+    }
+    <span class="hljs-keyword">throw</span> <span class="hljs-keyword">new</span>  InvalidConfigException(<span class="hljs-string">'No valid "model" attribute'</span>);
+}
+</code>
+            </pre>
+        </div>
+    </div>
+            
+        </div>
+    </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+    /*<![CDATA[*/
+    $('a.toggle').on('click', function () {
+        var $this = $(this);
+        if ($this.hasClass('properties-hidden')) {
+            $this.text($this.text().replace(/Show/,'Hide'));
+            $this.parents('.toggle-target-container').find('.inherited').show();
+            $this.removeClass('properties-hidden');
+        } else {
+            $this.text($this.text().replace(/Hide/,'Show'));
+            $this.parents('.toggle-target-container').find('.inherited').hide();
+            $this.addClass('properties-hidden');
+        }
+
+        return false;
+    });
+    /*]]>*/
+</script>
+
+
+</div>
+
+<footer class="footer">
+        <p class="pull-right"><small>Page generated on Sat, 17 Sep 2022 13:52:34 +0000</small></p>
+    Powered by <a href="https://www.yiiframework.com/" rel="external">Yii Framework</a></footer>
+
+<script>jQuery(function ($) {
+    var shiftWindow = function () { scrollBy(0, -50) };
+    if (location.hash) setTimeout(shiftWindow, 1);
+    window.addEventListener("hashchange", shiftWindow);
+var element = document.createElement("script");
+element.src = "./jssearch.index.js";
+document.body.appendChild(element);
+
+var searchBox = $('#searchbox');
+
+// search when typing in search field
+searchBox.on("keyup", function(event) {
+    var query = $(this).val();
+
+    if (query == '' || event.which == 27) {
+        $('#search-resultbox').hide();
+        return;
+    } else if (event.which == 13) {
+        var selectedLink = $('#search-resultbox a.selected');
+        if (selectedLink.length != 0) {
+            document.location = selectedLink.attr('href');
+            return;
+        }
+    } else if (event.which == 38 || event.which == 40) {
+        $('#search-resultbox').show();
+
+        var selected = $('#search-resultbox a.selected');
+        if (selected.length == 0) {
+            $('#search-results').find('a').first().addClass('selected');
+        } else {
+            var next;
+            if (event.which == 40) {
+                next = selected.parent().next().find('a').first();
+            } else {
+                next = selected.parent().prev().find('a').first();
+            }
+            if (next.length != 0) {
+                var resultbox = $('#search-results');
+                var position = next.position();
+
+//              TODO scrolling is buggy and jumps around
+//                resultbox.scrollTop(Math.floor(position.top));
+//                console.log(position.top);
+
+                selected.removeClass('selected');
+                next.addClass('selected');
+            }
+        }
+
+        return;
+    }
+    $('#search-resultbox').show();
+    $('#search-results').html('<li><span class="no-results">No results</span></li>');
+
+    var result = jssearch.search(query);
+
+    if (result.length > 0) {
+        var i = 0;
+        var resHtml = '';
+
+        for (var key in result) {
+            if (i++ > 20) {
+                break;
+            }
+            resHtml = resHtml +
+            '<li><a href="' + result[key].file.u.substr(3) +'"><span class="title">' + result[key].file.t + '</span>' +
+            '<span class="description">' + result[key].file.d + '</span></a></li>';
+        }
+        $('#search-results').html(resHtml);
+    }
+});
+
+// hide the search results on ESC
+$(document).on("keyup", function(event) { if (event.which == 27) { $('#search-resultbox').hide(); } });
+// hide search results on click to document
+$(document).bind('click', function (e) { $('#search-resultbox').hide(); });
+// except the following:
+searchBox.bind('click', function(e) { e.stopPropagation(); });
+$('#search-resultbox').bind('click', function(e) { e.stopPropagation(); });
+
+});</script></body>
+</html>

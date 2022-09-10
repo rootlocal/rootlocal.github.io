@@ -1,0 +1,826 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="language" content="en" />
+        
+<link href="./assets/cc342351/css/bootstrap.css" rel="stylesheet">
+<link href="./assets/a0db892e/solarized-light.css" rel="stylesheet">
+<link href="./assets/92d8a714/style.css" rel="stylesheet">
+<script src="./assets/e1aa869e/jquery.js"></script>
+<script src="./assets/cc342351/js/bootstrap.js"></script>
+<script src="./assets/4ec44320/jssearch.js"></script>    <title>SortableGridBehavior, rootlocal\widgets\sortable\SortableGridBehavior - YII2 Sortable GridView</title>
+</head>
+<body>
+
+<div class="wrap">
+    <nav id="w13" class="navbar-inverse navbar-fixed-top navbar" role="navigation"><div class="navbar-header"><button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#w13-collapse"><span class="sr-only">Toggle navigation</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span></button><a class="navbar-brand" href="./index.html">YII2 Sortable GridView</a></div><div id="w13-collapse" class="collapse navbar-collapse"><ul id="w14" class="navbar-nav nav"><li><a href="./index.html">Class reference</a></li></ul><div class="navbar-form navbar-left" role="search">
+  <div class="form-group">
+    <input id="searchbox" type="text" class="form-control" placeholder="Search">
+  </div>
+</div>
+</div></nav>
+    <div id="search-resultbox" style="display: none;" class="modal-content">
+        <ul id="search-results">
+        </ul>
+    </div>
+
+    
+<div class="row">
+    <div class="col-md-3">
+                <div id="navigation" class="list-group"><a class="list-group-item active" href="#navigation-12" data-toggle="collapse" data-parent="#navigation">rootlocal\widgets\sortable <b class="caret"></b></a><div id="navigation-12" class="submenu panel-collapse collapse in"><a class="list-group-item" href="./rootlocal-widgets-sortable-bootstrap.html">Bootstrap</a>
+<a class="list-group-item" href="./rootlocal-widgets-sortable-sortableasset.html">SortableAsset</a>
+<a class="list-group-item" href="./rootlocal-widgets-sortable-sortablegridaction.html">SortableGridAction</a>
+<a class="list-group-item active" href="./rootlocal-widgets-sortable-sortablegridbehavior.html">SortableGridBehavior</a>
+<a class="list-group-item" href="./rootlocal-widgets-sortable-sortablegridbehaviorinterface.html">SortableGridBehaviorInterface</a>
+<a class="list-group-item" href="./rootlocal-widgets-sortable-sortablegridcolumnwidget.html">SortableGridColumnWidget</a>
+<a class="list-group-item" href="./rootlocal-widgets-sortable-sortablegridquerytrait.html">SortableGridQueryTrait</a>
+<a class="list-group-item" href="./rootlocal-widgets-sortable-sortablewidget.html">SortableWidget</a></div></div>    </div>
+    <div class="col-md-9 api-content" role="main"><h1>Class rootlocal\widgets\sortable\SortableGridBehavior</h1>
+<div class="top-nav">
+    <a href="index">All Classes</a>
+            | <a href="#properties">Properties</a>
+                | <a href="#methods">Methods</a>
+            </div>
+
+<table class="summaryTable docClass table table-bordered">
+    <colgroup>
+        <col class="col-name" />
+        <col class="col-value" />
+    </colgroup>
+            <tr><th>Inheritance</th><td><a href="rootlocal-widgets-sortable-sortablegridbehavior.html">rootlocal\widgets\sortable\SortableGridBehavior</a> &raquo;
+yii\base\Behavior</td></tr>
+                <tr><th>Implements</th><td><a href="rootlocal-widgets-sortable-sortablegridbehaviorinterface.html">rootlocal\widgets\sortable\SortableGridBehaviorInterface</a></td></tr>
+                                    </table>
+
+<div class="class-description">
+    <p><strong>Behavior for sortable Yii2 GridView widget.</strong></p>
+    <p>For example:</p>
+<pre><code class="hljs php language-php"><span class="hljs-keyword">public</span> <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">behaviors</span><span class="hljs-params">()</span>
+</span>{
+   <span class="hljs-keyword">return</span> [
+      <span class="hljs-string">'sort'</span> =&gt; [
+          <span class="hljs-string">'class'</span> =&gt; SortableGridBehavior::class,
+          <span class="hljs-string">'sortableAttribute'</span> =&gt; <span class="hljs-string">'sort_order'</span>,
+          <span class="hljs-string">'scope'</span> =&gt; <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-params">($query)</span> </span>{
+             $query-&gt;andWhere([<span class="hljs-string">'group_id'</span> =&gt; <span class="hljs-keyword">$this</span>-&gt;group_id]);
+          },
+      ],
+  ];
+}
+</code></pre>
+
+    </div>
+
+
+
+<a id="properties"></a>
+
+<div class="doc-property summary toggle-target-container">
+    <h2>Public Properties</h2>
+
+    <p><a href="#" class="toggle">Hide inherited properties</a></p>
+
+    <table class="summary-table table table-striped table-bordered table-hover">
+        <colgroup>
+            <col class="col-property" />
+            <col class="col-type" />
+            <col class="col-description" />
+            <col class="col-defined" />
+        </colgroup>
+        <tr>
+            <th>Property</th>
+            <th>Type</th>
+            <th>Description</th>
+            <th>Defined By</th>
+        </tr>
+
+                                    <tr id="$afterGridSort" class="">
+                    <td><a href="rootlocal-widgets-sortable-sortablegridbehavior.html#$afterGridSort-detail">$afterGridSort</a></td>
+                    <td>\rootlocal\widgets\sortable\Closure|mixed</td>
+                    <td>Callable function for after before insert sorting</td>
+                    <td><a href="rootlocal-widgets-sortable-sortablegridbehavior.html">rootlocal\widgets\sortable\SortableGridBehavior</a></td>
+                </tr>
+                                                <tr id="$scope" class="">
+                    <td><a href="rootlocal-widgets-sortable-sortablegridbehavior.html#$scope-detail">$scope</a></td>
+                    <td>\rootlocal\widgets\sortable\Closure|mixed</td>
+                    <td>Callable function for query</td>
+                    <td><a href="rootlocal-widgets-sortable-sortablegridbehavior.html">rootlocal\widgets\sortable\SortableGridBehavior</a></td>
+                </tr>
+                                                <tr id="$sortableAttribute" class="">
+                    <td><a href="rootlocal-widgets-sortable-sortablegridbehavior.html#$sortableAttribute-detail">$sortableAttribute</a></td>
+                    <td><a href="https://www.php.net/language.types.string">string</a></td>
+                    <td>Database field name for row sorting default value: sort_order</td>
+                    <td><a href="rootlocal-widgets-sortable-sortablegridbehavior.html">rootlocal\widgets\sortable\SortableGridBehavior</a></td>
+                </tr>
+                        </table>
+</div>
+
+<a id="methods"></a>
+
+<div class="doc-method summary toggle-target-container">
+    <h2>Public Methods</h2>
+
+    <p><a href="#" class="toggle">Hide inherited methods</a></p>
+
+    <table class="summary-table table table-striped table-bordered table-hover">
+        <colgroup>
+            <col class="col-method" />
+            <col class="col-description" />
+            <col class="col-defined" />
+        </colgroup>
+        <tr>
+            <th>Method</th>
+            <th>Description</th>
+            <th>Defined By</th>
+        </tr>
+
+                                    <tr id="beforeInsert()" class="">
+                    <td><a href="rootlocal-widgets-sortable-sortablegridbehavior.html#beforeInsert()-detail">beforeInsert()</a></td>
+                    <td>ModelEvent an event that is triggered before inserting a record.</td>
+                    <td><a href="rootlocal-widgets-sortable-sortablegridbehavior.html">rootlocal\widgets\sortable\SortableGridBehavior</a></td>
+                </tr>
+                                                <tr id="events()" class="">
+                    <td><a href="rootlocal-widgets-sortable-sortablegridbehavior.html#events()-detail">events()</a></td>
+                    <td>Declares event handlers for the <span class="broken-link">owner</span>'s events.</td>
+                    <td><a href="rootlocal-widgets-sortable-sortablegridbehavior.html">rootlocal\widgets\sortable\SortableGridBehavior</a></td>
+                </tr>
+                                                <tr id="getSortableAttribute()" class="">
+                    <td><a href="rootlocal-widgets-sortable-sortablegridbehavior.html#getSortableAttribute()-detail">getSortableAttribute()</a></td>
+                    <td>Getting Database field name for row sorting default value: sort_order</td>
+                    <td><a href="rootlocal-widgets-sortable-sortablegridbehavior.html">rootlocal\widgets\sortable\SortableGridBehavior</a></td>
+                </tr>
+                                                <tr id="gridSort()" class="">
+                    <td><a href="rootlocal-widgets-sortable-sortablegridbehavior.html#gridSort()-detail">gridSort()</a></td>
+                    <td>Сортировка строк таблицы перетаскиванием "Drag-and-drop"</td>
+                    <td><a href="rootlocal-widgets-sortable-sortablegridbehavior.html">rootlocal\widgets\sortable\SortableGridBehavior</a></td>
+                </tr>
+                                                <tr id="gridSortUpOrDownButton()" class="">
+                    <td><a href="rootlocal-widgets-sortable-sortablegridbehavior.html#gridSortUpOrDownButton()-detail">gridSortUpOrDownButton()</a></td>
+                    <td>Сортировка строк таблицы нажатием на кнопки up или down</td>
+                    <td><a href="rootlocal-widgets-sortable-sortablegridbehavior.html">rootlocal\widgets\sortable\SortableGridBehavior</a></td>
+                </tr>
+                                                <tr id="setSortableAttribute()" class="">
+                    <td><a href="rootlocal-widgets-sortable-sortablegridbehavior.html#setSortableAttribute()-detail">setSortableAttribute()</a></td>
+                    <td>Setting Database field name for row sorting</td>
+                    <td><a href="rootlocal-widgets-sortable-sortablegridbehavior.html">rootlocal\widgets\sortable\SortableGridBehavior</a></td>
+                </tr>
+                        </table>
+</div>
+
+<a id="events"></a>
+
+<a id="constants"></a>
+
+
+<h2>Property Details</h2>
+
+<div class="property-doc toggle-target-container">
+    <p><a href="#" class="toggle">Hide inherited properties</a></p>
+
+            <div id="$afterGridSort-detail">
+            <div class="detail-header h3">
+                <a href="#" class="tool-link" title="go to top"><span class="glyphicon glyphicon-arrow-up"></span></a>
+                <a class="tool-link hash" href="rootlocal-widgets-sortable-sortablegridbehavior.html#$afterGridSort-detail" title="direct link to this method"><span class="glyphicon icon-hash"></span></a>
+                
+                $afterGridSort
+                <span class="detail-header-tag small">
+                    public                                                                                property
+                                    </span>
+            </div>
+
+            
+            <div class="doc-description">
+                
+                <p>Callable function for after before insert sorting</p>
+                            </div>
+
+            <div class="signature"><span class="signature-defs">public</span> <span class="signature-type">\rootlocal\widgets\sortable\Closure|mixed</span> <a href="rootlocal-widgets-sortable-sortablegridbehavior.html#$afterGridSort-detail">$afterGridSort</a> <span style="color: #0000BB"></span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">null</span></div>
+            
+            
+        </div>
+            <div id="$scope-detail">
+            <div class="detail-header h3">
+                <a href="#" class="tool-link" title="go to top"><span class="glyphicon glyphicon-arrow-up"></span></a>
+                <a class="tool-link hash" href="rootlocal-widgets-sortable-sortablegridbehavior.html#$scope-detail" title="direct link to this method"><span class="glyphicon icon-hash"></span></a>
+                
+                $scope
+                <span class="detail-header-tag small">
+                    public                                                                                property
+                                    </span>
+            </div>
+
+            
+            <div class="doc-description">
+                
+                <p>Callable function for query</p>
+                            </div>
+
+            <div class="signature"><span class="signature-defs">public</span> <span class="signature-type">\rootlocal\widgets\sortable\Closure|mixed</span> <a href="rootlocal-widgets-sortable-sortablegridbehavior.html#$scope-detail">$scope</a> <span style="color: #0000BB"></span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">null</span></div>
+            
+            
+        </div>
+            <div id="$sortableAttribute-detail">
+            <div class="detail-header h3">
+                <a href="#" class="tool-link" title="go to top"><span class="glyphicon glyphicon-arrow-up"></span></a>
+                <a class="tool-link hash" href="rootlocal-widgets-sortable-sortablegridbehavior.html#$sortableAttribute-detail" title="direct link to this method"><span class="glyphicon icon-hash"></span></a>
+                
+                $sortableAttribute
+                <span class="detail-header-tag small">
+                    public                                                                                property
+                                    </span>
+            </div>
+
+            
+            <div class="doc-description">
+                
+                <p>Database field name for row sorting default value: sort_order</p>
+                            </div>
+
+            <div class="signature"><span class="signature-defs">public</span> <span class="signature-type"><a href="https://www.php.net/language.types.string">string</a></span> <a href="rootlocal-widgets-sortable-sortablegridbehavior.html#$sortableAttribute-detail">$sortableAttribute</a> <span style="color: #0000BB"></span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">null</span></div>
+            
+            
+        </div>
+    </div>
+
+<h2>Method Details</h2>
+
+<div class="method-doc toggle-target-container">
+    <p><a href="#" class="toggle">Hide inherited methods</a></p>
+
+            <div id="beforeInsert()-detail"
+             class="">
+            <div class="detail-header h3">
+                <a href="#" class="tool-link" title="go to top"><span class="glyphicon glyphicon-arrow-up"></span></a>
+                <a class="tool-link hash" href="rootlocal-widgets-sortable-sortablegridbehavior.html#beforeInsert()-detail" title="direct link to this method"><span class="glyphicon icon-hash"></span></a>
+                
+                beforeInsert()
+
+                <span class="detail-header-tag small">
+                    public                                                            method
+                                    </span>
+            </div>
+
+            
+            <div class="doc-description">
+                
+                <p><strong>ModelEvent an event that is triggered before inserting a record.</strong></p>
+                                            </div>
+
+            <table class="detail-table table table-striped table-bordered table-hover">
+                <tr><td colspan="3" class="signature"><span class="signature-defs">public</span> <span class="signature-type">void</span> <strong><a href="rootlocal-widgets-sortable-sortablegridbehavior.html#beforeInsert()-detail">beforeInsert</a></strong> ( )</td></tr>
+
+                                    
+                    
+                                            <tr>
+                            <th class="param-name-col">throws</th>
+                            <td class="param-type-col">\yii\base\InvalidConfigException</td>
+                            <td class="param-desc-col">
+                                                            </td>
+                        </tr>
+                                                </table>
+
+            
+            
+
+    <p>
+        <a class="btn btn-link" data-toggle="collapse" data-target="#collapseBeforeInsert" role="button"
+           aria-expanded="false" aria-controls="collapseBeforeInsert">
+            Source code
+        </a>
+    </p>
+    <div class="collapse" id="collapseBeforeInsert">
+        <div class="card card-body">
+            <pre>
+                <code class="hljs php language-php"><span class="hljs-keyword">public</span> <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">beforeInsert</span><span class="hljs-params">()</span>: <span class="hljs-title">void</span>
+</span>{
+    <span class="hljs-comment">/** <span class="hljs-doctag">@var</span> ActiveRecord $model */</span>
+    $model = <span class="hljs-keyword">$this</span>-&gt;owner;
+    <span class="hljs-keyword">if</span> (!$model-&gt;hasAttribute(<span class="hljs-keyword">$this</span>-&gt;getSortableAttribute())) {
+        <span class="hljs-keyword">throw</span> <span class="hljs-keyword">new</span> InvalidConfigException(<span class="hljs-string">"Invalid sortable attribute `{$this-&gt;getSortableAttribute()}`."</span>);
+    }
+    <span class="hljs-keyword">if</span> (<span class="hljs-keyword">empty</span>($model-&gt;{<span class="hljs-keyword">$this</span>-&gt;getSortableAttribute()})) {
+        $query = $model::find();
+        <span class="hljs-keyword">if</span> (is_callable(<span class="hljs-keyword">$this</span>-&gt;scope)) {
+            call_user_func(<span class="hljs-keyword">$this</span>-&gt;scope, $query);
+        }
+        <span class="hljs-comment">/* Override model alias if defined in the model's class */</span>
+        $query-&gt;from([$model::tableName() =&gt; $model::tableName()]);
+        $maxOrder = $query-&gt;max(<span class="hljs-string">'{{'</span> . trim($model::tableName(), <span class="hljs-string">'{}'</span>)
+            . <span class="hljs-string">'}}.[['</span> . <span class="hljs-keyword">$this</span>-&gt;getSortableAttribute() . <span class="hljs-string">']]'</span>);
+        $model-&gt;{<span class="hljs-keyword">$this</span>-&gt;getSortableAttribute()} = $maxOrder + <span class="hljs-number">1</span>;
+    }
+}
+</code>
+            </pre>
+        </div>
+    </div>
+            
+        </div>
+            <div id="events()-detail"
+             class="">
+            <div class="detail-header h3">
+                <a href="#" class="tool-link" title="go to top"><span class="glyphicon glyphicon-arrow-up"></span></a>
+                <a class="tool-link hash" href="rootlocal-widgets-sortable-sortablegridbehavior.html#events()-detail" title="direct link to this method"><span class="glyphicon icon-hash"></span></a>
+                
+                events()
+
+                <span class="detail-header-tag small">
+                    public                                                            method
+                                    </span>
+            </div>
+
+            
+            <div class="doc-description">
+                
+                <p><strong>Declares event handlers for the <span class="broken-link">owner</span>'s events.</strong></p>
+                                            </div>
+
+            <table class="detail-table table table-striped table-bordered table-hover">
+                <tr><td colspan="3" class="signature"><span class="signature-defs">public</span> <span class="signature-type"><a href="https://www.php.net/language.types.array">array</a></span> <strong><a href="rootlocal-widgets-sortable-sortablegridbehavior.html#events()-detail">events</a></strong> ( )</td></tr>
+
+                                    
+                                            <tr>
+                            <th class="param-name-col">return</th>
+                            <td class="param-type-col"><a href="https://www.php.net/language.types.array">array</a></td>
+                            <td class="param-desc-col">
+                                <p>Events (array keys) and the corresponding event handler methods (array values).</p>
+                            </td>
+                        </tr>
+                    
+                                                </table>
+
+            
+            
+
+    <p>
+        <a class="btn btn-link" data-toggle="collapse" data-target="#collapseEvents" role="button"
+           aria-expanded="false" aria-controls="collapseEvents">
+            Source code
+        </a>
+    </p>
+    <div class="collapse" id="collapseEvents">
+        <div class="card card-body">
+            <pre>
+                <code class="hljs php language-php"><span class="hljs-keyword">public</span> <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">events</span><span class="hljs-params">()</span>: <span class="hljs-title">array</span>
+</span>{
+    <span class="hljs-keyword">return</span> [BaseActiveRecord::EVENT_BEFORE_INSERT =&gt; <span class="hljs-string">'beforeInsert'</span>];
+}
+</code>
+            </pre>
+        </div>
+    </div>
+            
+        </div>
+            <div id="getSortableAttribute()-detail"
+             class="">
+            <div class="detail-header h3">
+                <a href="#" class="tool-link" title="go to top"><span class="glyphicon glyphicon-arrow-up"></span></a>
+                <a class="tool-link hash" href="rootlocal-widgets-sortable-sortablegridbehavior.html#getSortableAttribute()-detail" title="direct link to this method"><span class="glyphicon icon-hash"></span></a>
+                
+                getSortableAttribute()
+
+                <span class="detail-header-tag small">
+                    public                                                            method
+                                    </span>
+            </div>
+
+            
+            <div class="doc-description">
+                
+                <p><strong>Getting Database field name for row sorting default value: sort_order</strong></p>
+                                            </div>
+
+            <table class="detail-table table table-striped table-bordered table-hover">
+                <tr><td colspan="3" class="signature"><span class="signature-defs">public</span> <span class="signature-type"><a href="https://www.php.net/language.types.string">string</a></span> <strong><a href="rootlocal-widgets-sortable-sortablegridbehavior.html#getSortableAttribute()-detail">getSortableAttribute</a></strong> ( )</td></tr>
+
+                            </table>
+
+            
+            
+
+    <p>
+        <a class="btn btn-link" data-toggle="collapse" data-target="#collapseGetSortableAttribute" role="button"
+           aria-expanded="false" aria-controls="collapseGetSortableAttribute">
+            Source code
+        </a>
+    </p>
+    <div class="collapse" id="collapseGetSortableAttribute">
+        <div class="card card-body">
+            <pre>
+                <code class="hljs php language-php"><span class="hljs-keyword">public</span> <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">getSortableAttribute</span><span class="hljs-params">()</span>: <span class="hljs-title">string</span>
+</span>{
+    <span class="hljs-keyword">if</span> (<span class="hljs-keyword">$this</span>-&gt;_sortableAttribute === <span class="hljs-keyword">null</span>) {
+        <span class="hljs-keyword">$this</span>-&gt;_sortableAttribute = <span class="hljs-string">'sort_order'</span>;
+    }
+    <span class="hljs-keyword">return</span> <span class="hljs-keyword">$this</span>-&gt;_sortableAttribute;
+}
+</code>
+            </pre>
+        </div>
+    </div>
+            
+        </div>
+            <div id="gridSort()-detail"
+             class="">
+            <div class="detail-header h3">
+                <a href="#" class="tool-link" title="go to top"><span class="glyphicon glyphicon-arrow-up"></span></a>
+                <a class="tool-link hash" href="rootlocal-widgets-sortable-sortablegridbehavior.html#gridSort()-detail" title="direct link to this method"><span class="glyphicon icon-hash"></span></a>
+                
+                gridSort()
+
+                <span class="detail-header-tag small">
+                    public                                                            method
+                                    </span>
+            </div>
+
+            
+            <div class="doc-description">
+                
+                <p><strong>Сортировка строк таблицы перетаскиванием "Drag-and-drop"</strong></p>
+                                            </div>
+
+            <table class="detail-table table table-striped table-bordered table-hover">
+                <tr><td colspan="3" class="signature"><span class="signature-defs">public</span> <span class="signature-type"><a href="https://www.php.net/language.types.array">array</a></span> <strong><a href="rootlocal-widgets-sortable-sortablegridbehavior.html#gridSort()-detail">gridSort</a></strong> ( <span class="signature-type"><a href="https://www.php.net/language.types.array">array</a></span> <span style="color: #0000BB">$items&nbsp;</span><span style="color: #007700">=&nbsp;[]</span> )</td></tr>
+
+                                                            <tr>
+                            <td class="param-name-col"><span style="color: #0000BB">$items</span></td>
+                            <td class="param-type-col"><a href="https://www.php.net/language.types.array">array</a></td>
+                            <td class="param-desc-col">
+                               <p>['old_primary_key' => 'new_primary_key']</p>
+                            </td>
+                        </tr>
+                    
+                                            <tr>
+                            <th class="param-name-col">return</th>
+                            <td class="param-type-col"><a href="https://www.php.net/language.types.array">array</a></td>
+                            <td class="param-desc-col">
+                                <p>New values attributes (new sorted values)
+[['id' =&gt; <code>primary_key_value</code>, 'sort_id' =&gt; <code>sort_value</code>]]</p>
+                            </td>
+                        </tr>
+                    
+                                            <tr>
+                            <th class="param-name-col">throws</th>
+                            <td class="param-type-col">\yii\base\InvalidConfigException</td>
+                            <td class="param-desc-col">
+                                                            </td>
+                        </tr>
+                                            <tr>
+                            <th class="param-name-col">throws</th>
+                            <td class="param-type-col"><a href="https://www.php.net/class.throwable">Throwable</a></td>
+                            <td class="param-desc-col">
+                                                            </td>
+                        </tr>
+                                                </table>
+
+            
+            
+
+    <p>
+        <a class="btn btn-link" data-toggle="collapse" data-target="#collapseGridSort" role="button"
+           aria-expanded="false" aria-controls="collapseGridSort">
+            Source code
+        </a>
+    </p>
+    <div class="collapse" id="collapseGridSort">
+        <div class="card card-body">
+            <pre>
+                <code class="hljs php language-php"><span class="hljs-keyword">public</span> <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">gridSort</span><span class="hljs-params">(array $items = [])</span>: <span class="hljs-title">array</span>
+</span>{
+    <span class="hljs-comment">/** <span class="hljs-doctag">@var</span> ActiveRecord $model */</span>
+    $model = <span class="hljs-keyword">$this</span>-&gt;owner;
+    <span class="hljs-comment">/** <span class="hljs-doctag">@var</span> ?string $primaryKey */</span>
+    $primaryKey = !<span class="hljs-keyword">empty</span>($model::primaryKey()) &amp;&amp; is_array($model::primaryKey()) ? $model::primaryKey()[<span class="hljs-number">0</span>] : <span class="hljs-keyword">null</span>;
+    <span class="hljs-keyword">if</span> ($primaryKey === <span class="hljs-keyword">null</span>) {
+        <span class="hljs-keyword">throw</span> <span class="hljs-keyword">new</span> InvalidConfigException(<span class="hljs-string">"Model does not have primaryKey"</span>);
+    }
+    <span class="hljs-keyword">if</span> (!$model-&gt;hasAttribute(<span class="hljs-keyword">$this</span>-&gt;getSortableAttribute())) {
+        <span class="hljs-keyword">throw</span> <span class="hljs-keyword">new</span> InvalidConfigException(
+            <span class="hljs-string">"Model does not have sortable attribute `{$this-&gt;getSortableAttribute()}`."</span>
+        );
+    }
+    <span class="hljs-comment">/** <span class="hljs-doctag">@var</span> int[] $newOrder */</span>
+    $newOrder = [];
+    <span class="hljs-comment">/** <span class="hljs-doctag">@var</span> ActiveRecord[] $models */</span>
+    $models = [];
+    <span class="hljs-keyword">foreach</span> ($items <span class="hljs-keyword">as</span> $old =&gt; $new) {
+        $models[$new] = $model::find()
+            -&gt;select([<span class="hljs-keyword">$this</span>-&gt;getSortableAttribute(), $primaryKey])
+            -&gt;where([$primaryKey =&gt; $new])-&gt;one();
+        $newOrder[$old] =
+            !<span class="hljs-keyword">empty</span>($models[$new]-&gt;{<span class="hljs-keyword">$this</span>-&gt;getSortableAttribute()})
+                ? $models[$new]-&gt;{<span class="hljs-keyword">$this</span>-&gt;getSortableAttribute()} : $new;
+    }
+    $transaction = $model::getDb()-&gt;beginTransaction();
+    $result = [];
+    <span class="hljs-keyword">try</span> {
+        <span class="hljs-keyword">foreach</span> ($newOrder <span class="hljs-keyword">as</span> $modelId =&gt; $orderValue) {
+            $models[$modelId]-&gt;updateAttributes([<span class="hljs-keyword">$this</span>-&gt;getSortableAttribute() =&gt; $orderValue]);
+            $result[] = [<span class="hljs-string">'id'</span> =&gt; $modelId, <span class="hljs-string">'sort_id'</span> =&gt; $orderValue];
+        }
+        $transaction-&gt;commit();
+    } <span class="hljs-keyword">catch</span> (<span class="hljs-keyword">Exception</span>|Throwable $e) {
+        $transaction-&gt;rollBack();
+        Yii::error($e-&gt;getMessage(), <span class="hljs-keyword">self</span>::class);
+        <span class="hljs-keyword">return</span> [];
+    }
+    <span class="hljs-keyword">if</span> (is_callable(<span class="hljs-keyword">$this</span>-&gt;afterGridSort)) {
+        call_user_func(<span class="hljs-keyword">$this</span>-&gt;afterGridSort, $model);
+    }
+    <span class="hljs-keyword">return</span> $result;
+}
+</code>
+            </pre>
+        </div>
+    </div>
+            
+        </div>
+            <div id="gridSortUpOrDownButton()-detail"
+             class="">
+            <div class="detail-header h3">
+                <a href="#" class="tool-link" title="go to top"><span class="glyphicon glyphicon-arrow-up"></span></a>
+                <a class="tool-link hash" href="rootlocal-widgets-sortable-sortablegridbehavior.html#gridSortUpOrDownButton()-detail" title="direct link to this method"><span class="glyphicon icon-hash"></span></a>
+                
+                gridSortUpOrDownButton()
+
+                <span class="detail-header-tag small">
+                    public                                                            method
+                                    </span>
+            </div>
+
+            
+            <div class="doc-description">
+                
+                <p><strong>Сортировка строк таблицы нажатием на кнопки up или down</strong></p>
+                                            </div>
+
+            <table class="detail-table table table-striped table-bordered table-hover">
+                <tr><td colspan="3" class="signature"><span class="signature-defs">public</span> <span class="signature-type"><a href="https://www.php.net/language.types.array">array</a></span> <strong><a href="rootlocal-widgets-sortable-sortablegridbehavior.html#gridSortUpOrDownButton()-detail">gridSortUpOrDownButton</a></strong> ( <span class="signature-type"><a href="https://www.php.net/language.types.string">string</a></span> <span style="color: #0000BB">$button</span>, <span class="signature-type"><a href="https://www.php.net/language.types.integer">integer</a></span> <span style="color: #0000BB">$id</span> )</td></tr>
+
+                                                            <tr>
+                            <td class="param-name-col"><span style="color: #0000BB">$button</span></td>
+                            <td class="param-type-col"><a href="https://www.php.net/language.types.string">string</a></td>
+                            <td class="param-desc-col">
+                               <p>String name "up" or "down" action button</p>
+                            </td>
+                        </tr>
+                                            <tr>
+                            <td class="param-name-col"><span style="color: #0000BB">$id</span></td>
+                            <td class="param-type-col"><a href="https://www.php.net/language.types.integer">integer</a></td>
+                            <td class="param-desc-col">
+                               <p>Primary Key value Model</p>
+                            </td>
+                        </tr>
+                    
+                                            <tr>
+                            <th class="param-name-col">return</th>
+                            <td class="param-type-col"><a href="https://www.php.net/language.types.array">array</a></td>
+                            <td class="param-desc-col">
+                                <p>New values models New values attributes (new sorted values)
+[['id' =&gt; <code>primary_key_value</code>, 'sort_id' =&gt; <code>sort_value</code>]]</p>
+                            </td>
+                        </tr>
+                    
+                                            <tr>
+                            <th class="param-name-col">throws</th>
+                            <td class="param-type-col">\yii\web\BadRequestHttpException</td>
+                            <td class="param-desc-col">
+                                                            </td>
+                        </tr>
+                                                </table>
+
+            
+            
+
+    <p>
+        <a class="btn btn-link" data-toggle="collapse" data-target="#collapseGridSortUpOrDownButton" role="button"
+           aria-expanded="false" aria-controls="collapseGridSortUpOrDownButton">
+            Source code
+        </a>
+    </p>
+    <div class="collapse" id="collapseGridSortUpOrDownButton">
+        <div class="card card-body">
+            <pre>
+                <code class="hljs php language-php"><span class="hljs-keyword">public</span> <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">gridSortUpOrDownButton</span><span class="hljs-params">(string $button, int $id)</span>: <span class="hljs-title">array</span>
+</span>{
+    <span class="hljs-comment">/** <span class="hljs-doctag">@var</span> ActiveRecord $model */</span>
+    $model = <span class="hljs-keyword">$this</span>-&gt;owner;
+    <span class="hljs-comment">/** <span class="hljs-doctag">@var</span> ?string $primaryKey */</span>
+    $primaryKey = !<span class="hljs-keyword">empty</span>($model::primaryKey()) &amp;&amp; is_array($model::primaryKey()) ? $model::primaryKey()[<span class="hljs-number">0</span>] : <span class="hljs-keyword">null</span>;
+    <span class="hljs-keyword">if</span> ($primaryKey === <span class="hljs-keyword">null</span>) {
+        <span class="hljs-keyword">throw</span> <span class="hljs-keyword">new</span> InvalidConfigException(<span class="hljs-string">"Model does not have primaryKey"</span>);
+    }
+    $owner = $model-&gt;find()
+        -&gt;select([<span class="hljs-keyword">$this</span>-&gt;getSortableAttribute(), $primaryKey])
+        -&gt;where([$primaryKey =&gt; $id])-&gt;one();
+    $target = $model::find()-&gt;select([<span class="hljs-keyword">$this</span>-&gt;getSortableAttribute(), $primaryKey]);
+    <span class="hljs-keyword">if</span> ($button === <span class="hljs-string">'up'</span>) {
+        $target = $target-&gt;andWhere($model::tableName() . <span class="hljs-string">'.'</span> . <span class="hljs-keyword">$this</span>-&gt;sortableAttribute . <span class="hljs-string">' &lt; :sort'</span>, [
+            <span class="hljs-string">':sort'</span> =&gt; $owner-&gt;{<span class="hljs-keyword">$this</span>-&gt;sortableAttribute}
+        ])-&gt;orderBy([<span class="hljs-keyword">$this</span>-&gt;sortableAttribute =&gt; SORT_DESC])-&gt;one();
+    } <span class="hljs-keyword">else</span> {
+        $target = $target-&gt;andWhere($model::tableName() . <span class="hljs-string">'.'</span> . <span class="hljs-keyword">$this</span>-&gt;sortableAttribute . <span class="hljs-string">' &gt; :sort'</span>, [
+            <span class="hljs-string">':sort'</span> =&gt; $owner-&gt;{<span class="hljs-keyword">$this</span>-&gt;sortableAttribute}
+        ])-&gt;orderBy([<span class="hljs-keyword">$this</span>-&gt;sortableAttribute =&gt; SORT_ASC])-&gt;one();
+    }
+    <span class="hljs-keyword">if</span> ($target === <span class="hljs-keyword">null</span>) {
+        <span class="hljs-keyword">throw</span> <span class="hljs-keyword">new</span> BadRequestHttpException(<span class="hljs-string">'Can\'t find target model'</span>);
+    }
+    $transaction = $model-&gt;getDb()-&gt;beginTransaction();
+    <span class="hljs-keyword">try</span> {
+        $ownerSortId = $owner-&gt;{<span class="hljs-keyword">$this</span>-&gt;sortableAttribute};
+        $targetSortId = $target-&gt;{<span class="hljs-keyword">$this</span>-&gt;sortableAttribute};
+        $owner-&gt;{<span class="hljs-keyword">$this</span>-&gt;sortableAttribute} = $targetSortId;
+        $target-&gt;{<span class="hljs-keyword">$this</span>-&gt;sortableAttribute} = $ownerSortId;
+        <span class="hljs-keyword">if</span> ($owner-&gt;save(<span class="hljs-keyword">false</span>)
+            &amp;&amp; $target-&gt;save(<span class="hljs-keyword">false</span>)) {
+            $transaction-&gt;commit();
+            <span class="hljs-keyword">return</span> [
+                <span class="hljs-number">0</span> =&gt; [<span class="hljs-string">'id'</span> =&gt; $owner-&gt;getPrimaryKey(), <span class="hljs-string">'sort_id'</span> =&gt; $owner-&gt;{<span class="hljs-keyword">$this</span>-&gt;sortableAttribute}],
+                <span class="hljs-number">1</span> =&gt; [<span class="hljs-string">'id'</span> =&gt; $target-&gt;getPrimaryKey(), <span class="hljs-string">'sort_id'</span> =&gt; $target-&gt;{<span class="hljs-keyword">$this</span>-&gt;sortableAttribute}],
+            ];
+        }
+        $transaction-&gt;rollBack();
+    } <span class="hljs-keyword">catch</span> (<span class="hljs-keyword">Exception</span>|Throwable $e) {
+        $transaction-&gt;rollBack();
+        Yii::error($e-&gt;getMessage(), <span class="hljs-keyword">self</span>::class);
+    }
+    <span class="hljs-keyword">throw</span> <span class="hljs-keyword">new</span> BadRequestHttpException(<span class="hljs-string">'Unknown error'</span>);
+}
+</code>
+            </pre>
+        </div>
+    </div>
+            
+        </div>
+            <div id="setSortableAttribute()-detail"
+             class="">
+            <div class="detail-header h3">
+                <a href="#" class="tool-link" title="go to top"><span class="glyphicon glyphicon-arrow-up"></span></a>
+                <a class="tool-link hash" href="rootlocal-widgets-sortable-sortablegridbehavior.html#setSortableAttribute()-detail" title="direct link to this method"><span class="glyphicon icon-hash"></span></a>
+                
+                setSortableAttribute()
+
+                <span class="detail-header-tag small">
+                    public                                                            method
+                                    </span>
+            </div>
+
+            
+            <div class="doc-description">
+                
+                <p><strong>Setting Database field name for row sorting</strong></p>
+                                            </div>
+
+            <table class="detail-table table table-striped table-bordered table-hover">
+                <tr><td colspan="3" class="signature"><span class="signature-defs">public</span> <span class="signature-type">void</span> <strong><a href="rootlocal-widgets-sortable-sortablegridbehavior.html#setSortableAttribute()-detail">setSortableAttribute</a></strong> ( <span class="signature-type"><a href="https://www.php.net/language.types.string">string</a></span> <span style="color: #0000BB">$sortableAttribute</span> )</td></tr>
+
+                                                            <tr>
+                            <td class="param-name-col"><span style="color: #0000BB">$sortableAttribute</span></td>
+                            <td class="param-type-col"><a href="https://www.php.net/language.types.string">string</a></td>
+                            <td class="param-desc-col">
+                                                           </td>
+                        </tr>
+                    
+                    
+                                                </table>
+
+            
+            
+
+    <p>
+        <a class="btn btn-link" data-toggle="collapse" data-target="#collapseSetSortableAttribute" role="button"
+           aria-expanded="false" aria-controls="collapseSetSortableAttribute">
+            Source code
+        </a>
+    </p>
+    <div class="collapse" id="collapseSetSortableAttribute">
+        <div class="card card-body">
+            <pre>
+                <code class="hljs php language-php"><span class="hljs-keyword">public</span> <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">setSortableAttribute</span><span class="hljs-params">(string $sortableAttribute)</span>: <span class="hljs-title">void</span>
+</span>{
+    <span class="hljs-keyword">$this</span>-&gt;_sortableAttribute = $sortableAttribute;
+}
+</code>
+            </pre>
+        </div>
+    </div>
+            
+        </div>
+    </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+    /*<![CDATA[*/
+    $('a.toggle').on('click', function () {
+        var $this = $(this);
+        if ($this.hasClass('properties-hidden')) {
+            $this.text($this.text().replace(/Show/,'Hide'));
+            $this.parents('.toggle-target-container').find('.inherited').show();
+            $this.removeClass('properties-hidden');
+        } else {
+            $this.text($this.text().replace(/Hide/,'Show'));
+            $this.parents('.toggle-target-container').find('.inherited').hide();
+            $this.addClass('properties-hidden');
+        }
+
+        return false;
+    });
+    /*]]>*/
+</script>
+
+
+</div>
+
+<footer class="footer">
+        <p class="pull-right"><small>Page generated on Sat, 17 Sep 2022 13:52:34 +0000</small></p>
+    Powered by <a href="https://www.yiiframework.com/" rel="external">Yii Framework</a></footer>
+
+<script>jQuery(function ($) {
+    var shiftWindow = function () { scrollBy(0, -50) };
+    if (location.hash) setTimeout(shiftWindow, 1);
+    window.addEventListener("hashchange", shiftWindow);
+var element = document.createElement("script");
+element.src = "./jssearch.index.js";
+document.body.appendChild(element);
+
+var searchBox = $('#searchbox');
+
+// search when typing in search field
+searchBox.on("keyup", function(event) {
+    var query = $(this).val();
+
+    if (query == '' || event.which == 27) {
+        $('#search-resultbox').hide();
+        return;
+    } else if (event.which == 13) {
+        var selectedLink = $('#search-resultbox a.selected');
+        if (selectedLink.length != 0) {
+            document.location = selectedLink.attr('href');
+            return;
+        }
+    } else if (event.which == 38 || event.which == 40) {
+        $('#search-resultbox').show();
+
+        var selected = $('#search-resultbox a.selected');
+        if (selected.length == 0) {
+            $('#search-results').find('a').first().addClass('selected');
+        } else {
+            var next;
+            if (event.which == 40) {
+                next = selected.parent().next().find('a').first();
+            } else {
+                next = selected.parent().prev().find('a').first();
+            }
+            if (next.length != 0) {
+                var resultbox = $('#search-results');
+                var position = next.position();
+
+//              TODO scrolling is buggy and jumps around
+//                resultbox.scrollTop(Math.floor(position.top));
+//                console.log(position.top);
+
+                selected.removeClass('selected');
+                next.addClass('selected');
+            }
+        }
+
+        return;
+    }
+    $('#search-resultbox').show();
+    $('#search-results').html('<li><span class="no-results">No results</span></li>');
+
+    var result = jssearch.search(query);
+
+    if (result.length > 0) {
+        var i = 0;
+        var resHtml = '';
+
+        for (var key in result) {
+            if (i++ > 20) {
+                break;
+            }
+            resHtml = resHtml +
+            '<li><a href="' + result[key].file.u.substr(3) +'"><span class="title">' + result[key].file.t + '</span>' +
+            '<span class="description">' + result[key].file.d + '</span></a></li>';
+        }
+        $('#search-results').html(resHtml);
+    }
+});
+
+// hide the search results on ESC
+$(document).on("keyup", function(event) { if (event.which == 27) { $('#search-resultbox').hide(); } });
+// hide search results on click to document
+$(document).bind('click', function (e) { $('#search-resultbox').hide(); });
+// except the following:
+searchBox.bind('click', function(e) { e.stopPropagation(); });
+$('#search-resultbox').bind('click', function(e) { e.stopPropagation(); });
+
+});</script></body>
+</html>
